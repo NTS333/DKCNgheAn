@@ -172,7 +172,7 @@
             <Label Name="lblNhietGoiBiQuatHut2" Content="4" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="5491,5399,1373,826"/>
             
             <!--- CHIEU THUAN - CHIEU NGHICH-->
-            <Image x:Name="motorMayNghienChayThuan" Visibility="Collapsed" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3451,3314,0,0" Width="423"  >
+            <Image x:Name="motorMayNghienChayThuan" Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3451,3314,0,0" Width="423"  >
                 <Image.RenderTransform>
                     <RotateTransform Angle="18" />
                 </Image.RenderTransform>

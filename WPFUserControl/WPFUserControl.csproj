@@ -35,11 +35,13 @@
     <Reference Include="EasyScada.Core">
       <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\EasyScada.Core.dll</HintPath>
     </Reference>
-    <Reference Include="EasyScada.Wpf.Connector">
-      <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\EasyScada.Wpf.Connector.dll</HintPath>
+    <Reference Include="EasyScada.Wpf.Connector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EasyScadaApp1\EasyScada.Wpf.Connector.dll</HintPath>
     </Reference>
-    <Reference Include="EasyScada.Wpf.Controls">
-      <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\EasyScada.Wpf.Controls.dll</HintPath>
+    <Reference Include="EasyScada.Wpf.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EasyScadaApp1\EasyScada.Wpf.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Client">
       <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll</HintPath>
