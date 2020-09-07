@@ -36,9 +36,9 @@ namespace EasyScadaApp
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                motorQuatHut.PathToTag = prefix + "DongMayNghien";
-                motorRotovan.PathToTag = prefix + "ThoiGianChayMay";
-                motorVitTai.PathToTag = prefix + "ThoiGianThayBua";
+                motorQuatHut.PathToTag = prefix + "CurrentDigitalVTGB";
+                motorRotovan.PathToTag = prefix + "CurrentDigital_Mix";
+                motorVitTai.PathToTag = prefix + "CurrentDigitalQHGB";
             }
         }
     }

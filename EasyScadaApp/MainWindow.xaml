@@ -29,11 +29,9 @@
 
         </DockPanel>
         <DockPanel Grid.Row="2" Background="Black" LastChildFill="True">
-            <Button DockPanel.Dock="Left" x:Name="btnHome" Margin="8 0 0 0" Content="Trang Chủ" Click="BtnHome_Click" Width="130" FontSize="20"/>
-            <Button x:Name="btnAlarm" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Cảnh Báo" Click="BtnAlarm_Click" Width="120" FontSize="20"/>
-            <Button x:Name="btnTrend" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Biểu Đồ" Click="BtnTrend_Click" Width="120" FontSize="20"/>
-            <Button x:Name="btnSettings" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Cài Đặt" Width="100" FontSize="20" Click="BtnSettings_Click"/>
-            <Button x:Name="btnReset" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Reset" Width="100" FontSize="20" HorizontalAlignment="Left" Click="BtnReset_Click"/>
+            <Button DockPanel.Dock="Left" x:Name="btnMayNghien" Margin="8 0 0 0" Content="Máy Nghiền" Click="BtnMayNghien_Click" Width="130" FontSize="20" Height="50" VerticalAlignment="Top"/>
+            <Button x:Name="btnKhoNghien" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Kho" Click="BtnKhoNghien_Click" Width="120" FontSize="20"/>
+            <Button x:Name="btnMayEp" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Máy Ép" Click="BtnMayEp_Click" Width="120" FontSize="20"/>
             <Button DockPanel.Dock="Left" x:Name="btnExit" Margin="8 0 0 0" Content="Thoát"  Width="100" FontSize="20" Click="BtnExit_Click"/>
             <Label DockPanel.Dock="Right" x:Name="labThoiGian" 
                    Content="dd/MM/yyyy HH:mm:ss" 

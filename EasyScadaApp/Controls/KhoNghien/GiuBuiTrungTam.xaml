@@ -11,10 +11,10 @@
     <Border Padding="4" Background="DarkGray" >
         <Grid Canvas.Left="1597" Canvas.Top="174" ShowGridLines="False">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -26,7 +26,7 @@
             <Grid Grid.Row="0" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Background="SkyBlue" Margin="2">
                 <Label Content="GIŨ BỤI TRUNG TÂM"
                        HorizontalContentAlignment="Center"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Margin="0,0,0,-5"
                        >
                 </Label>
             </Grid>

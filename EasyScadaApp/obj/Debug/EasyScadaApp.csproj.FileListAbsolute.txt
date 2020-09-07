@@ -104,18 +104,17 @@ E:\Work\Others\EasyScadaApp\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScadaApp.exe.config
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScadaApp.exe
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScadaApp.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScada.Wpf.Connector.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScada.Wpf.Controls.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignColors.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\Newtonsoft.Json.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\WpfAnimatedGif.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\WPFUserControl.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\WPFUserControl.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScada.Core.pdb
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignColors.pdb
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.xml
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\WpfAnimatedGif.pdb
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\WpfAnimatedGif.xml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.csprojAssemblyReference.cache
@@ -159,5 +158,3 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyS
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.exe
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScada.Wpf.Connector.dll
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScada.Wpf.Controls.dll

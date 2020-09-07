@@ -196,14 +196,12 @@ E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\Newtonsoft.Json.xml
 E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\WPFUserControl.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\EasyScada.Wpf.Connector.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\EasyScada.Wpf.Controls.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\Newtonsoft.Json.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\WpfAnimatedGif.dll
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\EasyScada.Core.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\WpfAnimatedGif.pdb
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\WpfAnimatedGif.xml
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\DongCoThuanNghich\ucDongCoChayThuanNghich.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\DongCo\ucDongCoChayDung.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\Xilanh\ucDieuKhienXilanh.g.cs
@@ -236,5 +234,3 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPF
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\EasyScada.Wpf.Connector.dll
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\bin\Debug\EasyScada.Wpf.Controls.dll

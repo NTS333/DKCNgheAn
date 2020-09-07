@@ -13,17 +13,17 @@
         <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp1" Canvas.Top="619" Canvas.Left="10"/>
         
         <!--Máy ép 2-->
-        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp2" Canvas.Top="619" Canvas.Left="270"/>
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp2" Canvas.Top="619" Canvas.Left="291"/>
 
         <!--Máy ép 3-->
-        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp3" Canvas.Top="619" Canvas.Left="530" />
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp3" Canvas.Top="619" Canvas.Left="572" />
 
         <!--Máy ép 4-->
-        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp4" Canvas.Top="619" Canvas.Left="790" />
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp4" Canvas.Top="619" Canvas.Left="853" />
 
 
         <!--SÀN LỒNG-->
-        <EasyScadaApp:SanLong Canvas.Left="1100" Canvas.Top="180"/>
+        <EasyScadaApp:SanLong x:Name="thongTinSanLong" Canvas.Left="1100" Canvas.Top="180"/>
 
         <!--khối lượng ngày-tháng-->
         <EasyScadaApp:ThongTinCanTong x:Name="thongTinCanTong" Canvas.Top="820" Canvas.Left="1644"/>
@@ -41,13 +41,8 @@
 
 
 
-        <StackPanel Canvas.Left="1600" Canvas.Top="10" Orientation="Horizontal">
-            <Xilanh:ucDieuKhienXilanh Height="100" Canvas.Left="1482" Canvas.Top="-186" Width="100"/>
-            <DongCoThuanNghich:ucDongCoChayThuanNghich Height="100" Canvas.Left="1802" Canvas.Top="-152" Width="100"/>
-            <DongCo:ucDongCoChayDung Height="100" Canvas.Left="200" Canvas.Top="200" Width="100"/>
+        <StackPanel Canvas.Left="1600" Canvas.Top="10" Orientation="Horizontal"/>
 
-        </StackPanel>
-        
 
     </Canvas>
 </UserControl>

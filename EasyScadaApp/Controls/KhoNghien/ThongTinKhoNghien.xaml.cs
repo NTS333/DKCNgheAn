@@ -38,12 +38,10 @@ namespace EasyScadaApp
                 lbHeader.Content = Header;
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                motor1.PathToTag = prefix + "DongMayNghien";
-                motor2.PathToTag = prefix + "ThoiGianChayMay";
-                tgChayKho.PathToTag = prefix + "ThoiGianThayBua";
-                vitTai1.PathToTag = prefix + "NangSuat";
-                vitTai2.PathToTag = prefix + "DongBangTaiCapLieu";
-                vitTai3.PathToTag = prefix + "TanSoBangTaiCapLieu";
+                dongMotorBomDau1.PathToTag = prefix + "Current_Digital_Pump1";
+                dongMotorBomDau2.PathToTag = prefix + "Current_Digital_Pump2";
+                dongVTRL.PathToTag = prefix + "Current_Digital_VTRL";
+                nhietDoBonDau.PathToTag = prefix + "Temperature_Digital_Pump1";
             }
         }
     }

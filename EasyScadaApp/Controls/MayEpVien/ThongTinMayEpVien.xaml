@@ -18,8 +18,6 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -31,7 +29,7 @@
             <Grid Grid.Row="0" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Background="SkyBlue" Margin="2">
                 <Label Content="MÁY ÉP 1"
                        x:Name="lbMayEp"
-                       HorizontalContentAlignment="Center"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        />
             </Grid>
@@ -40,17 +38,17 @@
 
             <!--motor máy ép-->
             <Grid Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Motor máy ép"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+                <Label Content="Dòng M1"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
                        />
             </Grid>
             <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="dongMotorMayEp" Content="0" HorizontalAlignment="Right"        
+                    <controls:EasyLabel x:Name="dongM1" Content="0" HorizontalAlignment="Right" VerticalContentAlignment="Center"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                                         >
                     </controls:EasyLabel>
-                    <Label Content="A" HorizontalAlignment="Right" 
+                    <Label Content="A" HorizontalAlignment="Right" VerticalContentAlignment="Center" 
                            FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                            >
                     </Label>
@@ -59,17 +57,17 @@
 
             <!--vít tải máy ép-->
             <Grid Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Vít tải máy ép"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+                <Label Content="Dong M2"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
                        />
             </Grid>
             <Grid Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="vitTaiMayEp" Content="0" HorizontalAlignment="Right"        
+                    <controls:EasyLabel x:Name="dongM2" Content="0" HorizontalAlignment="Right" VerticalContentAlignment="Center"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                                         >
                     </controls:EasyLabel>
-                    <Label Content="H" HorizontalAlignment="Right" 
+                    <Label Content="A" HorizontalAlignment="Right" VerticalContentAlignment="Center" 
                            FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                            >
                     </Label>
@@ -78,17 +76,17 @@
 
             <!--vít tải trộn nhão-->
             <Grid Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Vít tải trộn nhão"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+                <Label Content="Dòng Mixer"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
                        />
             </Grid>
             <Grid Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="vitTaiTronNhao" Content="0" HorizontalAlignment="Right"        
+                    <controls:EasyLabel x:Name="dongMixer" Content="0" HorizontalAlignment="Right" VerticalContentAlignment="Center"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                                         >
                     </controls:EasyLabel>
-                    <Label Content="H" HorizontalAlignment="Right" 
+                    <Label Content="A" HorizontalAlignment="Right" VerticalContentAlignment="Center"
                            FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                            >
                     </Label>
@@ -101,43 +99,24 @@
             <Grid Grid.Row="5" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Background="SkyBlue" Margin="2">
                 <Label Content="CẤP LIỆU MÁY ÉP 1"
                        x:Name="lbCapLieu"
-                       HorizontalContentAlignment="Center"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        />
             </Grid>
 
             <!--Motor vít tải 1-->
             <Grid Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Motor vít tải"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+                <Label Content="Dòng Feeded A"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
                        />
             </Grid>
             <Grid Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="tanSoMotorVitTai" Content="0" HorizontalAlignment="Right"        
+                    <controls:EasyLabel x:Name="dongFeededA" Content="0" HorizontalAlignment="Right" VerticalContentAlignment="Center"     
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                                         >
                     </controls:EasyLabel>
-                    <Label Content="Hz" HorizontalAlignment="Right" 
-                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
-                           >
-                    </Label>
-                </StackPanel>
-            </Grid>
-
-            <!--Tốc độ cấp liệu-->
-            <Grid Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Tốc độ cấp liệu"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
-                       />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="tocDoCapLieu" Content="0" HorizontalAlignment="Right"        
-                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
-                                        >
-                    </controls:EasyLabel>
-                    <Label Content="Hz" HorizontalAlignment="Right" 
+                    <Label Content="Hz" HorizontalAlignment="Right" VerticalContentAlignment="Center"
                            FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                            >
                     </Label>
@@ -145,43 +124,24 @@
             </Grid>
 
             <!--Tốc độ cài đặt-->
-            <Grid Grid.Row="8" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Tốc độ cài đặt"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+            <Grid Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+                <Label Content="Nhập tần số Feeder A"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
                        />
             </Grid>
-            <Grid Grid.Row="8" Grid.Column="1" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
+            <Grid Grid.Row="7" Grid.Column="1" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <controls:EasyTextBox x:Name="inputTocDo" Text="0" TextAlignment="Right" HorizontalAlignment="Stretch" VerticalContentAlignment="Center"
+                <controls:EasyTextBox x:Name="nhapTSFeededA" Text="0" TextAlignment="Right" HorizontalAlignment="Stretch" VerticalContentAlignment="Center"
                                       FontSize="15" FontFamily="Times New Roman" BorderThickness="0" FontWeight="Bold" Foreground="Red"
                                       >
                 </controls:EasyTextBox>
-                <Label Content="A" HorizontalAlignment="Right" Grid.Column="1"
+                <Label Content="Hz" HorizontalAlignment="Right" Grid.Column="1" VerticalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                        >
                 </Label>
-            </Grid>
-
-            <!--Vít tải cấp liệu-->
-            <Grid Grid.Row="10" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Vít tải cấp liệu"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
-                       />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="dongVitTaiCapLieu" Content="0" HorizontalAlignment="Right"        
-                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
-                                        >
-                    </controls:EasyLabel>
-                    <Label Content="A" HorizontalAlignment="Right" 
-                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
-                           >
-                    </Label>
-                </StackPanel>
             </Grid>
 
         </Grid>

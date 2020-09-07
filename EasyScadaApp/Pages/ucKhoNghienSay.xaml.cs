@@ -20,9 +20,47 @@ namespace EasyScadaApp.Pages
     /// </summary>
     public partial class ucKhoNghienSay : UserControl
     {
+        private bool isLoaded;
+
         public ucKhoNghienSay()
         {
             InitializeComponent();
+
+            Loaded += OnLoaded;
+        }
+
+        private void OnLoaded(object sender, RoutedEventArgs e)
+        {
+            if (!isLoaded)
+            {
+                isLoaded = true;
+
+                #region KHO NGHIỀN THÔ
+                thongTinKhoNghienTho.Header = "KHO NGHIỀN THÔ";
+                thongTinKhoNghienTho.StationName = "RemoteStation1";
+                thongTinKhoNghienTho.ChannelName = "PLCKhoNghienTho";
+                thongTinKhoNghienTho.DeviceName = "KhoNghienTho";
+
+                thongTinKhoNghienTho.Start();
+                #endregion
+
+                #region KHO NGHIỀN THÔ
+                thongTinKhoSauSay.Header = "KHO SAU SẤY";
+                thongTinKhoSauSay.StationName = "RemoteStation1";
+                thongTinKhoSauSay.ChannelName = "PLCKhoSauSay";
+                thongTinKhoSauSay.DeviceName = "KhoSauSay";
+
+                thongTinKhoSauSay.Start();
+                #endregion
+
+                #region Giũ bụi trung tâm
+                giuBuiTrungTam.StationName = "RemoteStation1";
+                giuBuiTrungTam.ChannelName = "PLCMayEpVien";
+                giuBuiTrungTam.DeviceName = "GiuBuiEpVien";
+
+                giuBuiTrungTam.Start();
+                #endregion
+            }
         }
     }
 }
