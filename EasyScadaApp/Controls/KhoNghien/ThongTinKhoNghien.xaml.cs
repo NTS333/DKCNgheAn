@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EasyScada.Core;
+using EasyScada.Wpf.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,6 +33,23 @@ namespace EasyScadaApp
         public string Header { get; set; }
 
         bool isStarted = false;
+
+        public string Auto
+        {
+            get { return (string)GetValue(AutoProperties); }
+            set { SetValue(AutoProperties, value); }
+        }
+        public static readonly DependencyProperty AutoProperties =
+            DependencyProperty.Register("Auto", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+
+        public string Manual
+        {
+            get { return (string)GetValue(ManualProperty); }
+            set { SetValue(ManualProperty, value); }
+        }
+        public static readonly DependencyProperty ManualProperty =
+            DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+
         public void Start()
         {
             if (!isStarted)
@@ -42,6 +61,21 @@ namespace EasyScadaApp
                 dongMotorBomDau2.PathToTag = prefix + "Current_Digital_Pump2";
                 dongVTRL.PathToTag = prefix + "Current_Digital_VTRL";
                 nhietDoBonDau.PathToTag = prefix + "Temperature_Digital_Pump1";
+
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
+                {
+                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                    {
+                        Auto = o.NewValue;
+                    }));
+                };
+
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwManual").ValueChanged += (s, o) => {
+                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                    {
+                        Manual = o.NewValue;
+                    }));
+                };
             }
         }
     }

@@ -234,3 +234,43 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPF
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\WPFUserControl.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\WPFUserControl.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\EasyScada.Wpf.Connector.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\EasyScada.Wpf.Controls.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\Newtonsoft.Json.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\WpfAnimatedGif.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\WpfAnimatedGif.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\bin\Debug\WpfAnimatedGif.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\DongCoThuanNghich\ucDongCoChayThuanNghich.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\DongCo\ucDongCoChayDung.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\Xilanh\ucDieuKhienXilanh.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.lref
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\DongCoThuanNghich\ucDongCoChayThuanNghich.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\DongCo\ucDongCoChayDung.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\DieuKhien\Xilanh\ucDieuKhienXilanh.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.g.resources
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.Properties.Resources.resources
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.csproj.GenerateResource.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\WPFUserControl\obj\Debug\WPFUserControl.pdb

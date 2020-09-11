@@ -43,11 +43,11 @@
     </Reference>
     <Reference Include="EasyScada.Wpf.Connector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScadaApp1\EasyScada.Wpf.Connector.dll</HintPath>
+      <HintPath>..\..\..\new\EasyScada.Wpf.Connector.dll</HintPath>
     </Reference>
     <Reference Include="EasyScada.Wpf.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScadaApp1\EasyScada.Wpf.Controls.dll</HintPath>
+      <HintPath>..\..\..\new\EasyScada.Wpf.Controls.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignColors, Version=1.2.6.1513, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.2.6\lib\net45\MaterialDesignColors.dll</HintPath>

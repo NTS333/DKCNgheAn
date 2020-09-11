@@ -4,9 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EasyScadaApp"
+             x:Name="host"
              mc:Ignorable="d" 
              xmlns:controls="clr-namespace:EasyScada.Wpf.Controls;assembly=EasyScada.Wpf.Controls"
-             Width="250" Height="330"
+             Width="250" Height="350"
              d:DesignHeight="320" d:DesignWidth="250">
     <Border Padding="4" Background="DarkGray">
         <Grid  ShowGridLines="False">
@@ -22,10 +23,11 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="130"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
@@ -38,13 +40,57 @@
                 </Label>
             </Grid>
 
-            <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <!--Auto/Manual-->
+            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Grid.Column="0" Background="White" Margin="2" >
+                <Label Content="AUTO"
+                       x:Name="lbAuto"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
+                    <Label.Style>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="Gray"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=post, Path=Auto}" Value="1">
+                                    <Setter Property="Background" Value="Green"/>
+                                </DataTrigger>
+
+                                <DataTrigger Binding="{Binding ElementName=post, Path=Auto}" Value="0">
+                                    <Setter Property="Background" Value="Gray"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Label.Style>
+                </Label>
+            </Grid>
+            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Grid.Column="1" Background="White" Margin="2" >
+                <Label Content="MANUAL"
+                       x:Name="lbManual"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
+                    <Label.Style>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="Gray"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="1">
+                                    <Setter Property="Background" Value="Green"/>
+                                </DataTrigger>
+
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="0">
+                                    <Setter Property="Background" Value="Gray"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Label.Style>
+                </Label>
+            </Grid>
+
+            <Grid Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="Dòng motor"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+            <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <controls:EasyLabel x:Name="dongMotorMayNghien" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
@@ -57,13 +103,13 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <Grid Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="T/G chạy máy"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+            <Grid Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <controls:EasyLabel x:Name="tgChayMay" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
@@ -76,13 +122,13 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <Grid Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="T/G thay búa"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+            <Grid Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <controls:EasyLabel x:Name="tgThayBua" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
@@ -95,13 +141,13 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <Grid Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="Năng suất"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+            <Grid Grid.Row="5" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <controls:EasyLabel x:Name="nangSuatMayNghien" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
@@ -115,7 +161,7 @@
             </Grid>
 
             <!--cấp liêu-->
-            <Grid Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="SkyBlue" Margin="2">
+            <Grid Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="SkyBlue" Margin="2">
                 <Label Content="CẤP LIỆU"
                        HorizontalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
@@ -123,13 +169,13 @@
                 </Label>
             </Grid>
 
-            <Grid Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <Grid Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="Dòng motor"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+            <Grid Grid.Row="7" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <controls:EasyLabel x:Name="dongMotorCapLieu" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
@@ -142,13 +188,13 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <Grid Grid.Row="8" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="Tần số"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="7" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+            <Grid Grid.Row="8" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <controls:EasyLabel x:Name="tanSoCapLieu" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
@@ -161,13 +207,13 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="8" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <Grid Grid.Row="9" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="Nhập tần số"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="8" Grid.Column="1" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
+            <Grid Grid.Row="9" Grid.Column="1" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
@@ -183,7 +229,7 @@
             </Grid>
 
             <!--Quạt hút-->
-            <Grid Grid.Row="9" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="SkyBlue" Margin="2">
+            <Grid Grid.Row="10" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="SkyBlue" Margin="2">
                 <Label Content="QUẠT HÚT"
                        HorizontalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
@@ -191,13 +237,13 @@
                 </Label>
             </Grid>
 
-            <Grid Grid.Row="10" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+            <Grid Grid.Row="11" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
                 <Label Content="Dòng motor"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        >
                 </Label>
             </Grid>
-            <Grid Grid.Row="10" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+            <Grid Grid.Row="11" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <controls:EasyLabel x:Name="dongMotorQuatHut" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EasyScada.Core;
+using EasyScada.Wpf.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,18 +32,49 @@ namespace EasyScadaApp
         public string DeviceName { get; set; }
 
         bool isStarted = false;
+
+        public string Auto
+        {
+            get { return (string)GetValue(AutoProperties); }
+            set { SetValue(AutoProperties, value); }
+        }
+        public static readonly DependencyProperty AutoProperties =
+            DependencyProperty.Register("Auto", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+
+        public string Manual
+        {
+            get { return (string)GetValue(ManualProperty); }
+            set { SetValue(ManualProperty, value); }
+        }
+        public static readonly DependencyProperty ManualProperty =
+            DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+
         public void Start()
         {
             if (!isStarted)
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                motorSanLong.PathToTag = prefix + "CurrentDigitalPT5";
-                motorBangTai.PathToTag = prefix + "CurrentDigitalPT7";
-                motorVitTai.PathToTag = prefix + "CurrentDigitalPT4";
-                btBinChuaVien.PathToTag = prefix + "CurrentDigitalPT1";
-                //btNamCham.PathToTag = prefix + "CurrentDigitalPT7";
-                btRaVien.PathToTag = prefix + "CurrentDigitalPT2";
+                btCapLieuBinEp.PathToTag = prefix + "CurrentDigitalPT5";
+                btRaVien.PathToTag = prefix + "CurrentDigitalPT7";
+                btCapLieuSanLong.PathToTag = prefix + "CurrentDigitalPT4";
+                sanLong.PathToTag = prefix + "CurrentDigitalPT1";
+                btLenVien.PathToTag = prefix + "CurrentDigitalPT2";
+
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
+                {
+                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                    {
+                        Auto = o.NewValue;
+                    }));
+                };
+
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwManual").ValueChanged += (s, o) => {
+                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                    {
+                        Manual = o.NewValue;
+                    }));
+                };
             }
         }
     }
