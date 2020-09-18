@@ -1,0 +1,94 @@
+﻿using EasyScada.Core;
+using EasyScada.Wpf.Controls;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace WPFUserControl
+{
+    public partial class MayEpVien : UserControl
+    {
+        #region ----- PROPERTY USERCONTROL -----
+
+        public string StationName { get; set; }
+        public string ChannelName { get; set; }
+        public string DeviceName { get; set; }
+        public IEasyDriverConnector Connector { get; set; }
+        public ITag MotorMayEpVien1 { get; set; }
+
+        #endregion ----- PROPERTY USERCONTROL -----    
+        
+        public MayEpVien()
+        {
+            InitializeComponent();
+        }
+
+        public bool IsStarted { get; private set; }
+
+        public void Start()
+        {
+            if (!IsStarted)
+            {
+                IsStarted = true;
+                Connector = EasyDriverConnectorProvider.GetEasyDriverConnector();
+
+                if (Connector.IsStarted)
+                {
+                    Connector_Started(Connector, EventArgs.Empty);
+                }
+                else
+                {
+                    Connector.Started += Connector_Started;
+                }
+            }
+        }
+
+        private void Connector_Started(object sender, EventArgs e)
+        {
+            Dispatcher.Invoke(() =>
+            {
+                MotorMayEpVien1 = GetTag("PlM");
+                if (MotorMayEpVien1 != null)
+                {
+                    MotorMayEpVien1_ValueChanged(MotorMayEpVien1, new TagValueChangedEventArgs("", MotorMayEpVien1.Value));
+                    MotorMayEpVien1.ValueChanged += MotorMayEpVien1_ValueChanged;
+                }
+            });
+        }
+
+        private void MotorMayEpVien1_ValueChanged(object sender, TagValueChangedEventArgs e)
+        {
+            DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+            {
+                if (e.NewValue == "1")
+                {
+                    motorMayEp1TraiChay.Visibility = Visibility.Visible;
+                    motorMayEp1PhaiChay.Visibility = Visibility.Visible;
+                    //motorMayEp1Loi.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    motorMayEp1TraiChay.Visibility = Visibility.Collapsed;
+                    motorMayEp1PhaiChay.Visibility = Visibility.Collapsed;
+                    //motorMayEp1Loi.Visibility = Visibility.Collapsed;
+                }
+            }));
+        }
+
+        public ITag GetTag(string tagName)
+        {
+            return Connector.GetTag($"{StationName}/{ChannelName}/{DeviceName}/{tagName}");
+        }
+    }
+}

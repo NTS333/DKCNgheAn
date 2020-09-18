@@ -53,12 +53,13 @@ namespace EasyScadaApp.Pages
                 thongTinKhoSauSay.Start();
                 #endregion
 
-                #region Giũ bụi trung tâm
-                giuBuiTrungTam.StationName = "RemoteStation1";
-                giuBuiTrungTam.ChannelName = "PLCMayEpVien";
-                giuBuiTrungTam.DeviceName = "GiuBuiEpVien";
 
-                giuBuiTrungTam.Start();
+                #region graphic
+                KhoNghienTho.StationName = "RemoteStation1";
+                KhoNghienTho.ChannelName = "PLCKhoNghienTho";
+                KhoNghienTho.DeviceName = "KhoNghienTho";
+
+                KhoNghienTho.Start();
                 #endregion
             }
         }

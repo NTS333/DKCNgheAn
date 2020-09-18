@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasyScadaApp"
         xmlns:connector="clr-namespace:EasyScada.Wpf.Connector;assembly=EasyScada.Wpf.Connector"
-        xmlns:WPFUserControl="clr-namespace:WPFUserControl;assembly=WPFUserControl" xmlns:Pages="clr-namespace:EasyScadaApp.Pages" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="EasyScadaApp.MainWindow"
+        
+        xmlns:Pages="clr-namespace:EasyScadaApp.Pages" 
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        x:Class="EasyScadaApp.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized" WindowStartupLocation="CenterScreen">
     <Grid>
@@ -16,7 +19,7 @@
         </Grid.RowDefinitions>
         <connector:EasyDriverConnector/>
         <Grid Grid.Row="0" Background="Black">
-            <TextBlock Text="NHÀ MÁY VIÊN NÉN NĂNG LƯỢNG Ý MỸ - KCN PHÚ BÀI " 
+            <TextBlock Text="NHÀ MÁY VIÊN NÉN NĂNG LƯỢNG Ý MỸ - KCN PHÚ BÀI HUẾ " 
                        FontSize="40" FontFamily="Times New Roman" FontWeight="Bold" Foreground="DarkGoldenrod"
                        HorizontalAlignment="Center" VerticalAlignment="Center" />
         </Grid>
@@ -24,13 +27,14 @@
 
             <Pages:ucNghienThoTinh x:Name="NghienTho" Visibility="Visible"/>
             <Pages:ucKhoNghienSay x:Name="KhoNghien" Visibility="Hidden"/>
-
-            <Pages:ucMayEpVien x:Name="MayEpVien" Visibility="Hidden"></Pages:ucMayEpVien>
+            <Pages:ucMayEpVien x:Name="MayEpVien" Visibility="Hidden"/>
+            <Pages:ucKhoNghienTinh_GiuBui x:Name="KhoNghienTinhGiuBui" Visibility="Hidden"/>
 
         </DockPanel>
         <DockPanel Grid.Row="2" Background="Black" LastChildFill="True">
             <Button DockPanel.Dock="Left" x:Name="btnMayNghien" Margin="8 0 0 0" Content="Máy Nghiền" Click="BtnMayNghien_Click" Width="130" FontSize="20" Height="50" VerticalAlignment="Top"/>
-            <Button x:Name="btnKhoNghien" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Kho" Click="BtnKhoNghien_Click" Width="120" FontSize="20"/>
+            <Button x:Name="btnKhoNghien" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Kho Nghiền Thô - Sau Sấy" Click="BtnKhoNghien_Click" Width="274" FontSize="20"/>
+            <Button x:Name="btnKhoNghienTinhGiuBui" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Kho Nghiền Tinh - Giũ Bụi" Width="272" FontSize="20" Click="BtnKhoNghienTinhGiuBui_Click"/>
             <Button x:Name="btnMayEp" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Máy Ép" Click="BtnMayEp_Click" Width="120" FontSize="20"/>
             <Button DockPanel.Dock="Left" x:Name="btnExit" Margin="8 0 0 0" Content="Thoát"  Width="100" FontSize="20" Click="BtnExit_Click"/>
             <Label DockPanel.Dock="Right" x:Name="labThoiGian" 
@@ -39,8 +43,6 @@
                    VerticalAlignment="Center"
                    FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="White"
                    />
-
-
         </DockPanel>
     </Grid>
 </Window>

@@ -39,7 +39,7 @@ namespace EasyScadaApp
             set { SetValue(AutoProperties, value); }
         }
         public static readonly DependencyProperty AutoProperties =
-            DependencyProperty.Register("Auto", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+            DependencyProperty.Register("Auto", typeof(string), typeof(ThongTinMayNghienTho), new PropertyMetadata("0"));
 
         public string Manual
         {
@@ -47,7 +47,7 @@ namespace EasyScadaApp
             set { SetValue(ManualProperty, value); }
         }
         public static readonly DependencyProperty ManualProperty =
-            DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+            DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinMayNghienTho), new PropertyMetadata("0"));
 
         public void Start()
         {
@@ -64,15 +64,24 @@ namespace EasyScadaApp
                 inputTanSoCapLieu.PathToTag = prefix + "NhapTanSoBangTaiCapLieu";
                 dongMotorQuatHut.PathToTag = prefix + "DongQuatHut";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "CheDoAuto").ValueChanged += (s, o) =>
                 {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
                         Auto = o.NewValue;
+                        //if (o.NewValue == "1")
+                        //{
+                        //    lbManual.Background = Brushes.DarkGray;
+                        //    lbAuto.Background = Brushes.Green;
+                        //}
+                        //else
+                        //{
+                        //    lbAuto.Background = Brushes.DarkGray;
+                        //}
                     }));
                 };
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwManual").ValueChanged += (s, o) => {
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "CheDoManual").ValueChanged += (s, o) => {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
                         Manual = o.NewValue;

@@ -34,20 +34,18 @@
             </Grid>
             
             <!--AUto/Manual-->
-            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Grid.Column="0" Background="White" Margin="2" >
-                <Label Content="AUTO"
-                       x:Name="lbAuto"
-                       HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+            <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
+                <Label Content="AUTO" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
                     <Label.Style>
                         <Style TargetType="Label">
                             <Setter Property="Background" Value="Gray"/>
                             <Style.Triggers>
-                                <DataTrigger Binding="{Binding ElementName=post, Path=Auto}" Value="1">
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="1">
                                     <Setter Property="Background" Value="Green"/>
                                 </DataTrigger>
 
-                                <DataTrigger Binding="{Binding ElementName=post, Path=Auto}" Value="0">
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="0">
                                     <Setter Property="Background" Value="Gray"/>
                                 </DataTrigger>
                             </Style.Triggers>
@@ -55,11 +53,9 @@
                     </Label.Style>
                 </Label>
             </Grid>
-            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Grid.Column="1" Background="White" Margin="2" >
-                <Label Content="MANUAL"
-                       x:Name="lbManual"
-                       HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
+            <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Background="White" Width="100" Margin="2">
+                <Label Content="MANUAL" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold">
                     <Label.Style>
                         <Style TargetType="Label">
                             <Setter Property="Background" Value="Gray"/>
@@ -75,6 +71,7 @@
                         </Style>
                     </Label.Style>
                 </Label>
+
             </Grid>
 
             <!--Motor T lực 1-->

@@ -73,6 +73,17 @@ namespace EasyScadaApp.Pages
 
                 thongTinSanLong.Start();
                 #endregion
+
+                #region Graphic
+                MayEp.StationName = "RemoteStation1";
+                MayEp.ChannelName = "PLCMayEpVien";
+                MayEp.DeviceNameMayEp1 = "MayEpVien1";
+                MayEp.DeviceNameMayEp2 = "MayEpVien2";
+                MayEp.DeviceNameMayEp3 = "MayEpVien3";
+                MayEp.DeviceNameMayEp4 = "MayEpVien4";
+
+                MayEp.Start();
+                #endregion
             }
         }
 

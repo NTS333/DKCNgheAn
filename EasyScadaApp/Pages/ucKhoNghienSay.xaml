@@ -9,21 +9,18 @@
              d:DesignHeight="922" d:DesignWidth="1912">
     <Canvas Margin="0,0,0,0">
 
-        <WPFUserControl:KhoNghienTho x:Name="NghienTho3" 
-            Height="468" Width="480" Canvas.Top="269"
-                                     Canvas.Left="-2"/>
-        <WPFUserControl:KhoNghienTinh Height="468" Width="481" Canvas.Left="952" Canvas.Top="269"/>
-        <WPFUserControl:KhoSauSay Height="468" Width="479" Canvas.Left="464" Canvas.Top="269"/>
-        <WPFUserControl:HeThongGiuBui Height="468" Width="480" Canvas.Left="1428" Canvas.Top="269"/>
+        <WPFUserControl:KhoNghienTho x:Name="KhoNghienTho" 
+            Height="935" Width="1093"
+                                     Canvas.Left="30"/>
+        <WPFUserControl:KhoSauSay Height="856" Width="899" Canvas.Left="1009" Canvas.Top="56"/>
 
         <!--KHO NGHIỀN THÔ-->
-        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTho" Canvas.Left="127" Canvas.Top="20"/>
+        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTho"/>
 
         <!--KHO SAU SẤY-->
-        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoSauSay" Canvas.Left="647" Canvas.Top="20"/>
+        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoSauSay" Canvas.Left="1180" Canvas.Top="2"/>
 
         <!--GIŨ BỤI TRUNG TÂM-->
-        <EasyScadaApp:GiuBuiTrungTam x:Name="giuBuiTrungTam" Canvas.Left="1597" Canvas.Top="174"/>
 
 
     </Canvas>

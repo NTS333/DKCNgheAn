@@ -34,7 +34,7 @@
                        />
             </Grid>
 
-            <!--Motor sàn lồng-->
+            <!--Auto/Manual-->
             <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
                 <Label Content="AUTO" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">

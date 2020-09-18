@@ -43,11 +43,11 @@
     </Reference>
     <Reference Include="EasyScada.Wpf.Connector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\new\EasyScada.Wpf.Connector.dll</HintPath>
+      <HintPath>..\..\EasyScada.Wpf.Connector.dll</HintPath>
     </Reference>
     <Reference Include="EasyScada.Wpf.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\new\EasyScada.Wpf.Controls.dll</HintPath>
+      <HintPath>..\..\EasyScada.Wpf.Controls.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignColors, Version=1.2.6.1513, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.2.6\lib\net45\MaterialDesignColors.dll</HintPath>
@@ -145,6 +145,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ucKhoNghienTinh_GiuBui.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\ucMayEpVien.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -185,6 +189,9 @@
   <ItemGroup>
     <Compile Include="Pages\ucKhoNghienSay.xaml.cs">
       <DependentUpon>ucKhoNghienSay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ucKhoNghienTinh_GiuBui.xaml.cs">
+      <DependentUpon>ucKhoNghienTinh_GiuBui.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ucMayEpVien.xaml.cs">
       <DependentUpon>ucMayEpVien.xaml</DependentUpon>

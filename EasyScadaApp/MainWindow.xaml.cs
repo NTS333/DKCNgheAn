@@ -24,6 +24,7 @@ namespace EasyScadaApp
             NghienTho.Visibility = Visibility.Visible;
             KhoNghien.Visibility = Visibility.Hidden;
             MayEpVien.Visibility = Visibility.Hidden;
+            KhoNghienTinhGiuBui.Visibility = Visibility.Hidden;
         }
 
         private void BtnKhoNghien_Click(object sender, RoutedEventArgs e)
@@ -31,6 +32,7 @@ namespace EasyScadaApp
             NghienTho.Visibility = Visibility.Hidden;
             KhoNghien.Visibility = Visibility.Visible;
             MayEpVien.Visibility = Visibility.Hidden;
+            KhoNghienTinhGiuBui.Visibility = Visibility.Hidden;
         }
 
         private void BtnMayEp_Click(object sender, RoutedEventArgs e)
@@ -38,7 +40,16 @@ namespace EasyScadaApp
             NghienTho.Visibility = Visibility.Hidden;
             KhoNghien.Visibility = Visibility.Hidden;
             MayEpVien.Visibility = Visibility.Visible;
+            KhoNghienTinhGiuBui.Visibility = Visibility.Hidden;
         }
         #endregion
+
+        private void BtnKhoNghienTinhGiuBui_Click(object sender, RoutedEventArgs e)
+        {
+            NghienTho.Visibility = Visibility.Hidden;
+            KhoNghien.Visibility = Visibility.Hidden;
+            MayEpVien.Visibility = Visibility.Hidden;
+            KhoNghienTinhGiuBui.Visibility = Visibility.Visible;
+        }
     }
 }

@@ -40,7 +40,7 @@ namespace EasyScadaApp
             set { SetValue(AutoProperties, value); }
         }
         public static readonly DependencyProperty AutoProperties =
-            DependencyProperty.Register("Auto", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+            DependencyProperty.Register("Auto", typeof(string), typeof(ThongTinKhoNghien), new PropertyMetadata("0"));
 
         public string Manual
         {
@@ -48,7 +48,7 @@ namespace EasyScadaApp
             set { SetValue(ManualProperty, value); }
         }
         public static readonly DependencyProperty ManualProperty =
-            DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+            DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinKhoNghien), new PropertyMetadata("0"));
 
         public void Start()
         {
@@ -62,7 +62,7 @@ namespace EasyScadaApp
                 dongVTRL.PathToTag = prefix + "Current_Digital_VTRL";
                 nhietDoBonDau.PathToTag = prefix + "Temperature_Digital_Pump1";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Auto").ValueChanged += (s, o) =>
                 {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
@@ -70,7 +70,7 @@ namespace EasyScadaApp
                     }));
                 };
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwManual").ValueChanged += (s, o) => {
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Man").ValueChanged += (s, o) => {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
                         Manual = o.NewValue;

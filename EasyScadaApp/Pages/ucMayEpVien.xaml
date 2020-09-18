@@ -11,7 +11,7 @@
 
         <!--Máy ép 1-->
         <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp1" Canvas.Top="619" Canvas.Left="10"/>
-        
+
         <!--Máy ép 2-->
         <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp2" Canvas.Top="619" Canvas.Left="291"/>
 
@@ -26,16 +26,13 @@
         <EasyScadaApp:SanLong x:Name="thongTinSanLong" Canvas.Left="1100" Canvas.Top="180"/>
 
         <!--khối lượng ngày-tháng-->
-        <EasyScadaApp:ThongTinCanTong x:Name="thongTinCanTong" Canvas.Top="820" Canvas.Left="1644"/>
 
         <!--khối lượng Cân 1-->
-        <EasyScadaApp:ThongTinCan x:Name="ThongTinCan1" Canvas.Top="600" Canvas.Left="1644"/>
 
         <!--khối lượng Cân 2-->
-        <EasyScadaApp:ThongTinCan x:Name="ThongTinCan2" Canvas.Top="710" Canvas.Left="1644"/>
 
 
-        <WPFUserControl:MayEpVien Height="354" Canvas.Left="37" Canvas.Top="254" Width="942"/>
+        <WPFUserControl:MayEpVien Name="MayEp" Height="516" Canvas.Left="37" Canvas.Top="92" Width="942"/>
         <WPFUserControl:HeThongPhuTroEpVien Height="405" Canvas.Left="949" Canvas.Top="254" Width="953"/>
 
 

@@ -39,7 +39,7 @@ namespace EasyScadaApp
             set { SetValue(AutoProperties, value); }
         }
         public static readonly DependencyProperty AutoProperties =
-            DependencyProperty.Register("Auto", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+            DependencyProperty.Register("Auto", typeof(string), typeof(GiuBuiTrungTam), new PropertyMetadata("0"));
 
         public string Manual
         {
@@ -47,7 +47,7 @@ namespace EasyScadaApp
             set { SetValue(ManualProperty, value); }
         }
         public static readonly DependencyProperty ManualProperty =
-            DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinMayEpVien), new PropertyMetadata(0));
+            DependencyProperty.Register("Manual", typeof(string), typeof(GiuBuiTrungTam), new PropertyMetadata("0"));
 
         public void Start()
         {
@@ -59,20 +59,20 @@ namespace EasyScadaApp
                 motorRotovan.PathToTag = prefix + "CurrentDigital_Mix";
                 motorVitTai.PathToTag = prefix + "CurrentDigitalQHGB";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
-                {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Auto = o.NewValue;
-                    }));
-                };
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Auto = o.NewValue;
+                //    }));
+                //};
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwManual").ValueChanged += (s, o) => {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Manual = o.NewValue;
-                    }));
-                };
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwManual").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Manual = o.NewValue;
+                //    }));
+                //};
             }
         }
     }
