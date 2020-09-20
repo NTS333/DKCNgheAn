@@ -212,8 +212,8 @@ namespace WPFUserControl
                     TrangThaiXiLanh3ChayLui.ValueChanged += TrangThaiXiLanh3ChayLui_ValueChanged;
                 }
 
-                TrangThaiXiLanh2ChayToi = GetTag("ST_XiLanh3Tien");
-                if (TrangThaiXiLanh2ChayToi != null)
+                TrangThaiXiLanh3ChayToi = GetTag("ST_XiLanh3Tien");
+                if (TrangThaiXiLanh3ChayToi != null)
                 {
                     TrangThaiXiLanh3ChayToi_ValueChanged(TrangThaiXiLanh3ChayToi, new TagValueChangedEventArgs("", TrangThaiXiLanh3ChayToi.Value));
                     TrangThaiXiLanh3ChayToi.ValueChanged += TrangThaiXiLanh3ChayToi_ValueChanged;

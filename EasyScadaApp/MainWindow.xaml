@@ -31,18 +31,29 @@
             <Pages:ucKhoNghienTinh_GiuBui x:Name="KhoNghienTinhGiuBui" Visibility="Hidden"/>
 
         </DockPanel>
-        <DockPanel Grid.Row="2" Background="Black" LastChildFill="True">
-            <Button DockPanel.Dock="Left" x:Name="btnMayNghien" Margin="8 0 0 0" Content="Máy Nghiền" Click="BtnMayNghien_Click" Width="130" FontSize="20" Height="50" VerticalAlignment="Top"/>
-            <Button x:Name="btnKhoNghien" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Kho Nghiền Thô - Sau Sấy" Click="BtnKhoNghien_Click" Width="274" FontSize="20"/>
-            <Button x:Name="btnKhoNghienTinhGiuBui" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Kho Nghiền Tinh - Giũ Bụi" Width="272" FontSize="20" Click="BtnKhoNghienTinhGiuBui_Click"/>
-            <Button x:Name="btnMayEp" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Máy Ép" Click="BtnMayEp_Click" Width="120" FontSize="20"/>
-            <Button DockPanel.Dock="Left" x:Name="btnExit" Margin="8 0 0 0" Content="Thoát"  Width="100" FontSize="20" Click="BtnExit_Click"/>
-            <Label DockPanel.Dock="Right" x:Name="labThoiGian" 
+        
+        <Grid Grid.Row="2" Background="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="labThoiGian" Grid.Column="0"
+                       DockPanel.Dock="Right"
                    Content="dd/MM/yyyy HH:mm:ss" 
                    HorizontalAlignment="Right"
                    VerticalAlignment="Center"
                    FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="White"
                    />
-        </DockPanel>
+            
+            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                <Button x:Name="btnMayNghien" Margin="8 0 0 0" Content="Máy Nghiền" Click="BtnMayNghien_Click" Width="130" FontSize="20" Height="50" VerticalAlignment="Top"/>
+                <Button x:Name="btnKhoNghien" Margin="8 0 0 0" Content="Kho Nghiền Thô - Sau Sấy" Click="BtnKhoNghien_Click" Width="274" FontSize="20"/>
+                <Button x:Name="btnKhoNghienTinhGiuBui" Margin="8 0 0 0" Content="Kho Nghiền Tinh - Giũ Bụi" Width="272" FontSize="20" Click="BtnKhoNghienTinhGiuBui_Click"/>
+                <Button x:Name="btnMayEp" Margin="8 0 0 0" Content="Máy Ép" Click="BtnMayEp_Click" Width="120" FontSize="20"/>
+                <Button x:Name="btnExit" Margin="8 0 0 0" Content="Thoát"  Width="100" FontSize="20" Click="BtnExit_Click"/>
+            </StackPanel>
+        </Grid>
+
     </Grid>
 </Window>

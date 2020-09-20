@@ -3,7 +3,7 @@
   "Port": 8800,
   "CommunicationMode": 0,
   "RefreshRate": 1000,
-  "CreatedDate": "2020-09-18T23:38:41.3049238+07:00",
+  "CreatedDate": "2020-09-20T15:39:46.4755421+07:00",
   "Stations": [
     {
       "Name": "Local Station",
@@ -51,13 +51,13 @@
                   "Name": "Current_Digital_Pump1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.Current_Digital_Pump1"
                   },
@@ -68,13 +68,13 @@
                   "Name": "Current_Digital_Pump2",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.Current_Digital_Pump2"
                   },
@@ -85,13 +85,13 @@
                   "Name": "Current_Digital_VTRL",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.Current_Digital_VTRL"
                   },
@@ -108,7 +108,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.Hight_Level_VTCL2"
                   },
@@ -125,7 +125,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.High_Level_Cylone1"
                   },
@@ -142,7 +142,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.High_Level_Cylone2"
                   },
@@ -159,7 +159,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.High_Level_Cylone3"
                   },
@@ -176,7 +176,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.High_Level_Cylone4"
                   },
@@ -193,7 +193,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.High_Level_VTCL1"
                   },
@@ -210,7 +210,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.High_Level_VTRL"
                   },
@@ -227,7 +227,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_Pump1"
                   },
@@ -244,7 +244,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_Pump2"
                   },
@@ -261,7 +261,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_VitTai1Nghich"
                   },
@@ -278,7 +278,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_VitTai1Thuan"
                   },
@@ -295,7 +295,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_VitTai2Nghich"
                   },
@@ -312,7 +312,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_VitTai2Thuan"
                   },
@@ -329,7 +329,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_VTRL"
                   },
@@ -346,7 +346,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh1Lui"
                   },
@@ -363,7 +363,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh1Tien"
                   },
@@ -380,7 +380,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh2Lui"
                   },
@@ -397,7 +397,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh2Tien"
                   },
@@ -414,7 +414,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh3Lui"
                   },
@@ -431,7 +431,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh3Tien"
                   },
@@ -448,7 +448,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh4Lui"
                   },
@@ -465,7 +465,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.ST_XiLanh4Tien"
                   },
@@ -482,7 +482,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.SW_Auto"
                   },
@@ -499,7 +499,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.SW_Man"
                   },
@@ -510,13 +510,13 @@
                   "Name": "Temperature_Digital_Pump1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTho.KhoNghienTho.Temperature_Digital_Pump1"
                   },
@@ -548,13 +548,13 @@
                   "Name": "Current_Digital_Pump1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.Current_Digital_Pump1"
                   },
@@ -565,13 +565,13 @@
                   "Name": "Current_Digital_VTRL",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.Current_Digital_VTRL"
                   },
@@ -588,7 +588,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.Hight_Level_VTCL1"
                   },
@@ -605,7 +605,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.Hight_Level_VTCL2"
                   },
@@ -622,7 +622,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.High_Level_Cylone1"
                   },
@@ -639,7 +639,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.High_Level_Cylone2"
                   },
@@ -656,7 +656,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.Hi_VTRL"
                   },
@@ -673,7 +673,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_Pump1"
                   },
@@ -690,7 +690,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_VitTai1Nghich"
                   },
@@ -707,7 +707,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_VitTai1Thuan"
                   },
@@ -724,7 +724,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_VitTai2Nghich"
                   },
@@ -741,7 +741,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_VitTai2Thuan"
                   },
@@ -758,7 +758,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_VTRL"
                   },
@@ -775,7 +775,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_XiLanh1Lui"
                   },
@@ -792,7 +792,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_XiLanh1Tien"
                   },
@@ -809,7 +809,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_XiLanh2Lui"
                   },
@@ -826,7 +826,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.ST_XiLanh2Tien"
                   },
@@ -843,7 +843,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.SW_Auto"
                   },
@@ -860,7 +860,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.SW_Man"
                   },
@@ -871,13 +871,13 @@
                   "Name": "Temperature_Digital_Pump1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoNghienTinh.KhoNghienTinh.Temperature_Digital_Pump1"
                   },
@@ -909,13 +909,13 @@
                   "Name": "Current_Digital_Pump2",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.Current_Digital_Pump2"
                   },
@@ -926,13 +926,13 @@
                   "Name": "Current_Digital_VTRL",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.Current_Digital_VTRL"
                   },
@@ -949,7 +949,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.Hight_Level_VTCL2"
                   },
@@ -966,7 +966,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.High_Level_VTCL1"
                   },
@@ -983,7 +983,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.High_Level_VTRL"
                   },
@@ -1000,7 +1000,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_Pump1"
                   },
@@ -1017,7 +1017,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_VitTai1Nghich"
                   },
@@ -1034,7 +1034,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_VitTai1Thuan"
                   },
@@ -1051,7 +1051,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_VitTai2Nghich"
                   },
@@ -1068,7 +1068,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_VitTai2Thuan"
                   },
@@ -1085,7 +1085,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh1Lui"
                   },
@@ -1102,7 +1102,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh1Tien"
                   },
@@ -1119,7 +1119,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh2Lui"
                   },
@@ -1136,7 +1136,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh2Tien"
                   },
@@ -1153,7 +1153,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh3Lui"
                   },
@@ -1170,7 +1170,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh3Tien"
                   },
@@ -1187,7 +1187,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh4Lui"
                   },
@@ -1204,7 +1204,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.ST_XiLanh4Tien"
                   },
@@ -1221,7 +1221,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.SW_Auto"
                   },
@@ -1238,7 +1238,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCKhoSauSay.KhoSauSay.SW_Man"
                   },
@@ -1276,7 +1276,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStartGbui"
                   },
@@ -1293,7 +1293,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStartQhut"
                   },
@@ -1310,7 +1310,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStartRotorvan"
                   },
@@ -1327,7 +1327,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStartVtai"
                   },
@@ -1344,7 +1344,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStopGbui"
                   },
@@ -1361,7 +1361,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStopQhut"
                   },
@@ -1378,7 +1378,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStopRotorvan"
                   },
@@ -1395,7 +1395,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.BtStopVtai"
                   },
@@ -1406,13 +1406,13 @@
                   "Name": "CurrentDigitalQHGB",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.CurrentDigitalQHGB"
                   },
@@ -1423,13 +1423,13 @@
                   "Name": "CurrentDigitalVTGB",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.CurrentDigitalVTGB"
                   },
@@ -1440,13 +1440,13 @@
                   "Name": "CurrentDigital_Mix",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.CurrentDigital_Mix"
                   },
@@ -1463,7 +1463,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.OvlElock1"
                   },
@@ -1480,7 +1480,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.OvlElock2"
                   },
@@ -1497,7 +1497,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.OvlMix"
                   },
@@ -1514,7 +1514,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.PlGbui"
                   },
@@ -1531,7 +1531,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.PlOvlQhut"
                   },
@@ -1548,7 +1548,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.PlOvlRotorvan"
                   },
@@ -1565,7 +1565,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.PlOvlVtai"
                   },
@@ -1582,7 +1582,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.PlQhut"
                   },
@@ -1599,7 +1599,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.PlRotorvan"
                   },
@@ -1616,7 +1616,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.PlVtai"
                   },
@@ -1633,7 +1633,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.StElock1"
                   },
@@ -1650,7 +1650,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.StElock2"
                   },
@@ -1667,7 +1667,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.StGbui"
                   },
@@ -1684,7 +1684,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.StMixFw"
                   },
@@ -1701,7 +1701,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.StMixRv"
                   },
@@ -1718,7 +1718,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.SwElock1"
                   },
@@ -1735,7 +1735,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.GiuBuiEpVien.SwElock2"
                   },
@@ -1762,7 +1762,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.BtA"
                   },
@@ -1779,7 +1779,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.BtB"
                   },
@@ -1796,7 +1796,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.BtM"
                   },
@@ -1813,7 +1813,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.BtMx"
                   },
@@ -1824,13 +1824,13 @@
                   "Name": "CurrentDigitalA",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.CurrentDigitalA"
                   },
@@ -1841,13 +1841,13 @@
                   "Name": "CurrentDigitalM1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.CurrentDigitalM1"
                   },
@@ -1858,13 +1858,13 @@
                   "Name": "CurrentDigitalM2",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.CurrentDigitalM2"
                   },
@@ -1875,13 +1875,13 @@
                   "Name": "CurrentDigitalMx",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.CurrentDigitalMx"
                   },
@@ -1892,13 +1892,13 @@
                   "Name": "InputHzA1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.InputHzA1"
                   },
@@ -1915,7 +1915,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.PlA"
                   },
@@ -1932,7 +1932,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.PlB"
                   },
@@ -1949,7 +1949,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.PlM"
                   },
@@ -1966,7 +1966,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.PlMX"
                   },
@@ -1983,7 +1983,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.SwAuto"
                   },
@@ -2000,7 +2000,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien1.SwMan"
                   },
@@ -2027,7 +2027,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.BtA"
                   },
@@ -2044,7 +2044,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.BtB"
                   },
@@ -2061,7 +2061,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.BtM"
                   },
@@ -2078,7 +2078,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.BtMx"
                   },
@@ -2089,13 +2089,13 @@
                   "Name": "CurrentDigitalA",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.CurrentDigitalA"
                   },
@@ -2106,13 +2106,13 @@
                   "Name": "CurrentDigitalM1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.CurrentDigitalM1"
                   },
@@ -2123,13 +2123,13 @@
                   "Name": "CurrentDigitalM2",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.CurrentDigitalM2"
                   },
@@ -2140,13 +2140,13 @@
                   "Name": "CurrentDigitalMx",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.CurrentDigitalMx"
                   },
@@ -2157,13 +2157,13 @@
                   "Name": "InputHzA1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.InputHzA1"
                   },
@@ -2180,7 +2180,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.PlA"
                   },
@@ -2197,7 +2197,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.PlB"
                   },
@@ -2214,7 +2214,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.PlM"
                   },
@@ -2231,7 +2231,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.PlMX"
                   },
@@ -2248,7 +2248,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.SwAuto"
                   },
@@ -2265,7 +2265,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien2.SwMan"
                   },
@@ -2292,7 +2292,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.BtA"
                   },
@@ -2309,7 +2309,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.BtB"
                   },
@@ -2326,7 +2326,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.BtM"
                   },
@@ -2337,13 +2337,13 @@
                   "Name": "CurrentDigitalA",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.CurrentDigitalA"
                   },
@@ -2354,13 +2354,13 @@
                   "Name": "CurrentDigitalM1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.CurrentDigitalM1"
                   },
@@ -2371,13 +2371,13 @@
                   "Name": "CurrentDigitalM2",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.CurrentDigitalM2"
                   },
@@ -2388,13 +2388,13 @@
                   "Name": "CurrentDigitalMx",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.CurrentDigitalMx"
                   },
@@ -2405,13 +2405,13 @@
                   "Name": "InputHzA1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.InputHzA1"
                   },
@@ -2428,7 +2428,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.PlA"
                   },
@@ -2445,7 +2445,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.PlB"
                   },
@@ -2462,7 +2462,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.PlM"
                   },
@@ -2479,7 +2479,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.PlMX"
                   },
@@ -2496,7 +2496,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.SwAuto"
                   },
@@ -2513,7 +2513,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien3.SwMan"
                   },
@@ -2540,7 +2540,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.BtA"
                   },
@@ -2557,7 +2557,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.BtB"
                   },
@@ -2574,7 +2574,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.BtM"
                   },
@@ -2591,7 +2591,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.BtMx"
                   },
@@ -2602,13 +2602,13 @@
                   "Name": "CurrentDigitalA",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.CurrentDigitalA"
                   },
@@ -2619,13 +2619,13 @@
                   "Name": "CurrentDigitalM1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.CurrentDigitalM1"
                   },
@@ -2636,13 +2636,13 @@
                   "Name": "CurrentDigitalM2",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.CurrentDigitalM2"
                   },
@@ -2653,13 +2653,13 @@
                   "Name": "CurrentDigitalMx",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.CurrentDigitalMx"
                   },
@@ -2670,13 +2670,13 @@
                   "Name": "InputHzA1",
                   "Address": null,
                   "DataType": "Word",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.InputHzA1"
                   },
@@ -2693,7 +2693,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.PlA"
                   },
@@ -2710,7 +2710,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.PlB"
                   },
@@ -2727,7 +2727,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.PlM"
                   },
@@ -2744,7 +2744,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.PlMX"
                   },
@@ -2761,7 +2761,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.SwAuto"
                   },
@@ -2778,7 +2778,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.MayEpVien4.SwMan"
                   },
@@ -2805,7 +2805,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.AlarmPt"
                   },
@@ -2822,7 +2822,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtRstPt"
                   },
@@ -2839,7 +2839,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPt1"
                   },
@@ -2856,7 +2856,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPt2"
                   },
@@ -2873,7 +2873,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPt3"
                   },
@@ -2890,7 +2890,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPt4"
                   },
@@ -2907,7 +2907,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPt5"
                   },
@@ -2924,7 +2924,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPt6"
                   },
@@ -2941,7 +2941,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPt7"
                   },
@@ -2958,7 +2958,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartPtFan"
                   },
@@ -2975,7 +2975,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStartQhEv"
                   },
@@ -2992,7 +2992,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPt1"
                   },
@@ -3009,7 +3009,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPt2"
                   },
@@ -3026,7 +3026,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPt3"
                   },
@@ -3043,7 +3043,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPt4"
                   },
@@ -3060,7 +3060,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPt5"
                   },
@@ -3077,7 +3077,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPt6"
                   },
@@ -3094,7 +3094,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPt7"
                   },
@@ -3111,7 +3111,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopPtFan"
                   },
@@ -3128,7 +3128,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.BtStopQhEv"
                   },
@@ -3139,13 +3139,13 @@
                   "Name": "CurrentDigitalPT1",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.CurrentDigitalPT1"
                   },
@@ -3156,13 +3156,13 @@
                   "Name": "CurrentDigitalPT2",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.CurrentDigitalPT2"
                   },
@@ -3173,13 +3173,13 @@
                   "Name": "CurrentDigitalPT4",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.CurrentDigitalPT4"
                   },
@@ -3190,13 +3190,13 @@
                   "Name": "CurrentDigitalPT5",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.CurrentDigitalPT5"
                   },
@@ -3207,13 +3207,13 @@
                   "Name": "CurrentDigitalPT7",
                   "Address": null,
                   "DataType": "Float",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.CurrentDigitalPT7"
                   },
@@ -3230,7 +3230,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.HighLevelEv"
                   },
@@ -3247,7 +3247,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.HighLevelThanhPham"
                   },
@@ -3264,7 +3264,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.LowLevelEv"
                   },
@@ -3281,7 +3281,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.OvlQhEv1"
                   },
@@ -3298,7 +3298,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.OvlQhEv2"
                   },
@@ -3315,7 +3315,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPt1"
                   },
@@ -3332,7 +3332,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPt2"
                   },
@@ -3349,7 +3349,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPt3"
                   },
@@ -3366,7 +3366,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPt4"
                   },
@@ -3383,7 +3383,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPt5"
                   },
@@ -3400,7 +3400,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPt6"
                   },
@@ -3417,7 +3417,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPt7"
                   },
@@ -3434,7 +3434,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlOvlPtFan"
                   },
@@ -3451,7 +3451,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPt1"
                   },
@@ -3468,7 +3468,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPt2"
                   },
@@ -3485,7 +3485,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPt3"
                   },
@@ -3502,7 +3502,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPt4"
                   },
@@ -3519,7 +3519,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPt5"
                   },
@@ -3536,7 +3536,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPt6"
                   },
@@ -3553,7 +3553,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPt7"
                   },
@@ -3570,7 +3570,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.PlPtFan"
                   },
@@ -3587,7 +3587,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.StPtFan"
                   },
@@ -3604,7 +3604,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.StXyLanh11"
                   },
@@ -3621,7 +3621,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.StXyLanh12"
                   },
@@ -3638,7 +3638,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.StXyLanh41"
                   },
@@ -3655,7 +3655,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.StXyLanh42"
                   },
@@ -3672,7 +3672,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.SwAutoPt"
                   },
@@ -3689,7 +3689,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCMayEpVien.PhuTroEpVien.SwManPt"
                   },
@@ -3727,7 +3727,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.KhoSauSay.BatTatVitTaiCapLieuMayNghienTinh_A"
                   },
@@ -3744,7 +3744,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.KhoSauSay.BatTatVitTaiCapLieuMayNghienTinh_B"
                   },
@@ -3761,7 +3761,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.KhoSauSay.VitTaiCapLieuMayNghienTinhChay_A"
                   },
@@ -3778,7 +3778,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.KhoSauSay.VitTaiCapLieuMayNghienTinhChay_B"
                   },
@@ -3795,7 +3795,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.KhoSauSay.VitTaiCapLieuMayNghienTinhQuaDongA"
                   },
@@ -3812,7 +3812,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.KhoSauSay.VitTaiCapLieuMayNghienTinhQuaDongB"
                   },
@@ -3839,7 +3839,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BangTaiCapLieuChay"
                   },
@@ -3856,7 +3856,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BangTaiCapLieuQuaDong"
                   },
@@ -3873,7 +3873,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BangTaiTuChay"
                   },
@@ -3890,7 +3890,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BangTaiTuQuaDong"
                   },
@@ -3907,7 +3907,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BaoAlarmHeThong"
                   },
@@ -3924,7 +3924,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BaoCamBienNapPhaiMayNghien"
                   },
@@ -3941,7 +3941,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BaoCamBienNapTraiMayNghien"
                   },
@@ -3958,7 +3958,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BatBangTaiCapLieu"
                   },
@@ -3975,7 +3975,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BatMayNghienChayNghich"
                   },
@@ -3992,7 +3992,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BatMayNghienChayThuan"
                   },
@@ -4009,7 +4009,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.BatQuatHut"
                   },
@@ -4026,7 +4026,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.CheDoAuto"
                   },
@@ -4043,7 +4043,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.CheDoManual"
                   },
@@ -4060,7 +4060,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.GoiBiPhaiMayNghienQuaNhiet"
                   },
@@ -4077,7 +4077,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.GoiBiPhaiQuatHutQuaNhiet"
                   },
@@ -4094,7 +4094,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.GoiBiTraiMayNghienQuaNhiet"
                   },
@@ -4111,7 +4111,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.GoiBiTraiQuatHutQuaNhiet"
                   },
@@ -4128,7 +4128,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.MayNghienChayNghich"
                   },
@@ -4145,7 +4145,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.MayNghienChayThuan"
                   },
@@ -4162,7 +4162,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.MayNghienQuaDong"
                   },
@@ -4173,13 +4173,13 @@
                   "Name": "NangSuat",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.NangSuat"
                   },
@@ -4196,7 +4196,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.QuatHutChay"
                   },
@@ -4213,7 +4213,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.QuatHutQuaDong"
                   },
@@ -4230,7 +4230,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4172704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.ResetAlarmHeThong"
                   },
@@ -4247,7 +4247,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.TatBangTaiCapLieu"
                   },
@@ -4264,7 +4264,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.TatMayNghien"
                   },
@@ -4281,7 +4281,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.TatQuatHut"
                   },
@@ -4292,13 +4292,13 @@
                   "Name": "ThoiGianChayMay",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.ThoiGianChayMay"
                   },
@@ -4309,13 +4309,13 @@
                   "Name": "ThoiGianThayBua",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho1.ThoiGianThayBua"
                   },
@@ -4342,7 +4342,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BangTaiCapLieuChay"
                   },
@@ -4359,7 +4359,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BangTaiCapLieuQuaDong"
                   },
@@ -4376,7 +4376,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BangTaiTuChay"
                   },
@@ -4393,7 +4393,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BangTaiTuQuaDong"
                   },
@@ -4410,7 +4410,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BaoAlarmHeThong"
                   },
@@ -4427,7 +4427,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BaoCamBienNapPhaiMayNghien"
                   },
@@ -4444,7 +4444,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BaoCamBienNapTraiMayNghien"
                   },
@@ -4461,7 +4461,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BatBangTaiCapLieu"
                   },
@@ -4478,7 +4478,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BatMayNghienChayNghich"
                   },
@@ -4495,7 +4495,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BatMayNghienChayThuan"
                   },
@@ -4512,7 +4512,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.BatQuatHut"
                   },
@@ -4529,7 +4529,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.CheDoAuto"
                   },
@@ -4546,7 +4546,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.CheDoManual"
                   },
@@ -4563,7 +4563,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.GoiBiPhaiMayNghienQuaNhiet"
                   },
@@ -4580,7 +4580,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.GoiBiPhaiQuatHutQuaNhiet"
                   },
@@ -4597,7 +4597,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.GoiBiTraiMayNghienQuaNhiet"
                   },
@@ -4614,7 +4614,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.GoiBiTraiQuatHutQuaNhiet"
                   },
@@ -4631,7 +4631,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.MayNghienChayNghich"
                   },
@@ -4648,7 +4648,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.MayNghienChayThuan"
                   },
@@ -4665,7 +4665,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.MayNghienQuaDong"
                   },
@@ -4676,13 +4676,13 @@
                   "Name": "NangSuat",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.NangSuat"
                   },
@@ -4699,7 +4699,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.QuatHutChay"
                   },
@@ -4716,7 +4716,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.QuatHutQuaDong"
                   },
@@ -4733,7 +4733,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.ResetAlarmHeThong"
                   },
@@ -4750,7 +4750,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.TatBangTaiCapLieu"
                   },
@@ -4767,7 +4767,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.TatMayNghien"
                   },
@@ -4784,7 +4784,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.TatQuatHut"
                   },
@@ -4795,13 +4795,13 @@
                   "Name": "ThoiGianChayMay",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.ThoiGianChayMay"
                   },
@@ -4812,13 +4812,13 @@
                   "Name": "ThoiGianThayBua",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho2.ThoiGianThayBua"
                   },
@@ -4845,7 +4845,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BangTaiCapLieuChay"
                   },
@@ -4862,7 +4862,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BangTaiCapLieuQuaDong"
                   },
@@ -4879,7 +4879,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BangTaiTuChay"
                   },
@@ -4896,7 +4896,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BangTaiTuQuaDong"
                   },
@@ -4913,7 +4913,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BaoAlarmHeThong"
                   },
@@ -4930,7 +4930,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BaoCamBienNapPhaiMayNghien"
                   },
@@ -4947,7 +4947,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BaoCamBienNapTraiMayNghien"
                   },
@@ -4964,7 +4964,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BatBangTaiCapLieu"
                   },
@@ -4981,7 +4981,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BatMayNghienChayNghich"
                   },
@@ -4998,7 +4998,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BatMayNghienChayThuan"
                   },
@@ -5015,7 +5015,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.BatQuatHut"
                   },
@@ -5032,7 +5032,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.CheDoAuto"
                   },
@@ -5049,7 +5049,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.CheDoManual"
                   },
@@ -5066,7 +5066,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.GoiBiPhaiMayNghienQuaNhiet"
                   },
@@ -5083,7 +5083,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.GoiBiPhaiQuatHutQuaNhiet"
                   },
@@ -5100,7 +5100,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.GoiBiTraiMayNghienQuaNhiet"
                   },
@@ -5117,7 +5117,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.GoiBiTraiQuatHutQuaNhiet"
                   },
@@ -5134,7 +5134,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.MayNghienChayNghich"
                   },
@@ -5151,7 +5151,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.MayNghienChayThuan"
                   },
@@ -5168,7 +5168,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.MayNghienQuaDong"
                   },
@@ -5179,13 +5179,13 @@
                   "Name": "NangSuat",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.NangSuat"
                   },
@@ -5202,7 +5202,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.QuatHutChay"
                   },
@@ -5219,7 +5219,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.QuatHutQuaDong"
                   },
@@ -5236,7 +5236,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.ResetAlarmHeThong"
                   },
@@ -5253,7 +5253,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.TatBangTaiCapLieu"
                   },
@@ -5270,7 +5270,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.TatMayNghien"
                   },
@@ -5287,7 +5287,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.TatQuatHut"
                   },
@@ -5298,13 +5298,13 @@
                   "Name": "ThoiGianChayMay",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.ThoiGianChayMay"
                   },
@@ -5315,13 +5315,13 @@
                   "Name": "ThoiGianThayBua",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho3.ThoiGianThayBua"
                   },
@@ -5348,7 +5348,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BangTaiCapLieuChay"
                   },
@@ -5365,7 +5365,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BangTaiCapLieuQuaDong"
                   },
@@ -5382,7 +5382,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BangTaiTuChay"
                   },
@@ -5399,7 +5399,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BangTaiTuQuaDong"
                   },
@@ -5416,7 +5416,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BaoAlarmHeThong"
                   },
@@ -5433,7 +5433,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BaoCamBienNapPhaiMayNghien"
                   },
@@ -5450,7 +5450,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BaoCamBienNapTraiMayNghien"
                   },
@@ -5467,7 +5467,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BatBangTaiCapLieu"
                   },
@@ -5484,7 +5484,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BatMayNghienChayNghich"
                   },
@@ -5501,7 +5501,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BatMayNghienChayThuan"
                   },
@@ -5518,7 +5518,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.BatQuatHut"
                   },
@@ -5535,7 +5535,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.CheDoAuto"
                   },
@@ -5552,7 +5552,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.CheDoManual"
                   },
@@ -5569,7 +5569,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.GoiBiPhaiMayNghienQuaNhiet"
                   },
@@ -5586,7 +5586,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.GoiBiPhaiQuatHutQuaNhiet"
                   },
@@ -5603,7 +5603,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.GoiBiTraiMayNghienQuaNhiet"
                   },
@@ -5620,7 +5620,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.GoiBiTraiQuatHutQuaNhiet"
                   },
@@ -5637,7 +5637,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.MayNghienChayNghich"
                   },
@@ -5654,7 +5654,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.MayNghienChayThuan"
                   },
@@ -5671,7 +5671,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.MayNghienQuaDong"
                   },
@@ -5682,13 +5682,13 @@
                   "Name": "NangSuat",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.NangSuat"
                   },
@@ -5705,7 +5705,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.QuatHutChay"
                   },
@@ -5722,7 +5722,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.QuatHutQuaDong"
                   },
@@ -5739,7 +5739,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.ResetAlarmHeThong"
                   },
@@ -5756,7 +5756,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.TatBangTaiCapLieu"
                   },
@@ -5773,7 +5773,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.TatMayNghien"
                   },
@@ -5790,7 +5790,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.TatQuatHut"
                   },
@@ -5801,13 +5801,13 @@
                   "Name": "ThoiGianChayMay",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.ThoiGianChayMay"
                   },
@@ -5818,13 +5818,13 @@
                   "Name": "ThoiGianThayBua",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTho4.ThoiGianThayBua"
                   },
@@ -5851,7 +5851,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BaoAlarmHeThong"
                   },
@@ -5868,7 +5868,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BaoCamBienNapPhaiMayNghien"
                   },
@@ -5885,7 +5885,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BaoCamBienNapTraiMayNghien"
                   },
@@ -5902,7 +5902,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BatMayNghienChayNghich"
                   },
@@ -5919,7 +5919,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BatMayNghienChayThuan"
                   },
@@ -5936,7 +5936,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BatQuatHut"
                   },
@@ -5953,7 +5953,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BatVitTaiCapLieu"
                   },
@@ -5970,7 +5970,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.BatXiLanh"
                   },
@@ -5987,7 +5987,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.CheDoAuto"
                   },
@@ -6004,7 +6004,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.CheDoManual"
                   },
@@ -6021,7 +6021,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.DongVitTaiCapLieu"
                   },
@@ -6038,7 +6038,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.GoiBiPhaiMayNghienQuaNhiet"
                   },
@@ -6055,7 +6055,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.GoiBiPhaiQuatHutQuaNhiet"
                   },
@@ -6072,7 +6072,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.GoiBiTraiMayNghienQuaNhiet"
                   },
@@ -6089,7 +6089,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.GoiBiTraiQuatHutQuaNhiet"
                   },
@@ -6106,7 +6106,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.MayNghienChayNghich"
                   },
@@ -6123,7 +6123,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.MayNghienChayThuan"
                   },
@@ -6134,13 +6134,13 @@
                   "Name": "NangSuat",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.NangSuat"
                   },
@@ -6157,7 +6157,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.NhietDoGoiBiTraiMayNghien"
                   },
@@ -6174,7 +6174,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.QuatHutChay"
                   },
@@ -6191,7 +6191,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.QuatHutQuaDong"
                   },
@@ -6208,7 +6208,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.ResetAlarmHeThong"
                   },
@@ -6225,7 +6225,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.TatMayNghien"
                   },
@@ -6242,7 +6242,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.TatQuatHut"
                   },
@@ -6259,7 +6259,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.TatVitTaiCapLieu"
                   },
@@ -6270,13 +6270,13 @@
                   "Name": "ThoiGianThayBua",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.ThoiGianThayBua"
                   },
@@ -6293,7 +6293,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.VitTaiCapLieuChay"
                   },
@@ -6310,7 +6310,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh1.VitTaiCapLieuQuaDong"
                   },
@@ -6337,7 +6337,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BaoAlarmHeThong"
                   },
@@ -6354,7 +6354,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BaoCamBienNapPhaiMayNghien"
                   },
@@ -6371,7 +6371,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BaoCamBienNapTraiMayNghien"
                   },
@@ -6388,7 +6388,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BatMayNghienChayNghich"
                   },
@@ -6405,7 +6405,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BatMayNghienChayThuan"
                   },
@@ -6422,7 +6422,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BatQuatHut"
                   },
@@ -6439,7 +6439,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BatVitTaiCapLieu"
                   },
@@ -6456,7 +6456,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.BatXiLanh"
                   },
@@ -6473,7 +6473,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.CheDoAuto"
                   },
@@ -6490,7 +6490,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.CheDoManual"
                   },
@@ -6507,7 +6507,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.DongVitTaiCapLieu"
                   },
@@ -6524,7 +6524,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.GoiBiPhaiMayNghienQuaNhiet"
                   },
@@ -6541,7 +6541,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.GoiBiPhaiQuatHutQuaNhiet"
                   },
@@ -6558,7 +6558,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.GoiBiTraiMayNghienQuaNhiet"
                   },
@@ -6575,7 +6575,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.GoiBiTraiQuatHutQuaNhiet"
                   },
@@ -6592,7 +6592,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.MayNghienChayNghich"
                   },
@@ -6609,7 +6609,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.MayNghienChayThuan"
                   },
@@ -6620,13 +6620,13 @@
                   "Name": "NangSuat",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.NangSuat"
                   },
@@ -6643,7 +6643,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.NhietDoGoiBiTraiMayNghien"
                   },
@@ -6660,7 +6660,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.QuatHutChay"
                   },
@@ -6677,7 +6677,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.QuatHutQuaDong"
                   },
@@ -6694,7 +6694,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.ResetAlarmHeThong"
                   },
@@ -6711,7 +6711,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.TatMayNghien"
                   },
@@ -6728,7 +6728,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.TatQuatHut"
                   },
@@ -6745,7 +6745,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.TatVitTaiCapLieu"
                   },
@@ -6756,13 +6756,13 @@
                   "Name": "ThoiGianThayBua",
                   "Address": null,
                   "DataType": "DWord",
-                  "Value": "93",
+                  "Value": "31",
                   "Quality": 2,
                   "RefreshRate": 50,
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.ThoiGianThayBua"
                   },
@@ -6779,7 +6779,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.VitTaiCapLieuChay"
                   },
@@ -6796,7 +6796,7 @@
                   "RefreshInterval": 0,
                   "AccessPermission": 0,
                   "Error": null,
-                  "TimeStamp": "2020-09-18T23:38:41.526",
+                  "TimeStamp": "2020-09-20T15:32:37.4182704",
                   "Parameters": {
                     "ItemId": "PLCNghien.MayNghienTinh2.VitTaiCapLieuQuaDong"
                   },

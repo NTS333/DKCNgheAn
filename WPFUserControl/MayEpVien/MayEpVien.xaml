@@ -76,7 +76,7 @@
             <Image x:Name="mortorFeederA2" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="583,298,0,0"/>
 
             <Image x:Name="vitTaiFeederB2" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="382,299,0,0" Width="230" Height="129"/>
-            <Image x:Name="mortorFeederB2" Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="398,360,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
+            <Image x:Name="mortorFeederB2" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="398,360,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -126,7 +126,7 @@
 
 
             <Image x:Name="vitTaiFeederB3" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="657,303,0,0" Height="146" Width="189"/>
-            <Image x:Name="mortorFeederB3" Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="769,388,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
+            <Image x:Name="mortorFeederB3" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="769,388,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -175,7 +175,7 @@
             <Image x:Name="mortorFeederA4" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="674,272,0,0"/>
 
             <Image x:Name="vitTaiFeederB4" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="697,278,0,0" Width="377"/>
-            <Image x:Name="mortorFeederB4" Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1064,383,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
+            <Image x:Name="mortorFeederB4" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1064,383,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

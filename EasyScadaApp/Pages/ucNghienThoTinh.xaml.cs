@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,8 @@ namespace EasyScadaApp.Pages
         public ucNghienThoTinh()
         {
             InitializeComponent();
-            Loaded += OnLoaded;
+            if (!DesignerProperties.GetIsInDesignMode(this))
+                Loaded += OnLoaded;
         }
 
         private bool isLoaded;
