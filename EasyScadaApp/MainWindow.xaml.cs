@@ -1,4 +1,6 @@
-﻿using System.Threading;
+﻿using EasyScada.Wpf.Controls;
+using System;
+using System.Threading;
 using System.Windows;
 
 namespace EasyScadaApp
@@ -11,7 +13,27 @@ namespace EasyScadaApp
         public MainWindow()
         {
             InitializeComponent();
+
+            _timer.Interval = 100;
+            _timer.Elapsed += _timer_Elapsed;
+            _timer.Enabled = true;
         }
+
+        private void _timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            _timer.Enabled = false;
+            //DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+            //{
+            //    labThoiGian.Content = DateTime.Now.ToString("HH:mm:ss dd/MM/yyyy");
+            //}));
+            Dispatcher.Invoke(() =>
+            {
+                labThoiGian.Content = DateTime.Now.ToString("HH:mm:ss dd/MM/yyyy");
+            });
+            _timer.Enabled = true;
+        }
+
+        System.Timers.Timer _timer = new System.Timers.Timer();
 
         #region Nút nhấn footer
         private void BtnExit_Click(object sender, RoutedEventArgs e)

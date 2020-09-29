@@ -31,9 +31,11 @@
                     </Style>
                 </Image.Style>
             </Image>
+            <!--<Label Content="Băng tải nam châm" FontSize="200" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Margin="2300,128,-2300,-128"/>-->
+            <Label Content="Băng tải nam châm" Foreground="Orange" FontSize="200" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2300,128,-2300,-128"/>
 
             <!-- 1. MOTOR MAY NGHIEN -->
-            <Image Name="motorMayNghienChay" PreviewMouseDown="MotorMayNghienChay_PreviewMouseDown" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorMayGhienChay.png" Margin="1708,3178,3329,1185" >
+            <Image Name="motorMayNghienChay" PreviewMouseDown="MotorMayNghienChay_PreviewMouseDown" Visibility="Visible" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorMayGhienChay.png" Margin="1708,3178,3329,1185" >
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
@@ -50,7 +52,7 @@
                     </Style>
                 </Image.Style>
             </Image>
-            <Image Name="motorMayNghienLoi" PreviewMouseDown="MotorMayNghienChay_PreviewMouseDown" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorMayNghienLoi.png" Margin="1724,3378,3346,1385">
+            <Image Name="motorMayNghienLoi" PreviewMouseDown="MotorMayNghienChay_PreviewMouseDown" Visibility="Visible" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorMayNghienLoi.png" Margin="1724,3378,3346,1385">
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
@@ -77,8 +79,8 @@
             <Image Visibility="Visible" x:Name="napMayNgienTrai" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_NapMayNghien2Mo.png" Margin="2740,2538,3257,2846" />
 
             <!-- 4. MOTOR BANG TAI CAP LIEU -->
-            <Image Name="motorBTCapLieuChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorBangTaiCapLieuChay.png" Margin="3598,932,2733,4812" />
-            <Image Name="motorBTCapLieuDung" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorBangTaiCapLieuLoi.png" Margin="3606,963,2667,4863" />
+            <Image Name="motorBTCapLieuChay" Visibility="Visible" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorBangTaiCapLieuChay.png" Margin="3598,932,2733,4812" />
+            <Image Name="motorBTCapLieuLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorBangTaiCapLieuLoi.png" Margin="3606,963,2667,4863" />
 
             <!-- 5. BANG TAI CAP LIEU {Binding Path=View_MotorBangTaiCapLieuChay, Converter={StaticResource convertToVisibility}}-->
             <Image Visibility="Visible" x:Name="bangTaiCapLieu" PreviewMouseDown="BangTaiCapLieu_PreviewMouseDown" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayNghienTho/NghienTho_BangTaiCapLieuChay.gif" Margin="564,66,2873,4350">
@@ -99,11 +101,12 @@
             </Image>
 
             <!-- 6. MOTOR BANG TAI TU -->
-            <Image Visibility="Collapsed" x:Name="motorBangTaiTuChay" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MottorBangTaiTuChay.png" Margin="2599,1501,3933,4502" />
-            <Image Visibility="Collapsed" x:Name="motorBangTaiTuDung" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MottorBangTaiTuLoi.png" Margin="2597,1497,3936,4498" />
+            <Image Visibility="Visible" x:Name="motorBangTaiTuChay" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MottorBangTaiTuChay.png" Margin="2599,1501,3933,4502" />
+            <Image Visibility="Visible" x:Name="motorBangTaiTuLoi" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MottorBangTaiTuLoi.png" Margin="2597,1497,3936,4498" />
 
             <!-- 7. BANG TAI TU -->
-            <Image Visibility="Collapsed" x:Name="bangTaiTu" PreviewMouseDown="BangTaiTu_PreviewMouseDown" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayNghienTho/NghienTho_BangTaiTuChay.gif" Margin="2147,545,3335,4757" >
+            <Image Visibility="Visible"
+                   x:Name="bangTaiTu" PreviewMouseDown="BangTaiTu_PreviewMouseDown" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayNghienTho/NghienTho_BangTaiTuChay.gif" Margin="2147,545,3335,4757" >
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
@@ -122,7 +125,7 @@
             </Image>
 
             <!-- 8. MOTOR QUAT HUT -->
-            <Image Visibility="Collapsed" x:Name="motorQuatHutChay" PreviewMouseDown="MotorQuatHutChay_PreviewMouseDown" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorQuatHutChay.png" Margin="3761,4893,1580,203" >
+            <Image Visibility="Visible" x:Name="motorQuatHutChay" PreviewMouseDown="MotorQuatHutChay_PreviewMouseDown" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorQuatHutChay.png" Margin="3761,4893,1580,203" >
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
@@ -139,12 +142,14 @@
                     </Style>
                 </Image.Style>
             </Image>
-            <Image Visibility="Collapsed" x:Name="motorQuatHutDung" PreviewMouseDown="MotorQuatHutChay_PreviewMouseDown" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorQuatHutLoi.png" Margin="3863,4916,1680,193">
+            
+            <Image Visibility="Visible" x:Name="motorQuatHutLoi" PreviewMouseDown="MotorQuatHutChay_PreviewMouseDown" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_MotorQuatHutLoi.png" Margin="3761,4893,1580,203" >
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
+
                                 <Setter Property="Effect">
                                     <Setter.Value>
                                         <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
@@ -157,29 +162,31 @@
             </Image>
 
             <!-- 9. QUAT HUT -->
-            <Image Visibility="Collapsed" x:Name="quatHut" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayNghienTho/NghienTho_QuatHutChay.gif" Margin="4775,4529,1060,854" />
+            <Image Visibility="Visible" x:Name="quatHut" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayNghienTho/NghienTho_QuatHutChay.gif" Margin="4775,4529,1060,854" />
 
             <!-- 10. GOI BI -->
-            <Image Visibility="Collapsed" x:Name="goiBiMayNghien" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_GoiBiMayNghienLoi.png" Margin="3205,3490,3245,2394" />
+            <Image Visibility="Visible" x:Name="goiBiMayNghien" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_GoiBiMayNghienLoi.png" Margin="3205,3490,3245,2394" />
 
-            <Image Visibility="Collapsed" x:Name="goiBiQuatHut1" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_GoiBiQuatHut1Loi.png" Margin="5359,5067,1246,1008" />
-            <Image Visibility="Collapsed" x:Name="goiBiQuatHut2" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_GoiBiQuatHut2Loi.png" Margin="5551,5182,1090,915" />
+            <Image Visibility="Visible" x:Name="goiBiQuatHut1" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_GoiBiQuatHut1Loi.png" Margin="5359,5067,1246,1008" />
+            <Image Visibility="Visible" x:Name="goiBiQuatHut2" Source="/WPFUserControl;component/Image/MayNghienTho/NghienTho_GoiBiQuatHut2Loi.png" Margin="5551,5182,1090,915" />
 
             <!-- LABEL -->
             <Label Name="lblNhietGoiBiMayNghien1" Content="1" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="3253,3428,3611,2797"/>
-            <Label Name="lblNhietGoiBiMayNghien2" Content="2" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="4855,2839,2009,3386"/>
+            <Label Name="lblNhietGoiBiMayNghien2" Content="2" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="4656,2590,2208,3635" RenderTransformOrigin="1.508,-0.755"/>
             <Label Name="lblNhietGoiBiQuatHut1" Content="3" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="5330,5283,1534,942"/>
             <Label Name="lblNhietGoiBiQuatHut2" Content="4" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="5491,5399,1373,826"/>
             
             <!--- CHIEU THUAN - CHIEU NGHICH-->
-            <Image x:Name="motorMayNghienChayThuan" Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3451,3314,0,0" Width="423"  >
+            <Image x:Name="motorMayNghienChayThuan" Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1208,5166,0,0" Width="794" Height="670" >
                 <Image.RenderTransform>
-                    <RotateTransform Angle="18" />
+                    <RotateTransform Angle="-90" />
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="motoMayNghienChayNghich" Visibility="Collapsed" Source="/WPFUserControl;component/Image/Symbol/MotorChayNghich.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3458,3262,0,0" Width="423"  >
+            <Image x:Name="motorMayNghienChayNghich" Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/MotorChayNghich.png" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1208,5166,0,0" Width="794" Height="670"  >
                 <Image.RenderTransform>
-                    <RotateTransform Angle="30" />
+                    <RotateTransform Angle="-90"/>
                 </Image.RenderTransform>
             </Image>
 

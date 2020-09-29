@@ -9,10 +9,12 @@
              mc:Ignorable="d" 
              d:DesignHeight="922" d:DesignWidth="1912">
     <Grid>
-        <WPFUserControl:KhoNghienTinh x:Name="KhoNghienTinh" HorizontalAlignment="Left" Height="902" Margin="-47,10,0,0" VerticalAlignment="Top" Width="1037"/>
+        <WPFUserControl:KhoNghienTinh x:Name="KhoNghienTinh" HorizontalAlignment="Left" Height="902" Margin="46,10,0,0" VerticalAlignment="Top" Width="1135"/>
         <WPFUserControl:HeThongGiuBui x:Name="HeThongGiuBui" HorizontalAlignment="Left" Height="646" Margin="1019,232,0,0" VerticalAlignment="Top" Width="883"/>
 
-        <EasyScadaApp:GiuBuiTrungTam x:Name="ThongTinGiuBui" HorizontalAlignment="Left" Height="168" Margin="1322,145,0,0" VerticalAlignment="Top" Width="214"/>
+        <EasyScadaApp:GiuBuiTrungTam x:Name="ThongTinGiuBui" HorizontalAlignment="Left" Height="142" Margin="1322,171,0,0" VerticalAlignment="Top" Width="240"/>
+        <EasyScadaApp:ThongTinKhoNghienTinh x:Name="ThongTinKhoNghienTinh" HorizontalAlignment="Left" Height="148" Margin="89,150,0,0" VerticalAlignment="Top" Width="270"/>
+        <!--<EasyScadaApp:ThongTinKhoNghienTinh x:Name="ThongTinKhoNghienTinh" HorizontalAlignment="Left" Height="168" Margin="154,145,0,0" VerticalAlignment="Top" Width="214"/>-->
 
     </Grid>
 </UserControl>

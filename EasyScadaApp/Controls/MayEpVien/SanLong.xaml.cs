@@ -55,13 +55,13 @@ namespace EasyScadaApp
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                btCapLieuBinEp.PathToTag = prefix + "CurrentDigitalPT5";
-                btRaVien.PathToTag = prefix + "CurrentDigitalPT7";
-                btCapLieuSanLong.PathToTag = prefix + "CurrentDigitalPT4";
-                sanLong.PathToTag = prefix + "CurrentDigitalPT1";
-                btLenVien.PathToTag = prefix + "CurrentDigitalPT2";
+                btCapLieuBinEp.PathToTag = prefix + "Current_Digital_PT1";
+                btRaVien.PathToTag = prefix + "Current_Digital_PT2";
+                btCapLieuSanLong.PathToTag = prefix + "Current_Digital_PT4";
+                sanLong.PathToTag = prefix + "Current_Digital_PT5";
+                btLenVien.PathToTag = prefix + "Current_Digital_PT7";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAutoPt").ValueChanged += (s, o) =>
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_AUTO_PT").ValueChanged += (s, o) =>
                 {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
@@ -69,7 +69,7 @@ namespace EasyScadaApp
                     }));
                 };
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwManPt").ValueChanged += (s, o) => {
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_MAN_PT").ValueChanged += (s, o) => {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
                         Manual = o.NewValue;

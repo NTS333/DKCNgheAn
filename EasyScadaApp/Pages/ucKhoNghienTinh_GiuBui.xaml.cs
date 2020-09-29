@@ -27,6 +27,10 @@ namespace EasyScadaApp.Pages
 
             if (!DesignerProperties.GetIsInDesignMode(this))
                 Loaded += OnLoaded;
+
+            //Dat vi trí cho Control
+            //Thickness oldMargin = ThongTinKhoNghienTinh.Margin;
+            //ThongTinKhoNghienTinh.Margin = new Thickness(0, oldMargin.Top, 0, 0);
         }
 
         private void OnLoaded(object sender, RoutedEventArgs e)
@@ -37,6 +41,29 @@ namespace EasyScadaApp.Pages
             ThongTinGiuBui.DeviceName = "GiuBuiEpVien";
 
             ThongTinGiuBui.Start();
+
+            HeThongGiuBui.StationName = "RemoteStation1";
+            HeThongGiuBui.ChannelName = "PLCMayEpVien";
+            HeThongGiuBui.DeviceName = "GiuBuiEpVien";
+
+            HeThongGiuBui.Start();
+            #endregion
+
+            #region kho nghien tinh
+            KhoNghienTinh.StationName = "RemoteStation1";
+            KhoNghienTinh.ChannelName = "PLCKhoNghienTinh";
+            KhoNghienTinh.DeviceName = "KhoNghienTinh";
+
+            KhoNghienTinh.Start();
+
+            ThongTinKhoNghienTinh.StationName = "RemoteStation1";
+
+            ThongTinKhoNghienTinh.ChannelName = "PLCKhoNghienTinh";
+            ThongTinKhoNghienTinh.DeviceName = "KhoNghienTinh";
+
+            ThongTinKhoNghienTinh.Header = "KHO NGHIỀN TINH";
+
+            ThongTinKhoNghienTinh.Start();
             #endregion
         }
     }

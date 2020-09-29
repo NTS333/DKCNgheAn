@@ -12,28 +12,36 @@
     </UserControl.Resources>
     <Viewbox>
         <Grid>
+            <!-- LABEL -->
+            <Label Content="Quạt hút" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="8661,1993,157,-6"/>
+            <Label Content="Giũ bụi" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="3776,-963,5042,2950"/>
+            <Label Content="Rotovan" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="49,1757,8769,230"/>
+            <Label Content="Vít tải" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="4511,2073,4404,-111"/>
+
             <!-- ANH NEN -->
             <Image Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui.png" Margin="0,-1967,0,-1848" />
 
             <!-- 1. QUAT HUT -->
-            <Image Visibility="{Binding Path=View_QuatHutChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutChay.png" Margin="8447,1952,-69,-936" />
-            <Image Visibility="{Binding Path=View_QuatHutLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutLoi.png" Margin="8548,1918,0,-957" HorizontalAlignment="Left" Width="854" />
+            <Image x:Name="motorQuatHutChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutChay.png" 
+                   Margin="8563,2168,0,-706" HorizontalAlignment="Left" Width="854"/>
+            <Image x:Name="motorQuatHutLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutLoi.png" 
+                   Margin="8541,2163,0,-701" HorizontalAlignment="Left" Width="870" />
 
-            <Image Visibility="{Binding Path=View_QuatHutChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_QuatHutChay.gif" Margin="8074,2005,1108,-940" />
+            <Image x:Name="quatHutGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_QuatHutChay.gif" Margin="8074,2005,1108,-940" />
 
             <!-- 2. VIT TAI LAY LIEU -->
-            <Image Visibility="{Binding Path=View_VitTaiLayLieuChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuChay.png" Margin="4241,1976,4682,-684" />
-            <Image Visibility="{Binding Path=View_VitTaiLayLieuLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuLoi.png" Margin="4239,1943,4676,-696" />
+            <Image x:Name="motorVitTaiChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuChay.png" Margin="4241,1976,4682,-684" />
+            <Image x:Name="motorVitTaiLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuLoi.png" Margin="4239,1943,4676,-696" />
 
-            <Image Visibility="{Binding Path=View_VitTaiLayLieuChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_VitTaiLayLieuChay.gif" Margin="203,2031,5217,-684" ></Image>
-            
+            <Image x:Name="vitTaiGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_VitTaiLayLieuChay.gif" Margin="208,2284,5212,-425" ></Image>
+
             <!-- 3. ROVANTO -->
-            <Image Visibility="{Binding Path=View_RotovanChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanChay.png" Margin="460,1613,8393,-355" />
-            <Image Visibility="{Binding Path=View_RotovanLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanLoi.png" Margin="453,1645,8403,-304" />
+            <Image x:Name="motorRotovanChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanChay.png" Margin="460,1613,8393,-355" />
+            <Image x:Name="motorRotovanLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanLoi.png" Margin="451,1911,8405,-38" />
 
             <!-- 4. GIU BUI -->
-            <Image Visibility="{Binding Path=View_GiuBuiChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiChay.png" Margin="4874,-820,4226,2104" />
-            <Image Visibility="{Binding Path=View_GiuBuiLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiLoi.png" Margin="4874,-820,4226,2104" />
+            <Image x:Name="statusHeThongGiuBuiChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiChay.png" Margin="4874,-820,4226,2104" />
+            <Image x:Name="statusHeThongGiuBuiDung" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiLoi.png" Margin="4874,-820,4226,2104" />
 
         </Grid>
     </Viewbox>

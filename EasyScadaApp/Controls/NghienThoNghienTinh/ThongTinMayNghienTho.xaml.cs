@@ -55,16 +55,24 @@ namespace EasyScadaApp
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                dongMotorMayNghien.PathToTag = prefix + "DongMayNghien";
-                tgChayMay.PathToTag = prefix + "ThoiGianChayMay";
-                tgThayBua.PathToTag = prefix + "ThoiGianThayBua";
-                nangSuatMayNghien.PathToTag = prefix + "NangSuat";
-                dongMotorCapLieu.PathToTag = prefix + "DongBangTaiCapLieu";
-                tanSoCapLieu.PathToTag = prefix + "TanSoBangTaiCapLieu";
-                inputTanSoCapLieu.PathToTag = prefix + "NhapTanSoBangTaiCapLieu";
-                dongMotorQuatHut.PathToTag = prefix + "DongQuatHut";
+                dongMotorMayNghien.PathToTag = prefix + "Current_Digital_MN";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "CheDoAuto").ValueChanged += (s, o) =>
+                if (DeviceName.Contains("Tho"))
+                {
+                    dongMotorCapLieu.PathToTag = prefix + "Current_Digital_Btai";
+                    tanSoCapLieu.PathToTag = prefix + "Resuft_Hz_Btai";
+                    inputTanSoCapLieu.PathToTag = prefix + "In_Hz_BT";
+                }
+                else
+                {
+                    dongMotorCapLieu.PathToTag = prefix + "Current_Digital_Vtai";
+                    tanSoCapLieu.PathToTag = prefix + "Resuft_Hz_Vtai";
+                    inputTanSoCapLieu.PathToTag = prefix + "In_Hz_VT";
+                }
+
+                dongMotorQuatHut.PathToTag = prefix + "Current_Digital_Qhut";
+
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Auto_MN").ValueChanged += (s, o) =>
                 {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
@@ -81,7 +89,7 @@ namespace EasyScadaApp
                     }));
                 };
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "CheDoManual").ValueChanged += (s, o) => {
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Man_MN").ValueChanged += (s, o) => {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
                         Manual = o.NewValue;

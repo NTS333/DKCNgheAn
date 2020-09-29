@@ -74,6 +74,12 @@ namespace EasyScadaApp.Pages
                 thongTinSanLong.DeviceName = "PhuTroEpVien";
 
                 thongTinSanLong.Start();
+
+                phuTroMayEpVien.StationName = "RemoteStation1";
+                phuTroMayEpVien.ChannelName = "PLCMayEpVien";
+                phuTroMayEpVien.DeviceName = "PhuTroEpVien";
+
+                phuTroMayEpVien.Start();
                 #endregion
 
                 #region Graphic

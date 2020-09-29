@@ -62,6 +62,12 @@ namespace EasyScadaApp.Pages
                 KhoNghienTho.DeviceName = "KhoNghienTho";
 
                 KhoNghienTho.Start();
+
+                KhoSauSay.StationName = "RemoteStation1";
+                KhoSauSay.ChannelName = "PLCKhoSauSay";
+                KhoSauSay.DeviceName = "KhoSauSay";
+
+                KhoSauSay.Start();
                 #endregion
             }
         }

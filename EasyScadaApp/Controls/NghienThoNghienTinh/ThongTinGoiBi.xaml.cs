@@ -36,10 +36,10 @@ namespace EasyScadaApp
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                nhietDoGoiBi1.PathToTag = prefix + "NhietDoGoiBiPhaiMayNghien";
-                nhietDoGoiBi2.PathToTag = prefix + "NhietDoGoiBiTraiMayNghien";
-                nhietDoGoiBi3.PathToTag = prefix + "NhietDoGoiBiPhaiQuatHut";
-                nhietDoGoiBi4.PathToTag = prefix + "NhietDoGoiBiTraiQuatHut";
+                nhietDoGoiBi1.PathToTag = prefix + "TL_MN";
+                nhietDoGoiBi2.PathToTag = prefix + "TR_MN";
+                nhietDoGoiBi3.PathToTag = prefix + "TL_Qhut";
+                nhietDoGoiBi4.PathToTag = prefix + "TR_Qhut";
             }
         }
     }

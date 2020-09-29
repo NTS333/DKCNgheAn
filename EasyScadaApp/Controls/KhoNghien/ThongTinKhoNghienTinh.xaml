@@ -1,0 +1,145 @@
+﻿<UserControl x:Class="EasyScadaApp.ThongTinKhoNghienTinh"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EasyScadaApp"
+             xmlns:controls="clr-namespace:EasyScada.Wpf.Controls;assembly=EasyScada.Wpf.Controls"
+             x:Name="host"
+             mc:Ignorable="d" 
+             Width="250" Height="190"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border Padding="4" Background="DarkGray">
+        <Grid Canvas.Left="127" Canvas.Top="20" Background="DarkGray" ShowGridLines="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--KHO NGHIỀN THÔ-->
+            <Grid Grid.Row="0" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Background="SkyBlue" Margin="2">
+                <Label Content="TITLE"
+                       x:Name="lbHeader"
+                       HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+                       >
+                </Label>
+            </Grid>
+
+            <!--Auto/Manual-->
+            <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
+                <Label Content="AUTO" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
+                    <Label.Style>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="Gray"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="1">
+                                    <Setter Property="Background" Value="Green"/>
+                                </DataTrigger>
+
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="0">
+                                    <Setter Property="Background" Value="Gray"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Label.Style>
+                </Label>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Background="White" Width="100" Margin="2">
+                <Label Content="MANUAL" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold">
+                    <Label.Style>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="Gray"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="1">
+                                    <Setter Property="Background" Value="Green"/>
+                                </DataTrigger>
+
+                                <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="0">
+                                    <Setter Property="Background" Value="Gray"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Label.Style>
+                </Label>
+
+            </Grid>
+
+            <!--Motor T lực 1-->
+            <Grid Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+                <Label Content="Motor bơm dầu 1"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
+                       >
+                </Label>
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <controls:EasyLabel x:Name="dongMotorBomDau1" Content="0" HorizontalAlignment="Right"        
+                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
+                                        >
+                    </controls:EasyLabel>
+                    <Label Content="A" HorizontalAlignment="Right" 
+                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
+                           >
+                    </Label>
+                </StackPanel>
+            </Grid>
+
+            <!--T/G chạy kho-->
+            <Grid Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+                <Label Content="Dòng VTRL"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Height="25" VerticalAlignment="Top" VerticalContentAlignment="Center"
+                       >
+                </Label>
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <controls:EasyLabel x:Name="dongVTRL" Content="0" HorizontalAlignment="Right"        
+                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
+                                        >
+                    </controls:EasyLabel>
+                    <Label Content="A" HorizontalAlignment="Right" 
+                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
+                           >
+                    </Label>
+                </StackPanel>
+
+            </Grid>
+
+            <!--VÍT TẢI-->
+            <Grid Grid.Row="4" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Margin="2"/>
+
+            <!--Vít tải 1-->
+            <Grid Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
+                <Label Content="Nhiệt độ bồn dầu"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
+                       >
+                </Label>
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <controls:EasyLabel x:Name="nhietDoBonDau" Content="0" HorizontalAlignment="Right"        
+                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
+                                        >
+                    </controls:EasyLabel>
+                    <Label Content="oC" HorizontalAlignment="Right"
+                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
+                           >
+                    </Label>
+                </StackPanel>
+
+            </Grid>
+        </Grid>
+
+    </Border>
+</UserControl>

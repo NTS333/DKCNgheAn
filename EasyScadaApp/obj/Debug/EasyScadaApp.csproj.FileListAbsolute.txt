@@ -157,13 +157,13 @@ F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\Phuong
 F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
 F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.exe
 F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\PhuongQuan\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScadaApp.exe.config
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScadaApp.exe
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScadaApp.pdb
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScada.Wpf.Connector.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\EasyScada.Wpf.Controls.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignColors.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\Newtonsoft.Json.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\WpfAnimatedGif.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\bin\Debug\WPFUserControl.dll
@@ -179,6 +179,7 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Contr
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Commons\DialogWindow.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\MainWindow.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.g.cs
@@ -198,6 +199,7 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Contr
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Commons\DialogWindow.baml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\MainWindow.baml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.baml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.baml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.baml
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.baml
@@ -214,5 +216,5 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyS
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.exe
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
-D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.baml

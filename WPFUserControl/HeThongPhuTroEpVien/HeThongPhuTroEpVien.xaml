@@ -5,67 +5,93 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFUserControl"
              xmlns:gif="http://wpfanimatedgif.codeplex.com"
+               x:Name="host"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
         <local:ConvertToVisibility x:Key="convertToVisibility"/>
     </UserControl.Resources>
-    <Viewbox>
+    <Viewbox Margin="0,156,0,0">
         <Grid>
-
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="51*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="BT cấp liệu sàn lồng" Foreground="Orange" FontSize="20" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="101,320,853.45,201"/>
+            <Label Content="Sàn lồng" Foreground="Orange" FontSize="20" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="489,284,565.45,237"/>
+            <Label Content="Vít tải sàn lồng" Foreground="Orange" FontSize="20" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="298,508,756.45,13"/>
+            <Label Content="BT nam châm" Foreground="Orange" FontSize="20" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="810,417,244.45,104"/>
+            <Label Content="BT lên viên" Foreground="Orange" FontSize="20" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="17.55,-40,448,561" Grid.Column="1"/>
+            <Label Content="Bin chứa viên" Foreground="Orange" FontSize="20" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="225.55,-49,240,570" Grid.Column="1"/>
             <!-- ANH NEN -->
-            
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien.png" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Grid.ColumnSpan="2">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=host, Path=Error}" Value="1">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="Red" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- 1. BANG TAI CAP LIEU SAN LONG -->
 
-            <Image Visibility="{Binding Path=View_BangTaiCapLieuSanLongChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_BangTaiCapLieuSanLongChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,328,0,-5" Width="426"/>
+            <Image x:Name="bangTaiCapLieuGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_BangTaiCapLieuSanLongChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,328,0,-5" Width="426"/>
 
-            <Image Visibility="{Binding Path=View_BangTaiCapLieuSanLongChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiCapLieuSanLongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="350,326,0,0" />
-            <Image Visibility="{Binding Path=View_BangTaiCapLieuSanLongLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiCapLieuSanLongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="350,326,0,0" />
+            <Image x:Name="motorBangTaiCapLieuChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiCapLieuSanLongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="350,326,0,0" />
+            <Image x:Name="motorBangTaiCapLieuLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiCapLieuSanLongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="350,326,0,0" />
 
             <!-- 2. SAN LONG -->
 
-            <Image Visibility="{Binding Path=View_SanLongChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorSanLongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="618,377,0,0"/>
-            <Image Visibility="{Binding Path=View_SanLongLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorSanLongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="619,378,0,0"/>
+            <Image x:Name="motorSanLongChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorSanLongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="618,377,0,0"/>
+            <Image x:Name="motorSanLongLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorSanLongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="619,378,0,0"/>
 
-            <Image Visibility="{Binding Path=View_SanLongChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_SanLongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="571,284,0,0" Height="45" Width="44" />
-            <Image Visibility="{Binding Path=View_SanLongLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_SanLongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="571,284,0,0" Height="45" Width="44" />
+            <!--<Image Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_SanLongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="615,284,0,0" Height="45" Width="44" />
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_SanLongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="615,284,0,0" Height="45" Width="44" />-->
 
 
             <!-- 3. VIT TAI LAY LIEU HONG -->
-            <Image Visibility="{Binding Path=View_VitTaiLayLieuHongChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_VitTaiLayLieuHongChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="381,451,0,0" Width="205"/>
+            <Image x:Name="vitTaiLayLieuGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_VitTaiLayLieuHongChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="381,451,0,0" Width="205"/>
 
-            <Image Visibility="{Binding Path=View_VitTaiLayLieuHongChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorVitTaiLayLieuHongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="315,449,0,0"/>
-            <Image Visibility="{Binding Path=View_VitTaiLayLieuHongLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorVitTaiLayLieuHongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="317,449,0,0"/>
+            <Image x:Name="motorVitTaiLayLieuChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorVitTaiLayLieuHongChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="315,449,0,0"/>
+            <Image x:Name="motorVitTaiLayLieuLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorVitTaiLayLieuHongLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="317,449,0,0"/>
 
             <!-- 4. BANG TAI LEN VIEN NEN -->
-            <Image Visibility="{Binding Path=View_BangTaiLenVienNenChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_BangTaiLenVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="642,0,0,0" Width="706"/>
+            <Image x:Name="bangTaiLenVienNenGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_BangTaiLenVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="642,0,0,0" Width="706" Grid.ColumnSpan="2"/>
 
-            <Image Visibility="{Binding Path=View_BangTaiLenVienNenChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiLenVienNenChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1260,12,0,0"/>
-            <Image Visibility="{Binding Path=View_BangTaiLenVienNenLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiLenVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1260,13,0,0"/>
+            <Image x:Name="motorBangTaiLenVienNenChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiLenVienNenChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="59.55,12,0,0" Grid.Column="1"/>
+            <Image x:Name="motorBangTaiLenVienNenLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_MotorBangTaiLenVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="59.55,13,0,0" Grid.Column="1"/>
 
             <!-- 5. QUAT LAM MAT VIEN NEN -->
 
-            <Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="713,284,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="713,284,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="716,289,0,0" Height="54" Width="55"/>
+            <!--<Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="713,284,0,0" Height="61" Width="60"/>-->
+            <Image x:Name="quatLamMat1Chay" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="713,284,0,0" Height="61" Width="60"/>
+            <Image x:Name="quatLamMat1Loi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="716,289,0,0" Height="54" Width="55"/>
 
-            <Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="855,192,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="855,192,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="858,197,0,0" Height="54" Width="55"/>
+            <!--<Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="855,192,0,0" Height="61" Width="60"/>-->
+            <Image  x:Name="quatLamMat2Chay" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="855,192,0,0" Height="61" Width="60"/>
+            <Image x:Name="quatLamMat2Loi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="858,197,0,0" Height="54" Width="55"/>
 
-            <Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="995,99,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="995,99,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="998,104,0,0" Height="54" Width="55"/>
+            <!--<Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="995,99,0,0" Height="61" Width="60"/>-->
+            <Image  x:Name="quatLamMat3Chay" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="995,99,0,0" Height="61" Width="60"/>
+            <Image x:Name="quatLamMat3Loi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="998,104,0,0" Height="54" Width="55"/>
 
-            <Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1135,6,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1135,6,0,0" Height="61" Width="60"/>
-            <Image Visibility="{Binding Path=View_QuatLamMatVienNenLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1138,11,0,0" Height="54" Width="55"/>
+            <!--<Image Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNen.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1135,6,0,0" Height="61" Width="60"/>-->
+            <Image  x:Name="quatLamMat4Chay" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1135,6,0,0" Height="61" Width="60"/>
+            <Image x:Name="quatLamMat4Loi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongPhuTroEpVien/HeThongPhuTroEpVien_QuatLamMatVienNenLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1138,11,0,0" Height="54" Width="55"/>
 
             <!-- 6. ALARM -->
 
-            <Image Visibility="{Binding Path=View_BinChuaVienNenBaoCao, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1624,-103,0,0"/>
+            <!--<Image x:Name="alarmHeThong" Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1624,-103,0,0"/>-->
 
         </Grid>
     </Viewbox>

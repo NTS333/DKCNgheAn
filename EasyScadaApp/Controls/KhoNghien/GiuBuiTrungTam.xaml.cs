@@ -55,9 +55,7 @@ namespace EasyScadaApp
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                motorQuatHut.PathToTag = prefix + "CurrentDigitalVTGB";
-                motorRotovan.PathToTag = prefix + "CurrentDigital_Mix";
-                motorVitTai.PathToTag = prefix + "CurrentDigitalQHGB";
+                motorQuatHut.PathToTag = prefix + "Current_Digital_QHGB";
 
                 //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
                 //{

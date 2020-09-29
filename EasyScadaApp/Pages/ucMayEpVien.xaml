@@ -32,8 +32,8 @@
         <!--khối lượng Cân 2-->
 
 
-        <WPFUserControl:MayEpVien Name="MayEp" Height="516" Canvas.Left="37" Canvas.Top="92" Width="942"/>
-        <WPFUserControl:HeThongPhuTroEpVien Height="405" Canvas.Left="949" Canvas.Top="254" Width="953"/>
+        <WPFUserControl:MayEpVien x:Name="MayEp" Height="516" Canvas.Left="37" Canvas.Top="92" Width="942"/>
+        <WPFUserControl:HeThongPhuTroEpVien x:Name="phuTroMayEpVien" Height="1354" Canvas.Left="946" Canvas.Top="-290" Width="905"/>
 
 
 

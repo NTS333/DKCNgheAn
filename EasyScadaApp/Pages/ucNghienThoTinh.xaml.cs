@@ -148,10 +148,10 @@ namespace EasyScadaApp.Pages
                 string stationName = "RemoteStation1";
                 string channelName = "PLCNghien";
                 string deviceName = "";
-                string resetAlarmTagName = "ResetAlarmHeThong";
-                string autoTagName = "CheDoAuto";
-                string manualTagName = "CheDoManual";
-                string alarmtagName = "BaoAlarmHeThong";
+                string resetAlarmTagName = "BT_Reset_Alarm_MN";
+                string autoTagName = "SW_Auto_MN";
+                string manualTagName = "SW_Man_MN";
+                string alarmtagName = "ALARM_MN";
                 string title = "";
                 if (sender.Equals(NghienTinh1))
                 {
@@ -178,10 +178,10 @@ namespace EasyScadaApp.Pages
                 string stationName = "RemoteStation1";
                 string channelName = "PLCNghien";
                 string deviceName = "";
-                string resetAlarmTagName = "ResetAlarmHeThong";
-                string autoTagName = "CheDoAuto";
-                string manualTagName = "CheDoManual";
-                string alarmtagName = "BaoAlarmHeThong";
+                string resetAlarmTagName = "BT_Reset_Alarm_MN";
+                string autoTagName = "SW_Auto_MN";
+                string manualTagName = "SW_Man_MN";
+                string alarmtagName = "ALARM_MN";
                 string title = "";
                 if (sender.Equals(NghienTinh1))
                 {
@@ -208,10 +208,10 @@ namespace EasyScadaApp.Pages
                 string stationName = "RemoteStation1";
                 string channelName = "PLCNghien";
                 string deviceName = "";
-                string resetAlarmTagName = "ResetAlarmHeThong";
-                string autoTagName = "CheDoAuto";
-                string manualTagName = "CheDoManual";
-                string alarmtagName = "BaoAlarmHeThong";
+                string resetAlarmTagName = "BT_Reset_Alarm_MN";
+                string autoTagName = "SW_Auto_MN";
+                string manualTagName = "SW_Man_MN";
+                string alarmtagName = "ALARM_MN";
                 string title = "";
                 if (sender.Equals(NghienTinh1))
                 {
@@ -238,10 +238,10 @@ namespace EasyScadaApp.Pages
                 string stationName = "RemoteStation1";
                 string channelName = "PLCNghien";
                 string deviceName = "";
-                string resetAlarmTagName = "ResetAlarmHeThong";
-                string autoTagName = "CheDoAuto";
-                string manualTagName = "CheDoManual";
-                string alarmtagName = "BaoAlarmHeThong";
+                string resetAlarmTagName = "BT_Reset_Alarm_MN";
+                string autoTagName = "SW_Auto_MN";
+                string manualTagName = "SW_Man_MN";
+                string alarmtagName = "ALARM_MN";
                 string title = "";
                 if (sender.Equals(NghienTho1))
                 {
@@ -278,10 +278,10 @@ namespace EasyScadaApp.Pages
                 string stationName = "RemoteStation1";
                 string channelName = "PLCNghien";
                 string deviceName = "";
-                string resetAlarmTagName = "ResetAlarmHeThong";
-                string autoTagName = "CheDoAuto";
-                string manualTagName = "CheDoManual";
-                string alarmtagName = "BaoAlarmHeThong";
+                string resetAlarmTagName = "BT_Reset_Alarm_MN";
+                string autoTagName = "SW_Auto_MN";
+                string manualTagName = "SW_Man_MN";
+                string alarmtagName = "ALARM_MN";
                 string title = "";
                 if (sender.Equals(NghienTho1))
                 {
@@ -318,10 +318,10 @@ namespace EasyScadaApp.Pages
                 string stationName = "RemoteStation1";
                 string channelName = "PLCNghien";
                 string deviceName = "";
-                string resetAlarmTagName = "ResetAlarmHeThong";
-                string autoTagName = "CheDoAuto";
-                string manualTagName = "CheDoManual";
-                string alarmtagName = "BaoAlarmHeThong";
+                string resetAlarmTagName = "BT_Reset_Alarm_MN";
+                string autoTagName = "SW_Auto_MN";
+                string manualTagName = "SW_Man_MN";
+                string alarmtagName = "ALARM_MN";
                 string title = "";
                 if (sender.Equals(NghienTho1))
                 {
@@ -359,10 +359,10 @@ namespace EasyScadaApp.Pages
                 string stationName = "RemoteStation1";
                 string channelName = "PLCNghien";
                 string deviceName = "";
-                string resetAlarmTagName = "ResetAlarmHeThong";
-                string autoTagName = "CheDoAuto";
-                string manualTagName = "CheDoManual";
-                string alarmtagName = "BaoAlarmHeThong";
+                string resetAlarmTagName = "BT_Reset_Alarm_MN";
+                string autoTagName = "SW_Auto_MN";
+                string manualTagName = "SW_Man_MN";
+                string alarmtagName = "ALARM_MN";
                 string title = "";
                 if (sender.Equals(NghienTho1))
                 {

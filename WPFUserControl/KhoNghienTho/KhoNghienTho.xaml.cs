@@ -59,18 +59,35 @@ namespace WPFUserControl
             xiLanh2.Visibility = Visibility.Collapsed;
             xiLanh3.Visibility = Visibility.Collapsed;
             xiLanh4.Visibility = Visibility.Collapsed;
-            xiLanh1Gif.Visibility = Visibility.Hidden;
-            xiLanh2Gif.Visibility = Visibility.Hidden;
-            xiLanh3Gif.Visibility = Visibility.Hidden;
-            xiLanh4Gif.Visibility = Visibility.Hidden;
-            xiLanh1Tien.Visibility = Visibility.Hidden;
-            xiLanh2Tien.Visibility = Visibility.Hidden;
-            xiLanh3Tien.Visibility = Visibility.Hidden;
-            xiLanh4Tien.Visibility = Visibility.Hidden;
-            xiLanh1Lui.Visibility = Visibility.Hidden;
-            xiLanh2Lui.Visibility = Visibility.Hidden;
-            xiLanh3Lui.Visibility = Visibility.Hidden;
-            xiLanh4Lui.Visibility = Visibility.Hidden;
+            xiLanh1Gif.Visibility = Visibility.Collapsed;
+            xiLanh2Gif.Visibility = Visibility.Collapsed;
+            xiLanh3Gif.Visibility = Visibility.Collapsed;
+            xiLanh4Gif.Visibility = Visibility.Collapsed;
+            xiLanh1Tien.Visibility = Visibility.Collapsed;
+            xiLanh2Tien.Visibility = Visibility.Collapsed;
+            xiLanh3Tien.Visibility = Visibility.Collapsed;
+            xiLanh4Tien.Visibility = Visibility.Collapsed;
+            xiLanh1Lui.Visibility = Visibility.Collapsed;
+            xiLanh2Lui.Visibility = Visibility.Collapsed;
+            xiLanh3Lui.Visibility = Visibility.Collapsed;
+            xiLanh4Lui.Visibility = Visibility.Collapsed;
+
+            mortorVitTai1.Visibility = Visibility.Collapsed;
+            mortorVitTai2.Visibility = Visibility.Collapsed;
+            vitTaiCapLieu1.Visibility = Visibility.Collapsed;
+            vitTaiCapLieu2.Visibility = Visibility.Collapsed;
+            mortorVitTai1ChayNghich.Visibility = Visibility.Collapsed;
+            mortorVitTai2ChayNghich.Visibility = Visibility.Collapsed;
+            mortorVitTai1ChayThuan.Visibility = Visibility.Collapsed;
+            mortorVitTai2ChayThuan.Visibility = Visibility.Collapsed;
+            motorVitTaiRaLieu.Visibility = Visibility.Collapsed;
+            vitTaiRaLieuGif.Visibility = Visibility.Collapsed;
+
+            Cylone1.Visibility = Visibility.Collapsed;
+            Cylone2.Visibility = Visibility.Collapsed;
+            Cylone3.Visibility = Visibility.Collapsed;
+            Cylone4.Visibility = Visibility.Collapsed;
+
         }
         public bool IsStarted { get; private set; }
 
@@ -257,7 +274,7 @@ namespace WPFUserControl
                     {
                         xiLanh4.Visibility = Visibility.Collapsed;
                         xiLanh4Lui.Visibility = Visibility.Collapsed;
-                        xiLanh4Gif.Visibility = Visibility.Hidden;
+                        xiLanh4Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -285,7 +302,7 @@ namespace WPFUserControl
                     {
                         xiLanh4.Visibility = Visibility.Collapsed;
                         xiLanh4Tien.Visibility = Visibility.Collapsed;
-                        xiLanh4Gif.Visibility = Visibility.Hidden;
+                        xiLanh4Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -313,7 +330,7 @@ namespace WPFUserControl
                     {
                         xiLanh3.Visibility = Visibility.Collapsed;
                         xiLanh3Tien.Visibility = Visibility.Collapsed;
-                        xiLanh3Gif.Visibility = Visibility.Hidden;
+                        xiLanh3Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -341,7 +358,7 @@ namespace WPFUserControl
                     {
                         xiLanh3.Visibility = Visibility.Collapsed;
                         xiLanh3Lui.Visibility = Visibility.Collapsed;
-                        xiLanh3Gif.Visibility = Visibility.Hidden;
+                        xiLanh3Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -369,7 +386,7 @@ namespace WPFUserControl
                     {
                         xiLanh2.Visibility = Visibility.Collapsed;
                         xiLanh2Tien.Visibility = Visibility.Collapsed;
-                        xiLanh2Gif.Visibility = Visibility.Hidden;
+                        xiLanh2Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -397,7 +414,7 @@ namespace WPFUserControl
                     {
                         xiLanh2.Visibility = Visibility.Collapsed;
                         xiLanh2Lui.Visibility = Visibility.Collapsed;
-                        xiLanh2Gif.Visibility = Visibility.Hidden;
+                        xiLanh2Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -425,7 +442,7 @@ namespace WPFUserControl
                     {
                         xiLanh1.Visibility = Visibility.Collapsed;
                         xiLanh1Lui.Visibility = Visibility.Collapsed;
-                        xiLanh1Gif.Visibility = Visibility.Hidden;
+                        xiLanh1Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -453,7 +470,7 @@ namespace WPFUserControl
                     {
                         xiLanh1.Visibility = Visibility.Collapsed;
                         xiLanh1Tien.Visibility = Visibility.Collapsed;
-                        xiLanh1Gif.Visibility = Visibility.Hidden;
+                        xiLanh1Gif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -481,7 +498,7 @@ namespace WPFUserControl
                     {
                         mortorVitTai2.Visibility = Visibility.Collapsed;
                         mortorVitTai2ChayNghich.Visibility = Visibility.Collapsed;
-                        vitTaiCapLieu2.Visibility = Visibility.Hidden;
+                        vitTaiCapLieu2.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -509,7 +526,7 @@ namespace WPFUserControl
                     {
                         mortorVitTai2.Visibility = Visibility.Collapsed;
                         mortorVitTai2ChayThuan.Visibility = Visibility.Collapsed;
-                        vitTaiCapLieu2.Visibility = Visibility.Hidden;
+                        vitTaiCapLieu2.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -537,7 +554,7 @@ namespace WPFUserControl
                     {
                         mortorVitTai1.Visibility = Visibility.Collapsed;
                         mortorVitTai1ChayThuan.Visibility = Visibility.Collapsed;
-                        vitTaiCapLieu1.Visibility = Visibility.Hidden;
+                        vitTaiCapLieu1.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -577,13 +594,13 @@ namespace WPFUserControl
             {
                 if (e.NewValue == "1")
                 {
-                    vitTaiRaLieu.Visibility = Visibility.Visible;
+                    motorVitTaiRaLieu.Visibility = Visibility.Visible;
                     vitTaiRaLieuGif.Visibility = Visibility.Visible;
                 }
                 else
                 {
-                    vitTaiRaLieu.Visibility = Visibility.Collapsed;
-                    vitTaiRaLieuGif.Visibility = Visibility.Hidden;
+                    motorVitTaiRaLieu.Visibility = Visibility.Collapsed;
+                    vitTaiRaLieuGif.Visibility = Visibility.Collapsed;
                 }
             }));
         }

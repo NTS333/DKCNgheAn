@@ -19,17 +19,30 @@ namespace WPFUserControl
         public ITag MotorMayNghienLoi { get; set; }
         public ITag MotorVitTaiCapLieu { get; set; }
         public ITag MotorQuatHut { get; set; }
-        public ITag GoiBiMayNghienLoiTrai { get; set; }
-        public ITag GoiBiMayNghienLoiPhai { get; set; }
-        public ITag GoiBiQuatHutLoiTrai { get; set; }
-        public ITag GoiBiQuatHutLoiPhai { get; set; }
-        public ITag XiLanh { get; set; }
-        public ITag NapMayNghienTrai { get; set; }
-        public ITag NapMayNghienPhai { get; set; }
+        //public ITag XiLanh { get; set; }
+
+        public ITag BaoAlarmHeThong { get; set; }
+        public ITag AlarmMotorMayNghien { get; set; }
+        public ITag AlarmMotorVitTai { get; set; }
+        public ITag AlarmMotorQuatHut { get; set; }
+
+        //private bool _motorMayNghienChayThuan = false, _motorMayNghienChayNghich = false;
 
         public MayNghienTinh()
         {
             InitializeComponent();
+
+            motorMayNghienChay.Visibility = Visibility.Collapsed;
+            motorMayNghienLoi.Visibility = Visibility.Collapsed;
+            motorQuatHutChay.Visibility = Visibility.Collapsed;
+            motorQuatHutLoi.Visibility = Visibility.Collapsed;
+            motorVitTaiCapLieuChay.Visibility = Visibility.Collapsed;
+            motorVitTaiCapLieuLoi.Visibility = Visibility.Collapsed;
+            vitTaiCapLieu.Visibility = Visibility.Collapsed;
+            quatHut.Visibility = Visibility.Collapsed;
+            motorMayNghienChayThuan.Visibility = Visibility.Collapsed;
+            motorMayNghienChayNghich.Visibility = Visibility.Collapsed;
+            ruotMayNghien.Visibility = Visibility.Collapsed;
         }
 
         public void Start()
@@ -54,120 +67,147 @@ namespace WPFUserControl
         {
             Dispatcher.Invoke(() =>
             {
-                MotorMayNghienChayNghich = GetTag("View_MayNghienChayNghich");
+                MotorMayNghienChayNghich = GetTag("PL_MN_Nghich");
                 if (MotorMayNghienChayNghich != null)
                 {
                     MotorMayNghienChayNghich_ValueChanged(MotorMayNghienChayNghich, new TagValueChangedEventArgs("", MotorMayNghienChayNghich.Value));
                     MotorMayNghienChayNghich.ValueChanged += MotorMayNghienChayNghich_ValueChanged;
                 }
 
-                MotorMayNghienChayThuan = GetTag("View_MayNghienChayThuan");
+                MotorMayNghienChayThuan = GetTag("PL_MN_Thuan");
                 if (MotorMayNghienChayThuan != null)
                 {
                     MotorMayNghienChayThuan_ValueChanged(MotorMayNghienChayThuan, new TagValueChangedEventArgs("", MotorMayNghienChayThuan.Value));
                     MotorMayNghienChayThuan.ValueChanged += MotorMayNghienChayThuan_ValueChanged;
                 }
 
-                MotorVitTaiCapLieu = GetTag("View_BangTaiCapLieuChay");
+                MotorVitTaiCapLieu = GetTag("PL_Vtai");
                 if (MotorVitTaiCapLieu != null)
                 {
                     MotorVitTaiCapLieu_ValueChanged(MotorVitTaiCapLieu, new TagValueChangedEventArgs("", MotorVitTaiCapLieu.Value));
                     MotorVitTaiCapLieu.ValueChanged += MotorVitTaiCapLieu_ValueChanged;
                 }
 
-                XiLanh = GetTag("XiLanhMayNghien");
-                if (XiLanh != null)
-                {
-                    XiLanh_ValueChanged(XiLanh, new TagValueChangedEventArgs("", XiLanh.Value));
-                    XiLanh.ValueChanged += XiLanh_ValueChanged;
-                }
+                //XiLanh = GetTag("XiLanhMayNghien");
+                //if (XiLanh != null)
+                //{
+                //    XiLanh_ValueChanged(XiLanh, new TagValueChangedEventArgs("", XiLanh.Value));
+                //    XiLanh.ValueChanged += XiLanh_ValueChanged;
+                //}
 
-                MotorQuatHut = GetTag("View_QuatHutChay");
+                MotorQuatHut = GetTag("PL_Qhut");
                 if (MotorQuatHut != null)
                 {
                     MotorQuatHut_ValueChanged(MotorQuatHut, new TagValueChangedEventArgs("", MotorQuatHut.Value));
                     MotorQuatHut.ValueChanged += MotorQuatHut_ValueChanged;
                 }
 
-                GoiBiMayNghienLoiTrai = GetTag("GoiBiTraiMayNghienQuaNhiet");
-                if (GoiBiMayNghienLoiTrai != null)
+                BaoAlarmHeThong = GetTag("ALARM_MN");
+                if (BaoAlarmHeThong != null)
                 {
-                    GoiBiMayNghienLoiValueChanged(GoiBiMayNghienLoiTrai, new TagValueChangedEventArgs("", GoiBiMayNghienLoiTrai.Value));
-                    GoiBiMayNghienLoiTrai.ValueChanged += GoiBiMayNghienLoiValueChanged;
+                    BaoAlarmHeThong_ValueChanged(BaoAlarmHeThong, new TagValueChangedEventArgs("", BaoAlarmHeThong.Value));
+                    BaoAlarmHeThong.ValueChanged += BaoAlarmHeThong_ValueChanged;
                 }
 
-
-                GoiBiMayNghienLoiPhai = GetTag("GoiBiPhaiMayNghienQuaNhiet");
-                if (GoiBiMayNghienLoiPhai != null)
+                AlarmMotorMayNghien = GetTag("PL_OVL_MN");
+                if (AlarmMotorMayNghien != null)
                 {
-                    GoiBiMayNghienLoiValueChanged(GoiBiMayNghienLoiPhai, new TagValueChangedEventArgs("", GoiBiMayNghienLoiPhai.Value));
-                    GoiBiMayNghienLoiPhai.ValueChanged += GoiBiMayNghienLoiValueChanged;
+                    AlarmMotorMayNghien_ValueChanged(AlarmMotorMayNghien, new TagValueChangedEventArgs("", AlarmMotorMayNghien.Value));
+                    AlarmMotorMayNghien.ValueChanged += AlarmMotorMayNghien_ValueChanged;
                 }
 
-                GoiBiQuatHutLoiTrai = GetTag("GoiBiTraiQuatHutQuaNhiet");
-                if (GoiBiQuatHutLoiTrai != null)
+                AlarmMotorVitTai = GetTag("PL_OVL_Vtai");
+                if (AlarmMotorVitTai != null)
                 {
-                    GoiBiQuatHutLoiTrai_ValueChanged(GoiBiQuatHutLoiTrai, new TagValueChangedEventArgs("", GoiBiQuatHutLoiTrai.Value));
-                    GoiBiQuatHutLoiTrai.ValueChanged += GoiBiQuatHutLoiTrai_ValueChanged;
+                    AlarmMotorVitTai_ValueChanged(AlarmMotorVitTai, new TagValueChangedEventArgs("", AlarmMotorVitTai.Value));
+                    AlarmMotorVitTai.ValueChanged += AlarmMotorVitTai_ValueChanged;
                 }
 
-                GoiBiQuatHutLoiPhai = GetTag("GoiBiPhaiQuatHutQuaNhiet");
-                if (GoiBiQuatHutLoiPhai != null)
+                AlarmMotorQuatHut = GetTag("PL_OVL_Qhut");
+                if (AlarmMotorQuatHut != null)
                 {
-                    GoiBiQuatHutLoiPhai_ValueChanged(GoiBiQuatHutLoiPhai, new TagValueChangedEventArgs("", GoiBiQuatHutLoiPhai.Value));
-                    GoiBiQuatHutLoiPhai.ValueChanged += GoiBiQuatHutLoiPhai_ValueChanged; ;
-                }
-
-                NapMayNghienPhai = GetTag("BaoCamBienNapPhaiMayNghien");
-                if (NapMayNghienPhai != null)
-                {
-                    NapMayNghienPhai_ValueChanged(NapMayNghienPhai, new TagValueChangedEventArgs("", NapMayNghienPhai.Value));
-                    NapMayNghienPhai.ValueChanged += NapMayNghienPhai_ValueChanged;
-                }
-
-                NapMayNghienTrai = GetTag("BaoCamBienNapTraiMayNghien");
-                if (NapMayNghienTrai != null)
-                {
-                    NapMayNghienTrai_ValueChanged(NapMayNghienTrai, new TagValueChangedEventArgs("", NapMayNghienTrai.Value));
-                    NapMayNghienTrai.ValueChanged += NapMayNghienTrai_ValueChanged;
+                    AlarmMotorQuatHut_ValueChanged(AlarmMotorQuatHut, new TagValueChangedEventArgs("", AlarmMotorQuatHut.Value));
+                    AlarmMotorQuatHut.ValueChanged += AlarmMotorQuatHut_ValueChanged;
                 }
             });
         }
 
-        private void NapMayNghienTrai_ValueChanged(object sender, TagValueChangedEventArgs e)
+        private void AlarmMotorMayNghien_ValueChanged(object sender, TagValueChangedEventArgs e)
         {
             DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
             {
                 if (e.NewValue == "1")
                 {
-
-                    napMayNghienPhai.Visibility = Visibility.Visible;
+                    motorMayNghienLoi.Visibility = Visibility.Visible;
+                    motorMayNghienChay.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
-                    napMayNghienPhai.Visibility = Visibility.Collapsed;
+                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
+
+                    if (MotorMayNghienChayNghich.Value == "1" || MotorMayNghienChayThuan.Value == "1")
+                    {
+                        motorMayNghienChay.Visibility = Visibility.Visible;
+                    }
                 }
             }));
         }
 
-        private void NapMayNghienPhai_ValueChanged(object sender, TagValueChangedEventArgs e)
+        private void AlarmMotorVitTai_ValueChanged(object sender, TagValueChangedEventArgs e)
         {
             DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
             {
                 if (e.NewValue == "1")
                 {
-                    napMayNghienTrai.Visibility = Visibility.Visible;
+                    motorVitTaiCapLieuLoi.Visibility = Visibility.Visible;
+                    motorVitTaiCapLieuChay.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
-                    napMayNghienTrai.Visibility = Visibility.Collapsed;
+                    motorVitTaiCapLieuLoi.Visibility = Visibility.Collapsed;
+
+                    if (MotorVitTaiCapLieu.Value == "1")
+                    {
+                        motorVitTaiCapLieuChay.Visibility = Visibility.Visible;
+                    }
                 }
             }));
         }
 
-        private void XiLanh_ValueChanged(object sender, TagValueChangedEventArgs e)
+        private void AlarmMotorQuatHut_ValueChanged(object sender, TagValueChangedEventArgs e)
         {
-            throw new NotImplementedException();
+            DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+            {
+                if (e.NewValue == "1")
+                {
+                    motorQuatHutLoi.Visibility = Visibility.Visible;
+                    motorQuatHutChay.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    motorQuatHutLoi.Visibility = Visibility.Collapsed;
+
+                    if (MotorQuatHut.Value == "1")
+                    {
+                        motorQuatHutChay.Visibility = Visibility.Visible;
+                    }
+                }
+            }));
+        }
+
+        private void BaoAlarmHeThong_ValueChanged(object sender, TagValueChangedEventArgs e)
+        {
+            DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+            {
+                if (e.NewValue == "1")
+                {
+                    Error = 1;
+                }
+                else
+                {
+                    Error = 0;
+                }
+            }));
         }
 
         private void MotorVitTaiCapLieu_ValueChanged(object sender, TagValueChangedEventArgs e)
@@ -177,82 +217,13 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorVitTaiCapLieuChay.Visibility = Visibility.Visible;
-                    motorVitTaiCapLieuDung.Visibility = Visibility.Collapsed;
+                    //motorVitTaiCapLieuLoi.Visibility = Visibility.Collapsed;
                     vitTaiCapLieu.Visibility = Visibility.Visible;
                 }
                 else
                 {
                     motorVitTaiCapLieuChay.Visibility = Visibility.Collapsed;
-                    motorVitTaiCapLieuDung.Visibility = Visibility.Visible;
                     vitTaiCapLieu.Visibility = Visibility.Collapsed;
-                }
-            }));
-        }
-
-        private void GoiBiQuatHutLoiPhai_ValueChanged(object sender, TagValueChangedEventArgs e)
-        {
-            DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-            {
-                if (e.NewValue == "1")
-                {
-                    goiBiQuatHut2.Visibility = Visibility.Visible;
-                    lblNhietGoiBiQuatHut2.Visibility = Visibility.Visible;
-                }
-                else
-                {
-                    goiBiQuatHut2.Visibility = Visibility.Collapsed;
-                    lblNhietGoiBiQuatHut2.Visibility = Visibility.Visible;
-                }
-            }));
-        }
-
-        private void GoiBiQuatHutLoiTrai_ValueChanged(object sender, TagValueChangedEventArgs e)
-        {
-            DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-            {
-                if (e.NewValue == "1")
-                {
-                    goiBiQuatHut1.Visibility = Visibility.Visible;
-                    lblNhietGoiBiQuatHut1.Visibility = Visibility.Visible;
-                }
-                else
-                {
-                    goiBiQuatHut1.Visibility = Visibility.Collapsed;
-                    lblNhietGoiBiQuatHut1.Visibility = Visibility.Collapsed;
-                }
-            }));
-        }
-
-        private void GoiBiMayNghienLoiValueChanged(object sender, TagValueChangedEventArgs e)
-        {
-            DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-            {
-                if (GoiBiMayNghienLoiPhai != null && GoiBiMayNghienLoiTrai != null)
-                {
-                    if (GoiBiMayNghienLoiPhai.Value == "1" || GoiBiMayNghienLoiTrai.Value == "1")
-                    {
-                        if (GoiBiMayNghienLoiPhai.Value == "1")
-                        {
-                            lblNhietGoiBiMayNghien1.Visibility = Visibility.Visible;
-                        }
-                        else if (GoiBiMayNghienLoiTrai.Value == "1")
-                        {
-                            lblNhietGoiBiMayNghien2.Visibility = Visibility.Visible;
-                        }
-                        goiBiMayNghien.Visibility = Visibility.Visible;
-                    }
-                    else
-                    {
-                        goiBiMayNghien.Visibility = Visibility.Collapsed;
-                        if (GoiBiMayNghienLoiPhai.Value == "0")
-                        {
-                            lblNhietGoiBiMayNghien1.Visibility = Visibility.Collapsed;
-                        }
-                        else if (GoiBiMayNghienLoiTrai.Value == "0")
-                        {
-                            lblNhietGoiBiMayNghien2.Visibility = Visibility.Collapsed;
-                        }
-                    }
                 }
             }));
         }
@@ -264,13 +235,12 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorQuatHutChay.Visibility = Visibility.Visible;
-                    motorQuatHutDung.Visibility = Visibility.Collapsed;
+                    //motorQuatHutLoi.Visibility = Visibility.Collapsed;
                     quatHut.Visibility = Visibility.Visible;
                 }
                 else
                 {
                     motorQuatHutChay.Visibility = Visibility.Collapsed;
-                    motorQuatHutDung.Visibility = Visibility.Visible;
                     quatHut.Visibility = Visibility.Collapsed;
                 }
             }));
@@ -283,21 +253,24 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorMayNghienChayThuan.Visibility = Visibility.Visible;
-                    ruotMayNghien.Visibility = Visibility.Visible;
+                    motorMayNghienChayNghich.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
                     motorMayNghienChayThuan.Visibility = Visibility.Collapsed;
-                    ruotMayNghien.Visibility = Visibility.Collapsed;
                 }
 
                 if (MotorMayNghienChayThuan.Value == "1" || MotorMayNghienChayNghich.Value == "1")
                 {
                     motorMayNghienChay.Visibility = Visibility.Visible;
+                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
+                    ruotMayNghien.Visibility = Visibility.Visible;
                 }
                 else
                 {
                     motorMayNghienChay.Visibility = Visibility.Collapsed;
+                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
+                    ruotMayNghien.Visibility = Visibility.Collapsed;
                 }
             }));
         }
@@ -308,22 +281,25 @@ namespace WPFUserControl
             {
                 if (e.NewValue == "1")
                 {
-                    motoMayNghienChayNghich.Visibility = Visibility.Visible;
-                    ruotMayNghien.Visibility = Visibility.Visible;
+                    motorMayNghienChayNghich.Visibility = Visibility.Visible;
+                    motorMayNghienChayThuan.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
-                    motoMayNghienChayNghich.Visibility = Visibility.Collapsed;
-                    ruotMayNghien.Visibility = Visibility.Collapsed;
+                    motorMayNghienChayNghich.Visibility = Visibility.Collapsed;
                 }
 
                 if (MotorMayNghienChayThuan.Value == "1" || MotorMayNghienChayNghich.Value == "1")
                 {
                     motorMayNghienChay.Visibility = Visibility.Visible;
+                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
+                    ruotMayNghien.Visibility = Visibility.Visible;
                 }
                 else
                 {
                     motorMayNghienChay.Visibility = Visibility.Collapsed;
+                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
+                    ruotMayNghien.Visibility = Visibility.Collapsed;
                 }
             }));
         }
@@ -336,6 +312,14 @@ namespace WPFUserControl
         public event EventHandler MotorMayNghienClick;
         public event EventHandler MotorQuatHutClick;
         public event EventHandler MotorVitTaiClick;
+
+        public int Error
+        {
+            get { return (int)GetValue(ErrorProperty); }
+            set { SetValue(ErrorProperty, value); }
+        }
+        public static readonly DependencyProperty ErrorProperty =
+            DependencyProperty.Register("Error", typeof(int), typeof(MayNghienTinh), new PropertyMetadata(0));
 
         private void MotorMayNghienChay_PreviewMouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
