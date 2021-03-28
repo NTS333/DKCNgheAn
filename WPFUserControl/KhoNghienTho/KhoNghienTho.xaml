@@ -3,73 +3,188 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:gif="http://wpfanimatedgif.codeplex.com"
              xmlns:local="clr-namespace:WPFUserControl"
-             mc:Ignorable="d" Width="3027" Height="2368">
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             mc:Ignorable="d" 
+             d:DesignWidth="4011" d:DesignHeight="3136"
+          
+             >
     <UserControl.Resources>
         <local:ConvertToVisibility x:Key="convertToVisibility" />
     </UserControl.Resources>
-    <Viewbox Height="2340" VerticalAlignment="Top">
-        <Grid>
-            <!-- LABEL -->
-            <Label Content="Xi lanh" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="102,1858,2336,129"/>
-            <Label Content="1" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="10,1548,2307,439"/>
-            <Label Content="2" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="10,1624,2307,363"/>
-            <Label Content="3" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="10,1710,2307,277"/>
-            <Label Content="4" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="10,1791,2307,196"/>
-            <Label Content="Vít tải ra liệu" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="1625,1920,692,67"/>
-            <Label Content="Cấp liệu" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2073,688,323,1299"/>
-            <Label Content="1" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2162,760,413,1227"/>
-            <Label Content="2" Foreground="Orange" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2159,927,413,1060"/>
 
+    <Viewbox >
+        <Grid x:Name="mainView">
+            <!-- LABEL -->
+            <Label Content="Xi lanh" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" 
+                   Margin="443,2694,3568,192"/>
+            <Label Content="1" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="348,2229,3809,650"/>
+            <Label Content="2" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="348,2333,3809,548"/>
+            <Label Content="3" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="348,2456,3809,421"/>
+            <Label Content="4" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="348,2562,3809,317"/>
+            <Label Content="Vít tải ra liệu" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2752,2881,909,0"/>
+            <Label Content="Cấp liệu" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="3385,1062,364,1816"/>
+            <Label Content="1" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="3475,1177,434,1709"/>
+            <Label Content="2" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="3475,1396,434,1489"/>
+            <Label Content="Báo đầy vít tải ra liệu" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2382,2770,1286,108"/>
+            <Label Content="Báo đầy vít tải cấp liệu 2" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="221,1527,3384,1343" Panel.ZIndex="1"/>
+            <Label Content="Báo đầy vít tải cấp liệu 1" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="221,1116,3384,1761" Panel.ZIndex="1"/>
+            <Label Content="Cylone 1" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="1164,-13,2796,2891" />
+            <Label Content="Cylone 2" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="1638,189,2057,2681" />
+            <Label Content="Cylone 3" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2127,-21,1568,2891" />
+            <Label Content="Cylone 4" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="2621,189,1074,2681" />
+            <Label Content="Bơm dầu" Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="492,1778,3481,1102" />
+            <Label Content="1"  Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="443,1850,3709,1029"/>
+            <Label Content="2"  Foreground="Black" FontSize="50" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="687,1850,3466,1039"/>
             <!-- ANH NEN -->
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho.png" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.657,-0.076"/>
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_New.png" VerticalAlignment="Top" 
+               RenderTransformOrigin="0.657,-0.076" Margin="2,0,-2,0" Height="2957" Panel.ZIndex="0"/>
 
             <!-- 1. XI LANH 1 -->
-            <Image x:Name="xiLanh1Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="363,1535,0,0" Width="1569" Height="114"/>
-            <Image x:Name="xiLanh1" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,1558,0,0" Width="276" Height="52"/>
+            <Image x:Name="xiLanh1Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoChay.gif"
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="826,2200,0,0" Width="2215" Height="157"/>
 
-            <Image x:Name="xiLanh1Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2128,1558,0,0" Height="57" />
-            <Image x:Name="xiLanh1Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2128,1558,0,0" Height="57" />
+            <Image x:Name="xiLanh1" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="Xilanh1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="408,2231,0,0" Width="388" Height="77">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0.019"/>
+                        <RotateTransform Angle="-0.045"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="xiLanh1Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" 
+               Margin="3455,2235,0,0" Height="83" Width="106"/>
+            <Image x:Name="xiLanh1Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" 
+               Margin="3417,2235,0,0" Height="83" Width="106" RenderTransformOrigin="0.613,0" />
 
             <!-- 2. XI LANH 2 -->
-            <Image x:Name="xiLanh2Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="363,1616,0,0" Width="1569" Height="114"/>
-            <Image x:Name="xiLanh2" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,1639,0,0" Width="276" Height="52"/>
+            <Image x:Name="xiLanh2Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoChay.gif" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="822,2311,0,0" Width="2219" Height="162"/>
 
-            <Image x:Name="xiLanh2Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2128,1639,0,0" Height="57" />
-            <Image x:Name="xiLanh2Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2128,1639,0,0" Height="57" />
+            <Image x:Name="xiLanh2" Panel.ZIndex="1" PreviewMouseDown="Xilanh2_PreviewMouseDown"
+                   Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="407,2345,0,0" Width="390" Height="76">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="xiLanh2Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" 
+               Margin="3455,2350,0,0" Height="83" Width="106"/>
+            <Image x:Name="xiLanh2Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" 
+               Margin="3417,2350,0,0" Height="83" Width="106" RenderTransformOrigin="3.043,2.833"/>
 
             <!-- 3. XI LANH 3 -->
-            <Image x:Name="xiLanh3Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="363,1697,0,0" Width="1569" Height="114"/>
-            <Image x:Name="xiLanh3" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,1720,0,0" Width="276" Height="52"/>
+            <Image x:Name="xiLanh3Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoChay.gif"
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="822,2422,0,0" Width="2219" Height="162"/>
 
-            <Image x:Name="xiLanh3Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2128,1720,0,0" Height="57" />
-            <Image x:Name="xiLanh3Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2128,1720,0,0" Height="57" />
+            <Image x:Name="xiLanh3" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="Xilanh3_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png"
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="407,2460,0,0" Width="390" Height="76">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="xiLanh3Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png"
+               Margin="3455,2465,0,0" Height="83" Width="106"/>
+            <Image x:Name="xiLanh3Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" 
+               Margin="3417,2465,0,0" Height="83" Width="106"/>
 
             <!-- 4. XI LANH 4 -->
-            <Image x:Name="xiLanh4Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoNgoaiChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="363,1778,0,0" Width="1569" Height="114"/>
-            <Image x:Name="xiLanh4" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,1801,0,0" Width="276" Height="52"/>
+            <Image x:Name="xiLanh4Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_LuotKhoNgoaiChay.gif"
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="822,2539,0,0" Width="2219" Height="165"/>
 
-            <Image x:Name="xiLanh4Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2128,1801,0,0" Height="57" />
-            <Image x:Name="xiLanh4Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2128,1801,0,0" Height="57" />
+            <Image x:Name="xiLanh4" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="Xilanh4_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_XiLanhChay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="407,2572,0,0" Width="390" Height="76">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="xiLanh4Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" 
+               Margin="3455,2572,0,0" Height="83" Width="106"/>
+            <Image x:Name="xiLanh4Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" 
+               Margin="3417,2572,0,0" Height="83" Width="106"/>
 
             <!-- 5. VIT TAI CAP LIEU 1 -->
-            <Image x:Name="vitTaiCapLieu1" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_VitTaiCapLieu1Chay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="476,829,0,0" Width="1627" Height="130"/>
+            <Image x:Name="vitTaiCapLieu1" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_VitTaiCapLieu2Chay.gif"
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="982,1204,0,0" Width="2334" Height="246"/>
 
-            <Image x:Name="mortorVitTai1ChayNghich" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayNghich.png" Margin="2306,830,-57,0" Height="57" >
+            <Image x:Name="baoDayVitTaiCapLieu1On" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/Day.png"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="737,1183,0,0" Width="82" Height="78"/>
+            <Image x:Name="baoDayVitTaiCapLieu1Off" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/BinhThuong.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="737,1183,0,0" Width="82" Height="78"/>
+
+            <Image x:Name="mortorVitTai1ChayNghich" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayNghich.png"
+               Margin="3632,1241,0,0" Height="61" Width="100" >
                 <Image.RenderTransform>
                     <TransformGroup>
-                        <ScaleTransform/>
+                        <ScaleTransform ScaleY="1.191" ScaleX="0.84"/>
                         <SkewTransform/>
                         <RotateTransform Angle="90"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="mortorVitTai1ChayThuan" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png" Margin="2306,840,-57,0" Height="57">
+            <Image x:Name="mortorVitTai1ChayThuan" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png" 
+               Margin="3633,1250,0,0" Height="61" Width="100">
                 <Image.RenderTransform>
                     <TransformGroup>
-                        <ScaleTransform/>
+                        <ScaleTransform ScaleY="1.191" ScaleX="0.84"/>
                         <SkewTransform/>
                         <RotateTransform Angle="90"/>
                         <TranslateTransform/>
@@ -77,27 +192,68 @@
                 </Image.RenderTransform>
             </Image>
 
-            <Image x:Name="mortorVitTai1" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiCapLieuChay.png" VerticalAlignment="Top" Margin="2073,832,328,0"/>
-
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="146,845,0,0"/>
+            <Image x:Name="mortorVitTai1Chay" Visibility="Visible" Panel.ZIndex="1"  PreviewMouseDown="MotorVitTaiCapLieu1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiCapLieuChay.png" 
+               VerticalAlignment="Top" Margin="3185,1207,604,0" Height="134">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image  x:Name="vitTaiCapLieu2" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_VitTaiCapLieu2Chay.gif"
+                VerticalAlignment="Top" HorizontalAlignment="Left" Margin="986,1428,0,0" Width="2330" Height="181"/>
+            <Image x:Name="mortorVitTai1Dung" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="MotorVitTaiCapLieu2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiCapLieuDung.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3271,1210,0,0" Height="152" Width="231">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- 6. VIT TAI CAP LIEU 2 -->
-            <Image  x:Name="vitTaiCapLieu2" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_VitTaiCapLieu2Chay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="476,989,0,0" Width="1650" Height="128"/>
 
-            <Image x:Name="mortorVitTai2ChayNghich" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayNghich.png" Margin="2306,990,-57,0" Height="57" >
+            <Image x:Name="baoDayVitTaiCapLieu2On" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/Day.png"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="737,1609,0,0" Width="82" Height="78"/>
+            <Image x:Name="baoDayVitTaiCapLieu2Off" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/BinhThuong.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="737,1609,0,0" Width="82" Height="78"/>
+
+            <Image x:Name="mortorVitTai2ChayNghich" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayNghich.png" 
+               Margin="3637,1463,0,0" Height="61" Width="100">
                 <Image.RenderTransform>
                     <TransformGroup>
-                        <ScaleTransform/>
+                        <ScaleTransform ScaleY="1.191" ScaleX="0.84"/>
                         <SkewTransform/>
                         <RotateTransform Angle="90"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="mortorVitTai2ChayThuan" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png" Margin="2306,1000,-57,0" Height="57">
+            <Image x:Name="mortorVitTai2ChayThuan" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/MotorChayThuan.png" 
+               Margin="3636,1471,0,0" Height="61" Width="100">
                 <Image.RenderTransform>
                     <TransformGroup>
-                        <ScaleTransform/>
+                        <ScaleTransform ScaleY="1.191" ScaleX="0.84"/>
                         <SkewTransform/>
                         <RotateTransform Angle="90"/>
                         <TranslateTransform/>
@@ -105,30 +261,178 @@
                 </Image.RenderTransform>
             </Image>
 
-            <Image x:Name="mortorVitTai2" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiCapLieuChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2093,994,0,0"/>
-
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="146,1005,0,0"/>
+            <Image x:Name="mortorVitTai2Chay" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="MotorVitTaiCapLieu2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiCapLieuChay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3271,1436,0,0" Height="142" Width="236">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorVitTai2Dung" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="MotorVitTaiCapLieu2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiCapLieuDung.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3277,1436,0,0" Height="148" Width="225">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- 7. VIT TAI RA LIEU -->
-            <Image x:Name="vitTaiRaLieuGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_VitTaiRaLieuChay.gif" HorizontalAlignment="Left" Margin="1935,1548,0,9" Width="117"/>
-            <Image x:Name="motorVitTaiRaLieu" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiRaLieuChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1954,1920,0,0"/>
+            <Image x:Name="vitTaiRaLieuGif" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_VitTaiRaLieuChay.gif" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3046,2236,0,0" Height="679" Width="195" RenderTransformOrigin="0.447,1.038"/>
+
+            <Image x:Name="baoDayVitTaiRaLieuOn" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoSauSay/Day.png"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2910,2757,0,0" Height="92" Width="99"/>
+            <Image x:Name="baoDayVitTaiRaLieuOff" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoSauSay/BinhThuong.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2910,2757,0,0" Height="92" Width="99"/>
+
+
+            <Image x:Name="motorVitTaiRaLieuChay" Visibility="Visible" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiRaLieuChay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3071,2743,0,0" Height="158" Width="122" RenderTransformOrigin="0.447,1.038">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorVitTaiRaLieuDung" Visibility="Visible" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiRaLieuDung.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3071,2745,0,0" Height="156" Width="114" RenderTransformOrigin="0.447,1.038">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- 8. BOM DAU 1 -->
-            <Image x:Name="bomDau1" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorBomDauChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25,1332,0,0"/>
+            <Image x:Name="bomDau1Chay" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="MotorBomDau1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorBomDauChay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="348,1923,0,0" Height="292" Width="262">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="bomDau1Dung" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="MotorBomDau1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorBomDauDung.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="348,1923,0,0" Height="292" Width="262">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- 9. BOM DAU 2 -->
-            <Image x:Name="bomDau2" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorBomDauChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="195,1332,0,0"/>
+            <Image x:Name="bomDau2Chay" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="MotorBomDau2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorBomDauChay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="593,1923,0,0" Height="292" Width="264">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="bomDau2Dung" Visibility="Visible" Panel.ZIndex="1" PreviewMouseDown="MotorBomDau2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorBomDauDung.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="586,1927,0,0" Height="292" Width="240">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="Cylone1" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" 
+                VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1002,66,0,0" Height="1162" Width="868"/>
+            <Image x:Name="Cylone2" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" 
+                VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1481,281,0,0" Height="1169" Width="816"/>
+
+            <Image x:Name="Cylone3" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1980,72,0,0" Height="1162" Width="826"/>
+            <Image x:Name="Cylone4" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" 
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2459,268,0,0" Height="1190" Width="700"/>
 
             <!-- 10. BON DAU -->
 
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/Alarm.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="146,1205,0,0"/>
-
             <!-- 11. CYCLONE -->
-
-            <Image x:Name="Cylone1" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="485,23,0,0" Height="829" Width="374"/>
-            <Image x:Name="Cylone2" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="825,177,0,0" Height="829" Width="374"/>
-            <Image x:Name="Cylone3" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1180,23,0,0" Height="829" Width="374"/>
-            <Image x:Name="Cylone4" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_CyclonBaoDay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1521,177,0,0" Height="829" Width="374"/>
 
 
         </Grid>

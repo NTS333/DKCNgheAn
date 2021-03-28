@@ -36,8 +36,8 @@ namespace EasyScadaApp
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                klThang.PathToTag = prefix + "DongMayNghien";
-                klNgay.PathToTag = prefix + "ThoiGianChayMay";
+                klThang.TagPath = prefix + "DongMayNghien";
+                klNgay.TagPath = prefix + "ThoiGianChayMay";
             }
         }
     }

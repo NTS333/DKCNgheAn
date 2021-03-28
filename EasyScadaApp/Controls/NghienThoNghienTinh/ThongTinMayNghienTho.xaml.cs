@@ -2,6 +2,7 @@
 using EasyScada.Wpf.Controls;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,47 +55,64 @@ namespace EasyScadaApp
             if (!isStarted)
             {
                 isStarted = true;
+
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                dongMotorMayNghien.PathToTag = prefix + "Current_Digital_MN";
+                dongMotorMayNghien.TagPath = prefix + "Current_Digital_NTho";
 
-                if (DeviceName.Contains("Tho"))
+                //if (DeviceName.Contains("Tho"))
                 {
-                    dongMotorCapLieu.PathToTag = prefix + "Current_Digital_Btai";
-                    tanSoCapLieu.PathToTag = prefix + "Resuft_Hz_Btai";
-                    inputTanSoCapLieu.PathToTag = prefix + "In_Hz_BT";
+                    //dongMotorCapLieu.TagPath = prefix + "Current_Digital_Btai";
+                    tanSoCapLieu.TagPath = prefix + "Hz_BT";
+                    inputTanSoCapLieu.TagPath = prefix + "Input_Hz_BT";
                 }
-                else
-                {
-                    dongMotorCapLieu.PathToTag = prefix + "Current_Digital_Vtai";
-                    tanSoCapLieu.PathToTag = prefix + "Resuft_Hz_Vtai";
-                    inputTanSoCapLieu.PathToTag = prefix + "In_Hz_VT";
-                }
+                //else
+                //{
+                //    dongMotorCapLieu.TagPath = prefix + "Current_Digital_Vtai";
+                //    tanSoCapLieu.TagPath = prefix + "Resuft_Hz_Vtai";
+                //    inputTanSoCapLieu.TagPath = prefix + "In_Hz_VT";
+                //}
 
-                dongMotorQuatHut.PathToTag = prefix + "Current_Digital_Qhut";
+                dongMotorQuatHut.TagPath = prefix + "Current_Digital_QH";
+                //if (DeviceName.Contains("Tho"))
+                //{
+                //    EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_NTho").ValueChanged += (s, o) =>
+                //    {
+                //        //DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //        //{
+                //        //    Debug.WriteLine(o.NewValue);
+                //        //}));
+                //        this.Dispatcher.Invoke(new Action(() =>
+                //        {
+                            
+                //            //(DataContext as TagViewModel).TagValue = o.NewValue;
+                //        }));
+                //        Debug.WriteLine(o.NewValue);
+                //    };
+                //}
+              
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "PL_Auto").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Auto = o.NewValue;
+                //        //if (o.NewValue == "1")
+                //        //{
+                //        //    lbManual.Background = Brushes.DarkGray;
+                //        //    lbAuto.Background = Brushes.Green;
+                //        //}
+                //        //else
+                //        //{
+                //        //    lbAuto.Background = Brushes.DarkGray;
+                //        //}
+                //    }));
+                //};
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Auto_MN").ValueChanged += (s, o) =>
-                {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Auto = o.NewValue;
-                        //if (o.NewValue == "1")
-                        //{
-                        //    lbManual.Background = Brushes.DarkGray;
-                        //    lbAuto.Background = Brushes.Green;
-                        //}
-                        //else
-                        //{
-                        //    lbAuto.Background = Brushes.DarkGray;
-                        //}
-                    }));
-                };
-
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Man_MN").ValueChanged += (s, o) => {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Manual = o.NewValue;
-                    }));
-                };
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "PL_Manual").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Manual = o.NewValue;
+                //    }));
+                //};
             }
         }
     }

@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="WPFUserControl.HeLamMat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFUserControl"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             x:Name="host"
+             xmlns:control="clr-namespace:EasyScada.Wpf.Controls;assembly=EasyScada.Wpf.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:ConvertToVisibility x:Key="convertToVisibility" />
+    </UserControl.Resources>
+    <Viewbox>
+        <Grid>
+            <!--Lable-->
+            <!-- Bao loi he thong-->
+            <!--<Image Visibility="Visible" x:Name="loiHeThong" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" />-->
+            <!-- ANH NEN -->
+
+
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/HeLamMat/Hệ Làm Mát -Nền.png" Margin="0,404,0,0" Panel.ZIndex="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=host, Path=Error}" Value="1">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="Red" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Label Content="Băng  tải cấp liệu" Margin="-723,322,2228,2191" FontWeight="Bold" Foreground="Black" FontSize="80" Panel.ZIndex="1"/>
+            <Image x:Name="motorBTCapLieuChayGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeLamMat/Băng tải cấp Liệu_Chuyển-động.gif"  Margin="-361,19,974,2235">
+                
+            </Image>
+            <Image x:Name="motorBTCapLieuChay" Source="/WPFUserControl;component/Image/HeLamMat/Motor băng tải cấp Liệu_Chạy.png" Panel.ZIndex="1" Margin="203,-18,428,2463">
+                
+            </Image>
+            <Image  x:Name="motorBTCapLieuDung" Source="/WPFUserControl;component/Image/HeLamMat/Motor băng tải cấp Liệu_Dừng.png" Panel.ZIndex="1" Margin="193,-14,438,2459">
+                
+            </Image>
+
+            <Image x:Name="motorBTCapLieuLoi" Source="/WPFUserControl;component/Image/HeLamMat/Motor băng tải cấp Liệu_Lỗi.png" Panel.ZIndex="1" Margin="196,-21,435,2466">
+                
+            </Image>
+
+         
+            <Image Source="/WPFUserControl;component/Image/HeLamMat/Hệ Làm Mát -Nền.png" Margin="0,404,0,0" />
+            <Image x:Name="airlockChay" Source="/WPFUserControl;component/Image/HeLamMat/Airlock- chạy.png" Margin="6,371,-6,-319" />
+            <Image x:Name="airlockDung" Source="/WPFUserControl;component/Image/HeLamMat/Airlock-  Dừng.png" Margin="6,371,-6,-319" />
+            <Image x:Name="airlockLoi" Source="/WPFUserControl;component/Image/HeLamMat/Airlock - Lỗi.png" Margin="6,371,-6,-319" />
+            <Label Content="Airlock" Margin="1201,541,690,1972" FontWeight="Bold" Foreground="Black" FontSize="80" Panel.ZIndex="1"/>
+
+
+            <Image x:Name="sanrungChay"  Source="/WPFUserControl;component/Image/HeLamMat/San Rung Rung-Chạy.png" Margin="0,404,0,0" />
+            <Image x:Name="sanrungDung"  Source="/WPFUserControl;component/Image/HeLamMat/San Rung Rung-Dừng.png" Margin="0,404,0,0"/>
+            <Image x:Name="sanrungLoi"  Source="/WPFUserControl;component/Image/HeLamMat/San Rung Rung-Lỗi.png" Margin="0,404,0,0"/>
+            <Label Content="Sàn rung" Margin="147,1883,1637,630" FontWeight="Bold" Foreground="Black" FontSize="80" Panel.ZIndex="1"/>
+            
+            <Image  Source="/WPFUserControl;component/Image/HeLamMat/Bang Tai Tu - nen.png"  Margin="1589,2102,58,221"/>
+            <Image x:Name="bangtaituChay" Source="/WPFUserControl;component/Image/HeLamMat/Bang Tai Tu - Chay.png" Margin="1589,2102,58,221"/>
+            <Image x:Name="bangtaituDung" Source="/WPFUserControl;component/Image/HeLamMat/Bang Tai Tu - Dung.png" Margin="1589,2102,58,221"/>
+            <Image x:Name="bangtaituLoi" Source="/WPFUserControl;component/Image/HeLamMat/Bang Tai Tu - Loi.png" Margin="1589,2102,58,221"/>
+            <Label Content="Băng tải từ" Margin="1664,2435,58,78" FontWeight="Bold" Foreground="Black" FontSize="80" Panel.ZIndex="1"/>
+            
+        </Grid>
+    </Viewbox>
+</UserControl>

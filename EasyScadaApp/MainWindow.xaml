@@ -4,53 +4,76 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasyScadaApp"
-        xmlns:connector="clr-namespace:EasyScada.Wpf.Connector;assembly=EasyScada.Wpf.Connector"
-        
         xmlns:Pages="clr-namespace:EasyScadaApp.Pages" 
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
         x:Class="EasyScadaApp.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized" WindowStartupLocation="CenterScreen">
-    <Grid>
+        Title="MainWindow" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized" 
+    WindowStartupLocation="CenterScreen" Icon="LogoIco.ico" ResizeMode="CanMinimize">
+    <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <connector:EasyDriverConnector/>
-        <Grid Grid.Row="0" Background="Black">
-            <TextBlock Text="NHÀ MÁY VIÊN NÉN NĂNG LƯỢNG Ý MỸ - KCN PHÚ BÀI HUẾ " 
+        <!--<connector:EasyDriverConnector/>-->
+        <Grid Grid.Row="0" >
+            
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="49*"/>
+                <ColumnDefinition Width="760*"/>
+                <ColumnDefinition Width="121*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Background="Black">
+                <Image Grid.Column="0" Width="100" Source="/Image/Logo.png" Stretch="Fill" HorizontalAlignment="Left"/>
+            </Grid>
+
+
+            <Grid Background="Black" Grid.ColumnSpan="2" Margin="101,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="NHÀ MÁY VIÊN NÉN NĂNG LƯỢNG BẢO CHÂU PHÚ YÊN - MAIN" 
                        FontSize="40" FontFamily="Times New Roman" FontWeight="Bold" Foreground="DarkGoldenrod"
-                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+                       HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="154,27,67,27" Height="46" Width="1348" />
+            </Grid>
+
+            <Grid Grid.Column="2" Background="White">
+                <Image Width="242" Source="/Image/logoPQ.jpg" Stretch="Fill" HorizontalAlignment="Right"/>
+            </Grid>
         </Grid>
-        <DockPanel Grid.Row="1" LastChildFill="True" Background="Gray">
+        <Grid Grid.Row="1" Background="Gray">
 
             <Pages:ucNghienThoTinh x:Name="NghienTho" Visibility="Visible"/>
-            <Pages:ucKhoNghienSay x:Name="KhoNghien" Visibility="Hidden"/>
-            <Pages:ucMayEpVien x:Name="MayEpVien" Visibility="Hidden"/>
             <Pages:ucKhoNghienTinh_GiuBui x:Name="KhoNghienTinhGiuBui" Visibility="Hidden"/>
+            <Pages:ucReport x:Name="Report" Visibility="Hidden"/>
+            <!--<Pages:ucChart x:Name="Chart" Visibility="Hidden"/>
+            <Pages:ucChartTS x:Name="ChartTS" Visibility="Hidden"/>-->
+        </Grid>
 
-        </DockPanel>
-        
         <Grid Grid.Row="2" Background="Black">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <Label x:Name="labThoiGian" Grid.Column="0"
+
+            <Label x:Name="labThoiGian" Margin="10,0,0,0"
                        DockPanel.Dock="Right"
                    Content="dd/MM/yyyy HH:mm:ss" 
                    HorizontalAlignment="Right"
                    VerticalAlignment="Center"
                    FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="White"
                    />
-            
+
             <StackPanel Grid.Column="2" Orientation="Horizontal">
-                <Button x:Name="btnMayNghien" Margin="8 0 0 0" Content="Máy Nghiền" Click="BtnMayNghien_Click" Width="130" FontSize="20" Height="50" VerticalAlignment="Top"/>
-                <Button x:Name="btnKhoNghien" Margin="8 0 0 0" Content="Kho Nghiền Thô - Sau Sấy" Click="BtnKhoNghien_Click" Width="274" FontSize="20"/>
-                <Button x:Name="btnKhoNghienTinhGiuBui" Margin="8 0 0 0" Content="Kho Nghiền Tinh - Giũ Bụi" Width="272" FontSize="20" Click="BtnKhoNghienTinhGiuBui_Click"/>
-                <Button x:Name="btnMayEp" Margin="8 0 0 0" Content="Máy Ép" Click="BtnMayEp_Click" Width="120" FontSize="20"/>
+                <Button x:Name="btnMayNghien" Margin="8 0 0 0" Content="Trang 1" Click="BtnMayNghien_Click" Width="130" FontSize="20" Height="50" VerticalAlignment="Top"/>
+                <Button x:Name="btnKhoNghienTinhGiuBui" Margin="8 0 0 0" Content="Trang 2" Width="130" FontSize="20" Click="BtnKhoNghienTinhGiuBui_Click"/>
+                <Button x:Name="btnReport" Margin="8 0 0 0" Content="Báo cáo" Width="130" FontSize="20" Click="BtnReport_Click"/>
+                <Button x:Name="btnChart" Margin="8 0 0 0" Content="Biểu đồ dòng" Width="130" FontSize="20" Click="BtnChart_Click"/>
+                <Button x:Name="btnChartTS" Margin="8 0 0 0" Content="Biểu đồ tần số" Width="130" FontSize="20" Click="BtnChartTS_Click"/>
                 <Button x:Name="btnExit" Margin="8 0 0 0" Content="Thoát"  Width="100" FontSize="20" Click="BtnExit_Click"/>
             </StackPanel>
         </Grid>

@@ -9,158 +9,93 @@
              mc:Ignorable="d" 
              Width="250" Height="190"
              d:DesignHeight="450" d:DesignWidth="800">
-    <Border Padding="4" Background="DarkGray">
-        <Grid Canvas.Left="127" Canvas.Top="20" Background="DarkGray" ShowGridLines="False">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+    <Viewbox>
+        <Border Padding="4" Background="DarkGray">
+            <Grid Canvas.Left="127" Canvas.Top="20" Background="DarkGray" ShowGridLines="False">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+                <!--<Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>-->
 
-            <!--KHO NGHIỀN THÔ-->
-            <Grid Grid.Row="0" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Background="SkyBlue" Margin="2">
-                <Label Content="KHO NGHIỀN THÔ"
+                <!--KHO NGHIỀN THÔ-->
+                <Grid Grid.Row="0" HorizontalAlignment="Stretch" Background="SkyBlue" Margin="2">
+                    <Label Content="KHO NGHIỀN THÔ"
                        x:Name="lbHeader"
                        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
-                       >
-                </Label>
-            </Grid>
-
-            <!--Auto/Manual-->
-            <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Background="White" Width="100" Margin="2">
-                <Label Content="AUTO" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
-                    <Label.Style>
-                        <Style TargetType="Label">
-                            <Setter Property="Background" Value="Gray"/>
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="1">
-                                    <Setter Property="Background" Value="Green"/>
-                                </DataTrigger>
-
-                                <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="0">
-                                    <Setter Property="Background" Value="Gray"/>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Label.Style>
-                </Label>
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Background="White" Width="100" Margin="2">
-                <Label Content="MANUAL" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold">
-                    <Label.Style>
-                        <Style TargetType="Label">
-                            <Setter Property="Background" Value="Gray"/>
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="1">
-                                    <Setter Property="Background" Value="Green"/>
-                                </DataTrigger>
-
-                                <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="0">
-                                    <Setter Property="Background" Value="Gray"/>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Label.Style>
-                </Label>
-
-            </Grid>
-
-            <!--Motor T lực 1-->
-            <Grid Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Motor bơm dầu 1"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
-                       >
-                </Label>
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="dongMotorBomDau1" Content="0" HorizontalAlignment="Right"        
-                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                                        >
-                    </controls:EasyLabel>
-                    <Label Content="A" HorizontalAlignment="Right" 
-                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                           >
                     </Label>
-                </StackPanel>
-            </Grid>
+                </Grid>
 
-            <!--Motor T lực 2-->
-            <Grid Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Motor bơm dầu 2"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
-                       >
-                </Label>
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="dongMotorBomDau2" Content="0" HorizontalAlignment="Right"        
-                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                                        >
-                    </controls:EasyLabel>
-                    <Label Content="A" HorizontalAlignment="Right" 
-                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                           >
+                <!--Auto/Manual-->
+                <Grid Grid.Row="1" HorizontalAlignment="Stretch" Background="White" Margin="2">
+                    <Label Content="AUTO" 
+                           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Setter Property="Background" Value="Gray"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="1">
+                                        <Setter Property="Background" Value="Green"/>
+                                    </DataTrigger>
+
+                                    <DataTrigger Binding="{Binding ElementName=host,Path=Auto}" Value="0">
+                                        <Setter Property="Background" Value="Gray"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Label.Style>
                     </Label>
-                </StackPanel>
-            </Grid>
+                </Grid>
+                <Grid Grid.Row="2" HorizontalAlignment="Stretch" Background="White" Margin="2">
+                    <Label Content="MANUAL" 
+                            HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Setter Property="Background" Value="Gray"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="1">
+                                        <Setter Property="Background" Value="Green"/>
+                                    </DataTrigger>
 
-            <!--T/G chạy kho-->
-            <Grid Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Dòng VTRL"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Height="25" VerticalAlignment="Top" VerticalContentAlignment="Center"
-                       >
-                </Label>
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="dongVTRL" Content="0" HorizontalAlignment="Right"        
-                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                                        >
-                    </controls:EasyLabel>
-                    <Label Content="A" HorizontalAlignment="Right" 
-                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                           >
+                                    <DataTrigger Binding="{Binding ElementName=host,Path=Manual}" Value="0">
+                                        <Setter Property="Background" Value="Gray"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Label.Style>
                     </Label>
-                </StackPanel>
 
-            </Grid>
+                </Grid>
+                <Grid Grid.Row="3" HorizontalAlignment="Stretch" Background="White" Margin="2">
+                    <Label Content="CHẾ ĐỘ 3" 
+                           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black">
+                        <Label.Style>
+                            <Style TargetType="Label">
+                                <Setter Property="Background" Value="Gray"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=host,Path=CheDo3}" Value="1">
+                                        <Setter Property="Background" Value="Green"/>
+                                    </DataTrigger>
 
-            <!--VÍT TẢI-->
-            <Grid Grid.Row="5" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Margin="2"/>
-
-            <!--Vít tải 1-->
-            <Grid Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left" Margin="2">
-                <Label Content="Nhiệt độ bồn dầu"
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center"
-                       >
-                </Label>
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right" Background="Black" Width="100" Margin="2">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="nhietDoBonDau" Content="0" HorizontalAlignment="Right"        
-                                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                                        >
-                    </controls:EasyLabel>
-                    <Label Content="oC" HorizontalAlignment="Right"
-                           FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red" VerticalContentAlignment="Center"
-                           >
+                                    <DataTrigger Binding="{Binding ElementName=host,Path=CheDo3}" Value="0">
+                                        <Setter Property="Background" Value="Gray"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Label.Style>
                     </Label>
-                </StackPanel>
-
+                </Grid>
             </Grid>
-        </Grid>
-
-    </Border>
+        </Border>
+    </Viewbox>
 </UserControl>

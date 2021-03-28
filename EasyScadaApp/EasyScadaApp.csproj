@@ -36,18 +36,30 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LogoIco.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.11.3.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.11.3\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
     <Reference Include="EasyScada.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\EasyScada.Core.dll</HintPath>
+      <HintPath>E:\VS\EasySCADA\Debug (4)\Debug\Toolkit\EasyScada.Core.dll</HintPath>
     </Reference>
-    <Reference Include="EasyScada.Wpf.Connector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="EasyScada.Winforms.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScada.Wpf.Connector.dll</HintPath>
+      <HintPath>E:\VS\EasySCADA\Debug (4)\Debug\Toolkit\EasyScada.Winforms.Controls.dll</HintPath>
     </Reference>
     <Reference Include="EasyScada.Wpf.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScada.Wpf.Controls.dll</HintPath>
+      <HintPath>E:\VS\EasySCADA\Debug (4)\Debug\Toolkit\EasyScada.Wpf.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignColors, Version=1.2.6.1513, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.2.6\lib\net45\MaterialDesignColors.dll</HintPath>
@@ -57,14 +69,22 @@
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Client, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+      <HintPath>..\..\ControlsWPF\Microsoft.AspNet.SignalR.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Learn\EasyScada\SourceCode\NewEasyScada\ControlsWPF\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PLCPi">
+      <HintPath>C:\Program Files\ATPro\PLCPi\PLCPi.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -86,6 +106,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commons\DataProvider.cs" />
+    <Compile Include="Commons\DbAlarm.cs" />
+    <Compile Include="Commons\DbData.cs" />
+    <Compile Include="Commons\SqlTransactionQueryList.cs" />
+    <Compile Include="Models\AlarmModel.cs" />
+    <Compile Include="Models\DataModel.cs" />
+    <Compile Include="Commons\ReadWriteExcel.cs" />
+    <Compile Include="Controls\BangDieuKhien\BangDieuKhienKho.xaml.cs">
+      <DependentUpon>BangDieuKhienKho.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.xaml.cs">
       <DependentUpon>BangDieuKhienMayNghien.xaml</DependentUpon>
     </Compile>
@@ -114,6 +144,29 @@
     <Compile Include="Controls\KhoNghien\ThongTinKhoNghienTinh.xaml.cs">
       <DependentUpon>ThongTinKhoNghienTinh.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\MeasureModel.cs" />
+    <Compile Include="Models\ScaleValueModel.cs" />
+    <Compile Include="Models\ScaleValuesModel.cs" />
+    <Compile Include="Models\ThoiGianChayMayModel.cs" />
+    <Compile Include="Pages\ucChart.xaml.cs">
+      <DependentUpon>ucChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ucChartTS.xaml.cs">
+      <DependentUpon>ucChartTS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ucReport.xaml.cs">
+      <DependentUpon>ucReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Page Include="Controls\BangDieuKhien\BangDieuKhienKho.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -144,6 +197,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\ucChart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ucChartTS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\ucKhoNghienSay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -192,6 +253,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ucReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pages\ucKhoNghienSay.xaml.cs">
@@ -223,6 +288,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -238,7 +306,24 @@
       <Name>WPFUserControl</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="widescreen_tv.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\logoPQ.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LogoIco.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -8,13 +8,39 @@
              xmlns:EasyScadaApp="clr-namespace:EasyScadaApp" x:Class="EasyScadaApp.Pages.ucKhoNghienTinh_GiuBui"
              mc:Ignorable="d" 
              d:DesignHeight="922" d:DesignWidth="1912">
-    <Grid>
-        <WPFUserControl:KhoNghienTinh x:Name="KhoNghienTinh" HorizontalAlignment="Left" Height="902" Margin="46,10,0,0" VerticalAlignment="Top" Width="1135"/>
-        <WPFUserControl:HeThongGiuBui x:Name="HeThongGiuBui" HorizontalAlignment="Left" Height="646" Margin="1019,232,0,0" VerticalAlignment="Top" Width="883"/>
+    <Canvas>
+        <WPFUserControl:HeLamMat x:Name="heLamMat" Height="162" Width="456" Canvas.Left="1430" Canvas.Top="18"></WPFUserControl:HeLamMat>
+        <!-- Label machineName-->
+        <Label Name="labMayNghienTinh" Canvas.Left="109"
+               Content="MÁY NGHIỀN TINH" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="1" RenderTransformOrigin="-1.605,5.318"
+               />
+        <Label Canvas.Left="848"
+               Content="KHO NGHIỀN TINH" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="1"
+               />
+        <Label Canvas.Left="1377"
+               Content="GIŨ BỤI" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="1"
+               />
 
-        <EasyScadaApp:GiuBuiTrungTam x:Name="ThongTinGiuBui" HorizontalAlignment="Left" Height="142" Margin="1322,171,0,0" VerticalAlignment="Top" Width="240"/>
-        <EasyScadaApp:ThongTinKhoNghienTinh x:Name="ThongTinKhoNghienTinh" HorizontalAlignment="Left" Height="148" Margin="89,150,0,0" VerticalAlignment="Top" Width="270"/>
+        <WPFUserControl:MayNghienTinh x:Name="mayNghienTinh" HorizontalAlignment="Left" VerticalAlignment="Top" Height="354" Width="399" Canvas.Left="221" Canvas.Top="18"/>
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTinh" HorizontalAlignment="Left" VerticalAlignment="Top" Height="269" Width="206" Canvas.Left="10" Canvas.Top="53"/>
+        <WPFUserControl:KhoNghienTinh x:Name="khoNghienTinh" Canvas.Left="823" Canvas.Top="-15" Height="491" Width="554"/>
+        <WPFUserControl:MayEpVien x:Name="mayEpVien" Canvas.Left="59" Canvas.Top="431" Height="480" Width="838"/>
+        <WPFUserControl:HeThongPhuTroEpVien x:Name="phuTroEpVien" Canvas.Left="876" Canvas.Top="549" Height="405" Width="970"/>
+        <WPFUserControl:HeThongGiuBui x:Name="giuBui" Canvas.Left="1331" Canvas.Top="107" Height="398" Width="571"/>
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp1" Canvas.Left="31" Canvas.Top="391" Height="244" Width="234"/>
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp2" Canvas.Left="850" Canvas.Top="476" Height="244" Width="234"/>
+        <EasyScadaApp:SanLong x:Name="thongTinPhuTroEpVien" Canvas.Left="1196" Canvas.Top="484" Height="218" Width="269"/>
+        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTinh" Canvas.Left="850" Canvas.Top="34" Height="146" Width="178"/>
+        <EasyScadaApp:ThongTinCan x:Name="thongTinCanPTEV" Canvas.Left="1624" Canvas.Top="478" Width="185"/>
         <!--<EasyScadaApp:ThongTinKhoNghienTinh x:Name="ThongTinKhoNghienTinh" HorizontalAlignment="Left" Height="168" Margin="154,145,0,0" VerticalAlignment="Top" Width="214"/>-->
-
-    </Grid>
+    </Canvas>
 </UserControl>

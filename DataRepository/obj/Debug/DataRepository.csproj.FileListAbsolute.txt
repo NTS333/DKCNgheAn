@@ -56,3 +56,39 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\DataRepository\obj\Debug\Dat
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\DataRepository\obj\Debug\DataRepository.dll
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\DataRepository\obj\Debug\DataRepository.pdb
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.dll
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.pdb
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DriverPluginInterface.dll
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.dll
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\iDriver.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DriverPluginInterface.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\bin\Debug\DriverPluginInterface.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\bin\Debug\DataRepository.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache

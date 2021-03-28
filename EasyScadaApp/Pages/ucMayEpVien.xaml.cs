@@ -37,61 +37,45 @@ namespace EasyScadaApp.Pages
             {
                 isLoaded = true;
 
-                #region Máy ép viên
-                thongTinMayEp1.Header1 = "MÁY ÉP 1";
-                thongTinMayEp1.Header2 = "CẤP LIỆU MÁY ÉP 1";
-                thongTinMayEp1.StationName = "RemoteStation1";
-                thongTinMayEp1.ChannelName = "PLCMayEpVien";
-                thongTinMayEp1.DeviceName = "MayEpVien1";
+                //#region Máy ép viên
+                //thongTinMayEp1.Header1 = "MÁY ÉP 1";
+                //thongTinMayEp1.Header2 = "CẤP LIỆU MÁY ÉP 1";
+                //thongTinMayEp1.StationName = "RemoteStation1";
+                //thongTinMayEp1.ChannelName = "PLCNghien_EpVien";
+                //thongTinMayEp1.DeviceName = "MayEpVien1";
 
-                thongTinMayEp2.Header1 = "MÁY ÉP 2";
-                thongTinMayEp2.Header2 = "CẤP LIỆU MÁY ÉP 2";
-                thongTinMayEp2.StationName = "RemoteStation1";
-                thongTinMayEp2.ChannelName = "PLCMayEpVien";
-                thongTinMayEp2.DeviceName = "MayEpVien2";
+                //thongTinMayEp2.Header1 = "MÁY ÉP 2";
+                //thongTinMayEp2.Header2 = "CẤP LIỆU MÁY ÉP 2";
+                //thongTinMayEp2.StationName = "RemoteStation1";
+                //thongTinMayEp2.ChannelName = "PLCNghien_EpVien";
+                //thongTinMayEp2.DeviceName = "MayEpVien2";
 
-                thongTinMayEp3.Header1 = "MÁY ÉP 3";
-                thongTinMayEp3.Header2 = "CẤP LIỆU MÁY ÉP 3";
-                thongTinMayEp3.StationName = "RemoteStation1";
-                thongTinMayEp3.ChannelName = "PLCMayEpVien";
-                thongTinMayEp3.DeviceName = "MayEpVien3";
+                //thongTinMayEp1.Start();
+                //thongTinMayEp2.Start();
+                //#endregion
 
-                thongTinMayEp4.Header1 = "MÁY ÉP 4";
-                thongTinMayEp4.Header2 = "CẤP LIỆU MÁY ÉP 4";
-                thongTinMayEp4.StationName = "RemoteStation1";
-                thongTinMayEp4.ChannelName = "PLCMayEpVien";
-                thongTinMayEp4.DeviceName = "MayEpVien4";
+                //#region Phụ trợ máy ép viên
+                //thongTinSanLong.StationName = "RemoteStation1";
+                //thongTinSanLong.ChannelName = "PLCNghien_EpVien";
+                //thongTinSanLong.DeviceName = "PhuTroEpVien";
 
-                thongTinMayEp1.Start();
-                thongTinMayEp2.Start();
-                thongTinMayEp3.Start();
-                thongTinMayEp4.Start();
-                #endregion
+                //thongTinSanLong.Start();
 
-                #region Phụ trợ máy ép viên
-                thongTinSanLong.StationName = "RemoteStation1";
-                thongTinSanLong.ChannelName = "PLCMayEpVien";
-                thongTinSanLong.DeviceName = "PhuTroEpVien";
+                //phuTroMayEpVien.StationName = "RemoteStation1";
+                //phuTroMayEpVien.ChannelName = "PLCNghien_EpVien";
+                //phuTroMayEpVien.DeviceName = "PhuTroEpVien";
 
-                thongTinSanLong.Start();
+                //phuTroMayEpVien.Start();
+                //#endregion
 
-                phuTroMayEpVien.StationName = "RemoteStation1";
-                phuTroMayEpVien.ChannelName = "PLCMayEpVien";
-                phuTroMayEpVien.DeviceName = "PhuTroEpVien";
+                //#region Graphic
+                //MayEp.StationName = "RemoteStation1";
+                //MayEp.ChannelName = "PLCNghien_EpVien";
+                //MayEp.DeviceNameMayEp1 = "MayEpVien1";
+                //MayEp.DeviceNameMayEp2 = "MayEpVien2";
 
-                phuTroMayEpVien.Start();
-                #endregion
-
-                #region Graphic
-                MayEp.StationName = "RemoteStation1";
-                MayEp.ChannelName = "PLCMayEpVien";
-                MayEp.DeviceNameMayEp1 = "MayEpVien1";
-                MayEp.DeviceNameMayEp2 = "MayEpVien2";
-                MayEp.DeviceNameMayEp3 = "MayEpVien3";
-                MayEp.DeviceNameMayEp4 = "MayEpVien4";
-
-                MayEp.Start();
-                #endregion
+                //MayEp.Start();
+                //#endregion
             }
         }
 

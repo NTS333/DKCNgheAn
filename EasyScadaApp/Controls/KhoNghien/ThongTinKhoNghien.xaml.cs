@@ -50,6 +50,14 @@ namespace EasyScadaApp
         public static readonly DependencyProperty ManualProperty =
             DependencyProperty.Register("Manual", typeof(string), typeof(ThongTinKhoNghien), new PropertyMetadata("0"));
 
+        public string CheDo3
+        {
+            get { return (string)GetValue(CheDo3Property); }
+            set { SetValue(CheDo3Property, value); }
+        }
+        public static readonly DependencyProperty CheDo3Property =
+            DependencyProperty.Register("CheDo3", typeof(string), typeof(ThongTinKhoNghien), new PropertyMetadata("0"));
+
         public void Start()
         {
             if (!isStarted)
@@ -57,25 +65,28 @@ namespace EasyScadaApp
                 lbHeader.Content = Header;
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                dongMotorBomDau1.PathToTag = prefix + "Current_Digital_Pump1";
-                dongMotorBomDau2.PathToTag = prefix + "Current_Digital_Pump2";
-                dongVTRL.PathToTag = prefix + "Current_Digital_VTRL";
-                nhietDoBonDau.PathToTag = prefix + "Temperature_Digital_Pump1";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Auto").ValueChanged += (s, o) =>
-                {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Auto = o.NewValue;
-                    }));
-                };
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "ST_Auto").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Auto = o.NewValue;
+                //    }));
+                //};
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Man").ValueChanged += (s, o) => {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Manual = o.NewValue;
-                    }));
-                };
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "ST_Manual").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Manual = o.NewValue;
+                //    }));
+                //};
+
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "ST_CheDo3").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        CheDo3 = o.NewValue;
+                //    }));
+                //};
             }
         }
     }

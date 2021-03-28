@@ -28,10 +28,11 @@ namespace WPFUserControl
         public IEasyDriverConnector Connector { get; set; }
         public ITag MotorQuatHut { get; set; }
         public ITag MotorVitTai { get; set; }
-        public ITag MotorRotovan { get; set; }
+        public ITag MotorAirLock { get; set; }
         public ITag StatusHeThongGiuBui { get; set; }
+        public ITag MotorVitTaiUpdate { get; set; }
 
-        public ITag AlarmMotorRotovan { get; set; }
+        public ITag AlarmMotorAirLock { get; set; }
         public ITag AlarmMotorVitTai { get; set; }
         public ITag AlarmMotorQuatHut { get; set; }
         #endregion ----- PROPERTY USERCONTROL ----- 
@@ -57,6 +58,9 @@ namespace WPFUserControl
             statusHeThongGiuBuiDung.Visibility = Visibility.Collapsed;
             quatHutGif.Visibility = Visibility.Collapsed;
             vitTaiGif.Visibility = Visibility.Collapsed;
+
+            vitTaiGiuBuiUpdateGif.Visibility = Visibility.Collapsed;
+            motorVitTaiGiuBuiUpdateChay.Visibility = Visibility.Collapsed;
         }
         public void Start()
         {
@@ -81,55 +85,81 @@ namespace WPFUserControl
             Dispatcher.Invoke(() =>
             {
 
-                MotorQuatHut = GetTag("PL_Qhut");
+                MotorQuatHut = GetTag("PL_QHGB");
                 if (MotorQuatHut != null)
                 {
-                    MotorQuatHut_ValueChanged(MotorQuatHut, new TagValueChangedEventArgs("", MotorQuatHut.Value));
+                    MotorQuatHut_ValueChanged(MotorQuatHut, new TagValueChangedEventArgs(MotorQuatHut, "", MotorQuatHut.Value));
                     MotorQuatHut.ValueChanged += MotorQuatHut_ValueChanged;
                 }
 
-                MotorVitTai = GetTag("PL_Vtai");
+                MotorVitTai = GetTag("PL_VTGB");
                 if (MotorVitTai != null)
                 {
-                    MotorVitTai_ValueChanged(MotorVitTai, new TagValueChangedEventArgs("", MotorVitTai.Value));
+                    MotorVitTai_ValueChanged(MotorVitTai, new TagValueChangedEventArgs(MotorVitTai, "", MotorVitTai.Value));
                     MotorVitTai.ValueChanged += MotorVitTai_ValueChanged;
                 }
 
-                MotorRotovan = GetTag("PL_Rotorvan");
-                if (MotorRotovan != null)
+                MotorAirLock = GetTag("PL_AirGB");
+                if (MotorAirLock != null)
                 {
-                    MotorRotovan_ValueChanged(MotorRotovan, new TagValueChangedEventArgs("", MotorRotovan.Value));
-                    MotorRotovan.ValueChanged += MotorRotovan_ValueChanged;
+                    MotorRotovan_ValueChanged(MotorAirLock, new TagValueChangedEventArgs(MotorAirLock, "", MotorAirLock.Value));
+                    MotorAirLock.ValueChanged += MotorRotovan_ValueChanged;
                 }
 
-                StatusHeThongGiuBui = GetTag("PL_Gbui");
+                StatusHeThongGiuBui = GetTag("PL_GB");
                 if (StatusHeThongGiuBui != null)
                 {
-                    StatusHeThongGiuBui_ValueChanged(StatusHeThongGiuBui, new TagValueChangedEventArgs("", StatusHeThongGiuBui.Value));
+                    StatusHeThongGiuBui_ValueChanged(StatusHeThongGiuBui, new TagValueChangedEventArgs(StatusHeThongGiuBui, "", StatusHeThongGiuBui.Value));
                     StatusHeThongGiuBui.ValueChanged += StatusHeThongGiuBui_ValueChanged;
                 }
 
-                AlarmMotorRotovan = GetTag("PL_OVL_Rotorvan");
-                if (AlarmMotorRotovan != null)
+                MotorVitTaiUpdate = GetTag("ST_VTGB_UPdate");
+                if (MotorVitTaiUpdate != null)
                 {
-                    AlarmMotorRotovan_ValueChanged(AlarmMotorRotovan, new TagValueChangedEventArgs("", AlarmMotorRotovan.Value));
-                    AlarmMotorRotovan.ValueChanged += AlarmMotorRotovan_ValueChanged;
+                    MotorVitTaiUpdate_ValueChanged(MotorVitTaiUpdate, new TagValueChangedEventArgs(MotorVitTaiUpdate, "", MotorVitTaiUpdate.Value));
+                    MotorVitTaiUpdate.ValueChanged += MotorVitTaiUpdate_ValueChanged;
                 }
 
-                AlarmMotorVitTai = GetTag("PL_OVL_Vtai");
+                AlarmMotorAirLock = GetTag("PL_OVL_AirGB");
+                if (AlarmMotorAirLock != null)
+                {
+                    AlarmMotorRotovan_ValueChanged(AlarmMotorAirLock, new TagValueChangedEventArgs(AlarmMotorAirLock, "", AlarmMotorAirLock.Value));
+                    AlarmMotorAirLock.ValueChanged += AlarmMotorRotovan_ValueChanged;
+                }
+
+                AlarmMotorVitTai = GetTag("PL_OVL_VTGB");
                 if (AlarmMotorVitTai != null)
                 {
-                    AlarmMotorVitTai_ValueChanged(AlarmMotorVitTai, new TagValueChangedEventArgs("", AlarmMotorVitTai.Value));
+                    AlarmMotorVitTai_ValueChanged(AlarmMotorVitTai, new TagValueChangedEventArgs(AlarmMotorVitTai, "", AlarmMotorVitTai.Value));
                     AlarmMotorVitTai.ValueChanged += AlarmMotorVitTai_ValueChanged;
                 }
 
-                AlarmMotorQuatHut = GetTag("PL_OVL_Qhut");
+                AlarmMotorQuatHut = GetTag("PL_OVL_QHGB");
                 if (AlarmMotorQuatHut != null)
                 {
-                    AlarmMotorQuatHut_ValueChanged(AlarmMotorQuatHut, new TagValueChangedEventArgs("", AlarmMotorQuatHut.Value));
+                    AlarmMotorQuatHut_ValueChanged(AlarmMotorQuatHut, new TagValueChangedEventArgs(AlarmMotorQuatHut, "", AlarmMotorQuatHut.Value));
                     AlarmMotorQuatHut.ValueChanged += AlarmMotorQuatHut_ValueChanged;
                 }
             });
+        }
+
+        private void MotorVitTaiUpdate_ValueChanged(object sender, TagValueChangedEventArgs e)
+        {
+            DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+            {
+                if (e.NewValue == "1")
+                {
+                    vitTaiGiuBuiUpdateGif.Visibility = Visibility.Visible;
+                    motorVitTaiGiuBuiUpdateChay.Visibility = Visibility.Visible;
+                    motorVitTaiGiuBuiUpdateDung.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    vitTaiGiuBuiUpdateGif.Visibility = Visibility.Collapsed;
+                    motorVitTaiGiuBuiUpdateChay.Visibility = Visibility.Collapsed;
+                    motorVitTaiGiuBuiUpdateDung.Visibility = Visibility.Visible;
+                }
+            }));
         }
 
         private void StatusHeThongGiuBui_ValueChanged(object sender, TagValueChangedEventArgs e)
@@ -156,9 +186,11 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorRotovanChay.Visibility = Visibility.Visible;
+                    motorRotovanDung.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
+                    motorRotovanDung.Visibility = Visibility.Visible;
                     motorRotovanChay.Visibility = Visibility.Collapsed;
                 }
             }));
@@ -171,10 +203,12 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorVitTaiChay.Visibility = Visibility.Visible;
+                    motorVitTaiDung.Visibility = Visibility.Collapsed;
                     vitTaiGif.Visibility = Visibility.Visible;
                 }
                 else
                 {
+                    motorVitTaiDung.Visibility = Visibility.Visible;
                     motorVitTaiChay.Visibility = Visibility.Collapsed;
                     vitTaiGif.Visibility = Visibility.Collapsed;
                 }
@@ -188,10 +222,12 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorQuatHutChay.Visibility = Visibility.Visible;
+                    motorQuatHutDung.Visibility = Visibility.Collapsed;
                     quatHutGif.Visibility = Visibility.Visible;
                 }
                 else
                 {
+                    motorQuatHutDung.Visibility = Visibility.Visible;
                     motorQuatHutChay.Visibility = Visibility.Collapsed;
                     quatHutGif.Visibility = Visibility.Collapsed;
                 }
@@ -206,14 +242,21 @@ namespace WPFUserControl
                 {
                     motorRotovanLoi.Visibility = Visibility.Visible;
                     motorRotovanChay.Visibility = Visibility.Collapsed;
+                    motorRotovanDung.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
                     motorRotovanLoi.Visibility = Visibility.Collapsed;
 
-                    if (MotorRotovan.Value == "1")
+                    if (MotorAirLock.Value == "1")
                     {
+                        motorRotovanDung.Visibility = Visibility.Collapsed;
                         motorRotovanChay.Visibility = Visibility.Visible;
+                    }
+                    else
+                    {
+                        motorRotovanDung.Visibility = Visibility.Visible;
+                        motorRotovanChay.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -227,6 +270,7 @@ namespace WPFUserControl
                 {
                     motorVitTaiLoi.Visibility = Visibility.Visible;
                     motorVitTaiChay.Visibility = Visibility.Collapsed;
+                    motorVitTaiDung.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
@@ -234,8 +278,15 @@ namespace WPFUserControl
 
                     if (MotorVitTai.Value == "1")
                     {
+                        motorVitTaiDung.Visibility = Visibility.Collapsed;
                         motorVitTaiChay.Visibility = Visibility.Visible;
                         vitTaiGif.Visibility = Visibility.Visible;
+                    }
+                    else
+                    {
+                        motorVitTaiDung.Visibility = Visibility.Visible;
+                        motorVitTaiChay.Visibility = Visibility.Collapsed;
+                        vitTaiGif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
@@ -249,6 +300,7 @@ namespace WPFUserControl
                 {
                     motorQuatHutLoi.Visibility = Visibility.Visible;
                     motorQuatHutChay.Visibility = Visibility.Collapsed;
+                    motorQuatHutDung.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
@@ -256,13 +308,50 @@ namespace WPFUserControl
 
                     if (MotorQuatHut.Value == "1")
                     {
+                        motorQuatHutDung.Visibility = Visibility.Collapsed;
                         motorQuatHutChay.Visibility = Visibility.Visible;
                         quatHutGif.Visibility = Visibility.Visible;
+                    }
+                    else
+                    {
+                        motorQuatHutDung.Visibility = Visibility.Visible;
+                        motorQuatHutChay.Visibility = Visibility.Collapsed;
+                        quatHutGif.Visibility = Visibility.Collapsed;
                     }
                 }
             }));
         }
-        
 
+        #region Events
+        public event EventHandler MotorRotovanClick;
+        public event EventHandler MotorVitTaiClick;
+        public event EventHandler MotorVitTaiUpdateClick;
+        public event EventHandler MotorQuatHutClick;
+        public event EventHandler GiuBuiClick;
+        private void MotorQuatHut_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            MotorQuatHutClick?.Invoke(this, e);
+        }
+
+        private void MotorVitTai_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            MotorVitTaiClick?.Invoke(this, e);
+        }
+
+        private void MotorVitTaiUpdate_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            MotorVitTaiUpdateClick?.Invoke(this, e);
+        }
+
+        private void MotorRotovan_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            MotorRotovanClick?.Invoke(this, e);
+        }
+
+        private void GiuBui_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            GiuBuiClick?.Invoke(this, e);
+        }
+        #endregion
     }
 }

@@ -61,26 +61,47 @@ namespace EasyScadaApp
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
 
-                dongM1.PathToTag = prefix + "CurrentDigitalM1";
-                dongM2.PathToTag = prefix + "CurrentDigitalM2";
-                dongMixer.PathToTag = prefix + "CurrentDigitalMx";
-                dongFeededA.PathToTag = prefix + "CurrentDigitalA";
-                nhapTSFeededA.PathToTag = prefix + "InputHzA1";
+                dongM1.TagPath = prefix + "Current_Digital_M1";
+                #region Ref
+                ////dongMixer.TagPath = prefix + "Current_Digital_MX";
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_MX").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() => {
+                //        dongMixer.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwAuto").ValueChanged += (s, o) =>
-                {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Auto = o.NewValue;
-                    }));
-                };
+                ////dongFeededA1.TagPath = prefix + "Current_Digital_FDA1";
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_A").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() => {
+                //        dongFeededA1.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //nhapTSFeededA1.TagPath = prefix + "Input_Hz_A";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SwMan").ValueChanged += (s, o) => {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Manual = o.NewValue;
-                    }));
-                };
+                ////dongFeededA2.TagPath = prefix + "Current_Digital_FDA2";
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_B").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() => {
+                //        dongFeededA2.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //nhapTSFeededA2.TagPath = prefix + "Input_Hz_B";
+
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "PL_Auto").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Auto = o.NewValue;
+                //    }));
+                //};
+
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "PL_Manual").ValueChanged += (s, o) => {
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Manual = o.NewValue;
+                //    }));
+                //};
+                #endregion
+
             }
         }
     }

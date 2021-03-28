@@ -58,11 +58,11 @@ namespace EasyScadaApp
                 lbHeader.Content = Header;
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                dongMotorBomDau1.PathToTag = prefix + "Current_Digital_Pump1";                
-                dongVTRL.PathToTag = prefix + "Current_Digital_VTRL";
-                nhietDoBonDau.PathToTag = prefix + "Temperature_Digital_Pump1";
+                dongMotorBomDau1.TagPath = prefix + "Current_Digital_Pump1";                
+                dongVTRL.TagPath = prefix + "Current_Digital_VTRL";
+                nhietDoBonDau.TagPath = prefix + "Temperature_Digital_Pump1";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Auto").ValueChanged += (s, o) =>
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "ST_Auto").ValueChanged += (s, o) =>
                 {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {
@@ -70,7 +70,7 @@ namespace EasyScadaApp
                     }));
                 };
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_Man").ValueChanged += (s, o) =>
+                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "ST_Manual").ValueChanged += (s, o) =>
                 {
                     DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
                     {

@@ -17,14 +17,13 @@
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="0"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
 
             <Grid Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Background="SkyBlue" Margin="2">
-                <Label Content="CÂN 1"  
+                <Label Content="KHỐI LƯỢNG CÂN"  
                        HorizontalContentAlignment="Center"
                        x:Name="lbHeader"
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" 
@@ -33,13 +32,13 @@
 
             <!--khối lượng viên-->
             <Grid Grid.Row="1" Grid.Column="0" Margin="2">
-                <Label Content="Khối lượng viên"  
+                <Label Content="Cân 1"  
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        />
             </Grid>
             <Grid Grid.Row="1" Grid.Column="1" Background="Black" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="klVien" Content="0" HorizontalAlignment="Right"        
+                    <controls:EasyLabel x:Name="klCan1" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                                         >
                     </controls:EasyLabel>
@@ -49,21 +48,16 @@
                     </Label>
                 </StackPanel>
             </Grid>
-            <Grid Grid.Row="1" Grid.Column="2" Margin="2">
-                <Label Content="Kg" 
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
-                       />
-            </Grid>
 
             <!--khối lượng ca-->
             <Grid Grid.Row="2" Grid.Column="0" Margin="2">
-                <Label Content="Khối lượng ca" 
+                <Label Content="Cân 2" 
                        FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
                        />
             </Grid>
             <Grid Grid.Row="2" Grid.Column="1" Background="Black" Margin="2">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <controls:EasyLabel x:Name="klCa" Content="0" HorizontalAlignment="Right"        
+                    <controls:EasyLabel x:Name="klCan2" Content="0" HorizontalAlignment="Right"        
                                         FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Red"
                                         >
                     </controls:EasyLabel>
@@ -72,11 +66,6 @@
                            >
                     </Label>
                 </StackPanel>
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="2" Margin="2">
-                <Label Content="Kg" 
-                       FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
-                       />
             </Grid>
         </Grid>
 

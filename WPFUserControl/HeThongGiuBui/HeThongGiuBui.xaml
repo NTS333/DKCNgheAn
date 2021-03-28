@@ -13,35 +13,278 @@
     <Viewbox>
         <Grid>
             <!-- LABEL -->
-            <Label Content="Quạt hút" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="8661,1993,157,-6"/>
-            <Label Content="Giũ bụi" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="3776,-963,5042,2950"/>
-            <Label Content="Rotovan" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="49,1757,8769,230"/>
-            <Label Content="Vít tải" Foreground="Orange" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="4511,2073,4404,-111"/>
+            <Label Content="Quạt hút" Foreground="Black" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="11425,2540,302,-151" Panel.ZIndex="1"/>
+            <Label Content="Giũ bụi" Foreground="Black" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="5757,-684,6072,3094" Panel.ZIndex="1"/>
+            <Label Content="AirLock" Foreground="Black" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="273,2283,11516,153" Panel.ZIndex="1"/>
+            <Label Content="Vít tải" Foreground="Black" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold" Margin="5934,2664,5869,-228" Panel.ZIndex="1"/>
+            <Label Content="Vít tải update" Foreground="Black" FontSize="150" FontFamily="Microsoft Sans Serif" FontWeight="Bold"  Panel.ZIndex="1" Margin="4654,3903,6814,-1462"/>
 
             <!-- ANH NEN -->
-            <Image Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui.png" Margin="0,-1967,0,-1848" />
+            <Image Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui.png" Margin="0,-1967,0,-1848" Panel.ZIndex="0"/>
 
             <!-- 1. QUAT HUT -->
-            <Image x:Name="motorQuatHutChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutChay.png" 
-                   Margin="8563,2168,0,-706" HorizontalAlignment="Left" Width="854"/>
-            <Image x:Name="motorQuatHutLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutLoi.png" 
-                   Margin="8541,2163,0,-701" HorizontalAlignment="Left" Width="870" />
+            <Image x:Name="motorQuatHutChay" Visibility="Hidden" PreviewMouseDown="MotorQuatHut_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutChay.png" 
+                   Margin="11217,2784,0,-1038" HorizontalAlignment="Left" Width="1100">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorQuatHutDung" Visibility="Visible" PreviewMouseDown="MotorQuatHut_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutDung.png" 
+                   Margin="11187,2759,0,-1041" HorizontalAlignment="Left" Width="1126">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorQuatHutLoi" Visibility="Hidden" PreviewMouseDown="MotorQuatHut_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutLoi.png" 
+                   Margin="11187,2759,0,-1041" HorizontalAlignment="Left" Width="1126">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
-            <Image x:Name="quatHutGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_QuatHutChay.gif" Margin="8074,2005,1108,-940" />
+            <Image x:Name="quatHutGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_QuatHutChay.gif" Margin="10577,2762,1443,-1109" />
 
             <!-- 2. VIT TAI LAY LIEU -->
-            <Image x:Name="motorVitTaiChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuChay.png" Margin="4241,1976,4682,-684" />
-            <Image x:Name="motorVitTaiLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuLoi.png" Margin="4239,1943,4676,-696" />
+            <Image x:Name="motorVitTaiChay" Visibility="Hidden"  PreviewMouseDown="MotorVitTai_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuChay.png" 
+                   Margin="5542,2817,6122,-685"  >
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorVitTaiDung" Visibility="Visible"  PreviewMouseDown="MotorVitTai_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuDung.png"
+                   Margin="5545,2807,6119,-675">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorVitTaiLoi" Visibility="Hidden"  PreviewMouseDown="MotorVitTai_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuLoi.png"
+                   Margin="5545,2807,6119,-675">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
-            <Image x:Name="vitTaiGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_VitTaiLayLieuChay.gif" Margin="208,2284,5212,-425" ></Image>
+            <Image x:Name="vitTaiGif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_VitTaiLayLieuChay.gif" Margin="261,2952,6814,-632" ></Image>
+
+            <!-- 2. VIT TAI giu bui update-->
+
+            <Image x:Name="motorVitTaiGiuBuiUpdateDung" Visibility="Visible"  PreviewMouseDown="MotorVitTaiUpdate_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/motorVitTaiGiuBuiUpdateDung.png"
+                   Margin="3856,3781,7834,-1527" Panel.ZIndex="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="motorVitTaiGiuBuiUpdateChay" Visibility="Visible"  PreviewMouseDown="MotorVitTaiUpdate_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/motorVitTaiGiuBuiUpdateChay.png"
+                   Margin="3856,3781,7834,-1527" Panel.ZIndex="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="vitTaiGiuBuiUpdateGif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/vitTaiGiuBuiUpdateGif.gif"
+                   Margin="559,3780,8500,-1582" RenderTransformOrigin="0.5,0.5" >
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+
 
             <!-- 3. ROVANTO -->
-            <Image x:Name="motorRotovanChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanChay.png" Margin="460,1613,8393,-355" />
-            <Image x:Name="motorRotovanLoi" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanLoi.png" Margin="451,1911,8405,-38" />
+            <Image x:Name="motorRotovanChay" Visibility="Hidden"  PreviewMouseDown="MotorRotovan_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanChay.png" 
+                   Margin="598,2419,10968,-205">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorRotovanDung" Visibility="Visible"  PreviewMouseDown="MotorRotovan_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanDung.png" 
+                   Margin="583,2404,10983,-190">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorRotovanLoi" Visibility="Hidden"  PreviewMouseDown="MotorRotovan_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanLoi.png" 
+                   Margin="583,2404,10983,-190">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- 4. GIU BUI -->
-            <Image x:Name="statusHeThongGiuBuiChay" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiChay.png" Margin="4874,-820,4226,2104" />
-            <Image x:Name="statusHeThongGiuBuiDung" Visibility="Visible" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiLoi.png" Margin="4874,-820,4226,2104" />
+            <Image x:Name="statusHeThongGiuBuiChay" Visibility="Visible" PreviewMouseDown="GiuBui_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiChay.png" 
+                    Margin="6390,-768,5565,3006" >
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="statusHeThongGiuBuiDung" Visibility="Visible" PreviewMouseDown="GiuBui_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiLoi.png"
+                   Margin="6390,-768,5565,3006" >
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
         </Grid>
     </Viewbox>

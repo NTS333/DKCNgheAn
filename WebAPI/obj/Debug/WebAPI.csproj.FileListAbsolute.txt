@@ -1,0 +1,354 @@
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll.config
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe.config
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.rsp
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe.config
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.rsp
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.AppContext.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Console.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Compression.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.AccessControl.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Claims.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.ValueTuple.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe.config
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.rsp
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\MySql.Data.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Cors.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebGrease.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.rsp
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.rsp
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.AppContext.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Console.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Compression.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Claims.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.ValueTuple.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.rsp
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\MySql.Data.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Cors.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebGrease.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll.config
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebAPI.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe.config
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.rsp
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe.config
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.rsp
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.AppContext.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Console.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Compression.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.AccessControl.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Claims.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.ValueTuple.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe.config
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.rsp
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Cors.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\WebGrease.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\WebAPI.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\WebAPI.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.exe.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\csc.rsp
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.exe.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\csi.rsp
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.AppContext.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Console.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Compression.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.IO.Pipes.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.AccessControl.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Claims.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.ValueTuple.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.exe.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\vbc.rsp
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\MySql.Data.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Cors.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\WebGrease.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Google.Protobuf.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Zstandard.Net.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\K4os.Compression.LZ4.Streams.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\BouncyCastle.Crypto.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Ubiety.Dns.Core.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Renci.SshNet.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Buffers.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\K4os.Compression.LZ4.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\K4os.Hash.xxHash.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Memory.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Numerics.Vectors.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\MySql.Data.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.Cors.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Newtonsoft.Json.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Net.Http.Formatting.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Helpers.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Http.WebHost.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Mvc.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Optimization.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.Razor.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Deployment.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\System.Web.WebPages.Razor.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Antlr3.Runtime.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csprojAssemblyReference.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WebAPI\obj\Debug\WebAPI.pdb

@@ -55,26 +55,86 @@ namespace EasyScadaApp
             {
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                btCapLieuBinEp.PathToTag = prefix + "Current_Digital_PT1";
-                btRaVien.PathToTag = prefix + "Current_Digital_PT2";
-                btCapLieuSanLong.PathToTag = prefix + "Current_Digital_PT4";
-                sanLong.PathToTag = prefix + "Current_Digital_PT5";
-                btLenVien.PathToTag = prefix + "Current_Digital_PT7";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_AUTO_PT").ValueChanged += (s, o) =>
-                {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Auto = o.NewValue;
-                    }));
-                };
+                //cach gan tag doc truc tiep vao easyLabel tool
+                //pt1.TagPath = prefix + "Current_Digital_PT1";
+                //pt2.TagPath = prefix + "Current_Digital_PT2";
+                //pt3.TagPath = prefix + "Current_Digital_PT3";
+                //pt4.TagPath = prefix + "Current_Digital_PT4";
+                //pt5.TagPath = prefix + "Current_Digital_PT5";
+                //pt6.TagPath = prefix + "Current_Digital_PT6";
+                //pt8.TagPath = prefix + "Current_Digital_PT8";
 
-                EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "SW_MAN_PT").ValueChanged += (s, o) => {
-                    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
-                    {
-                        Manual = o.NewValue;
-                    }));
-                };
+                //do phair gioi han so le phia sau nen phai code them
+                #region Ref
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_PT1").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        pt1.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_PT2").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        pt2.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_PT3").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        pt3.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_PT4").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        pt4.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_PT5").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        pt5.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_PT6").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        pt6.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "Current_Digital_PT8").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        pt8.Content = Math.Round(Convert.ToDouble(o.NewValue), 1).ToString();
+                //    }));
+                //};
+
+                ////tag the hienn trang thai auto/manual
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "PL_Auto").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Auto = o.NewValue;
+                //    }));
+                //};
+
+                //EasyDriverConnectorProvider.GetEasyDriverConnector().GetTag(prefix + "PL_Manual").ValueChanged += (s, o) =>
+                //{
+                //    DispatcherService.Instance.AddToDispatcherQueue(new Action(() =>
+                //    {
+                //        Manual = o.NewValue;
+                //    }));
+                //};
+                #endregion
+
             }
         }
     }

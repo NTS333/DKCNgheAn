@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFUserControl"
              xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             x:Name="host"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
@@ -12,76 +13,752 @@
     </UserControl.Resources>
     <Viewbox >
         <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="709*"/>
+                <ColumnDefinition Width="557*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--label-->
+            <Label Content="Máy ép 1" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="76,431,540.69,268"/>
+            <Label Content="Máy ép 1" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="224,431,392.69,268"/>
+
+            <Label Content="Máy ép 2" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="236,431,238,268" Grid.Column="1"/>
+            <Label Content="Máy ép 2" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="395,434,61,265" RenderTransformOrigin="1.969,0.301" Grid.Column="1"/>
+
+            <Label Content="Mixer 1" Foreground="Orange" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="140,547,502.69,152"/>
+            <Label Content="Mixer 2" Foreground="Orange" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="308,547,174,152" Grid.Column="1"/>
+
+            <Label Content="Feeder B1" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="67,362,549.69,335"/>
+            <Label Content="Feeder A11" Foreground="White" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="471,279,145.69,418"/>
+            <Label Content="Feeder A12" Foreground="White" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="499,320,117.69,377"/>
+
+            <Label Content="Feeder B2" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="372,357,84,340" Grid.Column="1"/>
+            <Label Content="Feeder A21" Foreground="White" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="661,328,513,369" Grid.ColumnSpan="2"/>
+            <Label Content="Feeder A22" Foreground="White" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="702,298,472,399" Grid.ColumnSpan="2"/>
+
+            <Label Content="PT1" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="688,-61,532,761" Grid.ColumnSpan="2"/>
+            <Label Content="PT2" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="13.31,-113,498,813" Grid.Column="1"/>
+            <Label Content="PT3" Foreground="Black" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="10,596,660.69,104"/>
+
+            <Label Content="Đầy bin" Foreground="White" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="597,95,48.69,600"/>
+            <Label Content="Cạn bin 1" Foreground="White" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="532,166,100.69,529"/>
+            <Label Content="Cạn bin 2" Foreground="White" FontSize="15" FontFamily="Microsoft Sans Serif" 
+                   FontWeight="Bold"  Panel.ZIndex="1" Margin="625,166,7.69,533"/>
+
+            <!-- Bao loi he thong-->
+            <Image x:Name="loiMayEpVien2" Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" Grid.Column="1" Margin="251,580,133,48" Panel.ZIndex="1"/>
+            <Image x:Name="loiMayEpVien1" Visibility="Visible" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" Margin="87,580,458,48" Panel.ZIndex="1"/>
 
             <!-- ANH NEN -->
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Grid.ColumnSpan="2">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=host, Path=Error}" Value="1">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="Red" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien.png" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBui.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="289,396,0,0" Height="66" Width="64" />
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBui.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="872,396,0,0" Height="66" Width="64" />
-
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3FeederBDung.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="767,391,0,0"/>
-
-            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="676,-121,0,0"/>
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="676,-121,0,0" Grid.ColumnSpan="2"/>
 
             <!-- BANG TAI CAP LIEU -->
+            <Image x:Name="bangTaiPt2Gif" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_BangTai.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="677,16,0,0" Height="71" Width="333" Grid.ColumnSpan="2"/>
+            <Image x:Name="bangTaiPt1Gif" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_BangTai.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="43.31,-72,0,0" Height="71" Width="335" Grid.Column="1"/>
 
-            <Image gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_BangTai.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="677,16,0,0" Height="71" Width="333"/>
-            <Image gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_BangTai.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="752,-72,0,0" Height="71" Width="335"/>
+            <Image x:Name="motorPT1Chay" Visibility="Hidden" PreviewMouseDown="MotorPT1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiChay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="686,-25,0,0" Grid.ColumnSpan="2">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorPT1Dung" Visibility="Visible" PreviewMouseDown="MotorPT1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/BangTaiCapLieuEpVien_MotorBangTaiDung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="684,-30,0,0" Grid.ColumnSpan="2">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorPT1Loi" Visibility="Hidden" PreviewMouseDown="MotorPT1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiLoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="688,-25,0,0" Grid.ColumnSpan="2">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
-            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="686,-25,0,0"/>
-            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="688,-25,0,0"/>
-
-            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="763,-113,0,0"/>
-            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="764,-113,0,0"/>
+            <Image x:Name="motorPT2Chay" Visibility="Hidden" PreviewMouseDown="MotorPT2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiChay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="54.31,-113,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorPT2Dung" Visibility="Visible" PreviewMouseDown="MotorPT2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/BangTaiCapLieuEpVien_MotorBangTaiDung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="49,-119,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorPT2Loi" Visibility="Hidden" PreviewMouseDown="MotorPT2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiLoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="55.31,-113,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- EP VIEN 1 -->
 
-            <Image Visibility="{Binding Path=View_EpVien1MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="153,470,0,0" Width="40" Height="83"/>
-            <Image Visibility="{Binding Path=View_EpVien1MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="192,418,0,0"/>
-            <Image Visibility="{Binding Path=View_EpVien1MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="192,418,0,0"/>
+            <Image x:Name="vitTaiMix1Gif" Visibility="Visible"
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="153,470,0,0" Width="40" Height="83"/>
 
             <!--Mortor mixxer-->
-            <Image x:Name="mortorMixer1Gif" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="154,410,0,0" Height="61" Width="40"/>
-            <Image x:Name="mortorMixer1" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="151,464,0,0"/>
+            <Image x:Name="mortorMixer1Gif" Visibility="Visible"
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiMixer1.gif"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="154,410,0,0" Height="61" Width="40"/>
 
-            <!--Feeder A-->
-            <Image x:Name="vitTaiFeederA1" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiFeederAChay.gif"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="548,133,0,0" Height="141" Width="53"/>
-            <Image x:Name="mortorFeederA1" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="547,273,0,0"/>
+            <Image x:Name="mortorMixer1Chay" Visibility="Hidden" PreviewMouseDown="MotorMix1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="151,464,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorMixer1Dung" Visibility="Visible" PreviewMouseDown="MotorMix1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Dung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="152,467,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorMixer1Loi" Visibility="Hidden" PreviewMouseDown="MotorMix1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Loi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="152,467,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
+            <!--Feeder A1-->
+            <Image x:Name="vitTaiFeederA11Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiFeederAChay.gif" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="548,133,0,0" Height="141" Width="53"/>
+
+            <Image x:Name="mortorFeederA11Chay" Visibility="Hidden" PreviewMouseDown="MotorA11_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="547,273,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA11Dung" Visibility="Visible" PreviewMouseDown="MotorA11_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederADung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="547,273,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA11Loi" Visibility="Hidden" PreviewMouseDown="MotorA11_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="547,273,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="vitTaiFeederA12Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiFeederAChay.gif"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="581,132,0,0" Height="165" Width="44"/>
+
+            <Image x:Name="mortorFeederA12Chay" Visibility="Hidden" PreviewMouseDown="MotorA12_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="583,298,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA12Dung" Visibility="Visible" PreviewMouseDown="MotorA12_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederADung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="585,298,0,0" Height="55" Width="31">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA12Loi" Visibility="Hidden" PreviewMouseDown="MotorA12_PreviewMouseDown" Panel.ZIndex="1"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="585,298,0,0" Height="55" Width="31">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!--Feeder B-->
-            <Image x:Name="vitTaiFeederB1" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiFeederBChay.gif"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="103,269,0,0" Width="459"/>
-            <Image x:Name="mortorFeederB1" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,381,0,0"/>
+            <Image x:Name="vitTaiFeederB1Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiFeederBChay.gif"  
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="103,269,0,0" Width="459"/>
 
+            <Image x:Name="mortorFeederB1Chay" Visibility="Hidden" PreviewMouseDown="MotorB1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBChay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,381,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederB1Dung" Visibility="Visible" PreviewMouseDown="MotorB1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBDung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,381,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederB1Loi" Visibility="Hidden" PreviewMouseDown="MotorB1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBLoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,381,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!--Máy ép viên 1, động cơ chính trái-->
-            <Image x:Name="motorMayEp1TraiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,453,0,0"/>
-            <!--<Image x:Name="motorMayEp1Loi" Visibility="Hidden" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,451,0,0"/>-->
+            <Image x:Name="motorMayEp1TraiChay" Visibility="Hidden" PreviewMouseDown="MotorMayApVien1_PreviewMouseDown" 
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,453,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorMayEp1TraiDung" Visibility="Visible" PreviewMouseDown="MotorMayApVien1_PreviewMouseDown" 
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Dung.png"  
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,451,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorMayEp1TraiLoi" Visibility="Hidden" PreviewMouseDown="MotorMayApVien1_PreviewMouseDown" 
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,451,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
             <!--Máy ép viên 1, động cơ chính trái-->
-            <Image x:Name="motorMayEp1PhaiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="194,453,0,0"/>
-            <!--<Image Visibility="{Binding Path=View_EpVien1DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="193,453,0,0" Width="81"/>-->
+            <Image x:Name="motorMayEp1PhaiChay" Visibility="Hidden" PreviewMouseDown="MotorMayApVien1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="194,453,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorMayEp1PhaiDung" Visibility="Visible" PreviewMouseDown="MotorMayApVien1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Dung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="193,453,0,0" Width="81">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorMayEp1PhaiLoi" Visibility="Hidden" PreviewMouseDown="MotorMayApVien1_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="193,453,0,0" Width="81">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
 
             <!-- EP VIEN 2 -->
 
-            <Image Visibility="{Binding Path=View_EpVien2MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="444,470,0,0" Width="40" Height="83"/>
-            <Image Visibility="{Binding Path=View_EpVien2MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="484,418,0,0"/>
-            <Image Visibility="{Binding Path=View_EpVien2MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="484,418,0,0"/>
+            <Image x:Name="vitTaiMix2Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="316,471,0,0" Width="40" Height="83" Grid.Column="1"/>
 
-            <Image x:Name="mortorMixer2Gif" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="445,397,0,0" Height="74" Width="40"/>
-            <Image x:Name="mortorMixer2" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="442,464,0,0"/>
+            <Image x:Name="mortorMixer2Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiMixer1.gif"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="314,403,0,0" Height="68" Width="42" Grid.Column="1"/>
 
-            <Image x:Name="vitTaiFeederA2" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiFeederAChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="581,132,0,0" Height="165" Width="44"/>
-            <Image x:Name="mortorFeederA2" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="583,298,0,0"/>
+            <Image x:Name="mortorMixer2Chay" Visibility="Hidden"  PreviewMouseDown="MotorMixer2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" 
+                   HorizontalAlignment="Left" Margin="315,467,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorMixer2Dung" Visibility="Visible" PreviewMouseDown="MotorMixer2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Dung.png" VerticalAlignment="Top" 
+                   HorizontalAlignment="Left" Margin="315,467,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
-            <Image x:Name="vitTaiFeederB2" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="382,299,0,0" Width="230" Height="129"/>
-            <Image x:Name="mortorFeederB2" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="398,360,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
+            <Image x:Name="mortorMixer2Loi" Visibility="Hidden" PreviewMouseDown="MotorMixer2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Loi.png" VerticalAlignment="Top" 
+                   HorizontalAlignment="Left" Margin="315,467,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <!--FEEDER 2-->
+            <!--Feeder A1-->
+            <Image x:Name="vitTaiFeederA21Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiFeederAChay.gif" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="637,133,0,0" Height="163" Width="53"/>
+
+            <Image x:Name="mortorFeederA21Chay" Visibility="Hidden" PreviewMouseDown="MotorA21_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="637,299,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA21Dung" Visibility="Visible" PreviewMouseDown="MotorA21_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederADung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="637,299,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA21Loi" Visibility="Hidden" PreviewMouseDown="MotorA21_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="637,299,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="vitTaiFeederA22Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiFeederAChay.gif"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="676,133,0,0" Height="137" Width="51" Grid.ColumnSpan="2"/>
+
+            <Image x:Name="mortorFeederA22Chay" Visibility="Hidden"  PreviewMouseDown="MotorA22_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="674,273,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA22Dung" Visibility="Visible" PreviewMouseDown="MotorA22_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederADung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="674,273,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederA22Loi" Visibility="Hidden" PreviewMouseDown="MotorA22_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="674,273,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+            <Image x:Name="vitTaiFeederB2Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiFeederBChay.gif" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="695,279,0,0" Width="385" Height="165" Grid.ColumnSpan="2"/>
+
+            <Image x:Name="mortorFeederB2Chay" Visibility="Hidden" PreviewMouseDown="MotorB2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBChay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="345,379,0,0" RenderTransformOrigin="1.455,3.383"
+                   Width="78" Grid.Column="1" Height="49">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
                         <SkewTransform/>
-                        <RotateTransform Angle="-8.966"/>
+                        <RotateTransform Angle="-0.753"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </Image.RenderTransform>
@@ -100,42 +777,69 @@
                         </Style.Triggers>
                     </Style>
                 </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederB2Dung" Visibility="Visible" PreviewMouseDown="MotorB2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBDung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="345,379,0,0" RenderTransformOrigin="1.455,3.383"
+                   Width="78" Grid.Column="1" Height="49">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.753"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
 
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="mortorFeederB2Loi" Visibility="Hidden" PreviewMouseDown="MotorB2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBLoi.png" 
+                  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="345,379,0,0" RenderTransformOrigin="1.455,3.383"
+                   Width="78" Grid.Column="1" Height="49">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.753"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
             </Image>
 
 
             <!--Mortor máy ép viên 2-->
-            <Image x:Name="motorMayEp2TraiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="358,454,0,0"/>
-            <!--<Image Visibility="{Binding Path=View_EpVien2DongCoChinh1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="358,452,0,0"/>-->
-
-            <Image x:Name="motorMayEp2PhaiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="486,453,0,0"/>
-            <!--<Image Visibility="{Binding Path=View_EpVien2DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="485,453,0,0" Width="81"/>-->
-
-            <!-- EP VIEN 3 -->
-
-            <Image Visibility="{Binding Path=View_EpVien3MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="736,470,0,0" Width="40" Height="83"/>
-            <Image Visibility="{Binding Path=View_EpVien3MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="776,418,0,0"/>
-            <Image Visibility="{Binding Path=View_EpVien3MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="776,418,0,0"/>
-
-            <Image x:Name="mortorMixer3Gif" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="737,414,0,0" Height="68" Width="39"/>
-            <Image x:Name="mortorMixer3" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="734,464,0,0"/>
-
-
-            <Image x:Name="vitTaiFeederA3" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiFeederAChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="639,133,0,0" Height="166"/>
-            <Image x:Name="mortorFeederA3" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="638,298,0,0"/>
-
-
-            <Image x:Name="vitTaiFeederB3" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="657,303,0,0" Height="146" Width="189"/>
-            <Image x:Name="mortorFeederB3" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="769,388,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
-                <Image.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-1.901"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Image.RenderTransform>
-
+            <Image x:Name="motorMayEp2TraiChay" Visibility="Hidden" PreviewMouseDown="MotorMayEpVien2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="230,449,0,0" Grid.Column="1">
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
@@ -150,41 +854,10 @@
                         </Style.Triggers>
                     </Style>
                 </Image.Style>
-
             </Image>
-
-
-            <!--Dộng cơ máy nghiền 3-->
-            <Image x:Name="motorMayEp3TraiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="650,454,0,0"/>
-            <!--<Image Visibility="{Binding Path=View_EpVien3DongCoChinh1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="650,452,0,0"/>-->
-
-            <Image x:Name="motorMayEp3PhaiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="778,453,0,0"/>
-            <!--<Image Visibility="{Binding Path=View_EpVien3DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="777,453,0,0" Width="81"/>-->
-
-            <!-- EP VIEN 4 -->
-
-            <Image Visibility="{Binding Path=View_EpVien4MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1028,470,0,0" Width="40" Height="83"/>
-            <Image Visibility="{Binding Path=View_EpVien4MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1068,418,0,0"/>
-            <Image Visibility="{Binding Path=View_EpVien4MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1068,418,0,0"/>
-
-            <Image x:Name="mortorMixer4Gif" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1029,405,0,0" Height="66" Width="37"/>
-            <Image x:Name="mortorMixer4" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1026,464,0,0"/>
-
-
-            <Image x:Name="vitTaiFeederA4" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiFeederAChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="673,133,0,0" Height="138"/>
-            <Image x:Name="mortorFeederA4" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="674,272,0,0"/>
-
-            <Image x:Name="vitTaiFeederB4" Visibility="Hidden" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="697,278,0,0" Width="377"/>
-            <Image x:Name="mortorFeederB4" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1064,383,0,0" RenderTransformOrigin="1.455,3.383" Width="71">
-                <Image.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-1.901"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Image.RenderTransform>
-
+            <Image x:Name="motorMayEp2TraiDung" Visibility="Visible" PreviewMouseDown="MotorMayEpVien2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Dung.png"  
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="230,449,0,0" Grid.Column="1">
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
@@ -199,32 +872,164 @@
                         </Style.Triggers>
                     </Style>
                 </Image.Style>
-
+            </Image>
+            <Image x:Name="motorMayEp2TraiLoi" Visibility="Hidden" PreviewMouseDown="MotorMayEpVien2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="230,449,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
             </Image>
 
-            <!--Động cơ máy nghiền 4-->
-            <Image x:Name="motorMayEp4TraiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="942,453,0,0"/>
-            <!--<Image Visibility="{Binding Path=View_EpVien4DongCoChinh1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="942,451,0,0"/>-->
+            <Image x:Name="motorMayEp2PhaiChay" Visibility="Hidden" PreviewMouseDown="MotorMayEpVien2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="356,453,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorMayEp2PhaiDung" Visibility="Visible" PreviewMouseDown="MotorMayEpVien2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Dung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="356,453,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorMayEp2PhaiLoi" Visibility="Hidden" PreviewMouseDown="MotorMayEpVien2_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="356,453,0,0" Grid.Column="1">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
-            <Image x:Name="motorMayEp4PhaiChay" Visibility="Collapsed" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1070,453,0,0"/>
-            <!--<Image Visibility="{Binding Path=View_EpVien4DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1069,453,0,0" Width="81"/>-->
+
+            <Image x:Name="baoCanBinLieuEpVien2Off" Visibility="Visible" 
+                   Source="/WPFUserControl;component/Image/KhoSauSay/BinhThuong.png" VerticalAlignment="Top"
+                   HorizontalAlignment="Left" Height="35" Width="33" Margin="640,189,0,0"/>
+            <Image x:Name="baoCanBinLieuEpVien2On" Visibility="Visible" 
+                   Source="/WPFUserControl;component/Image/KhoSauSay/Day.png" VerticalAlignment="Top" 
+                   HorizontalAlignment="Left" Height="35" Width="33" Margin="640,189,0,0"/>
+
+            <Image x:Name="baoCanBinLieuEpVien1Off" Visibility="Visible" 
+                   Source="/WPFUserControl;component/Image/KhoSauSay/BinhThuong.png" VerticalAlignment="Top"
+                   HorizontalAlignment="Left" Height="35" Width="33" Margin="550,189,0,0"/>
+            <Image x:Name="baoCanBinLieuEpVien1On" Visibility="Visible" 
+                   Source="/WPFUserControl;component/Image/KhoSauSay/Day.png" VerticalAlignment="Top" 
+                   HorizontalAlignment="Left" Height="35" Width="33" Margin="550,189,0,0"/>
+
+            <Image x:Name="baoDayBinLieuEpVienOff" Visibility="Visible" 
+                   Source="/WPFUserControl;component/Image/KhoSauSay/BinhThuong.png" VerticalAlignment="Top"
+                   HorizontalAlignment="Left" Height="35" Width="33" Margin="611,119,0,0"/>
+            <Image x:Name="baoDayBinLieuEpVienOn" Visibility="Visible" 
+                   Source="/WPFUserControl;component/Image/KhoSauSay/Day.png" VerticalAlignment="Top" 
+                   HorizontalAlignment="Left" Height="35" Width="33" Margin="611,119,0,0"/>
 
             <!-- HE THONG PHU TRO -->
+            <Image x:Name="bangTaiPT3Gif" Visibility="Visible" 
+                   gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_BangTaiRaVien.gif" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,623,0,-20" Height="124" Width="1254" Grid.ColumnSpan="2" />
 
-            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="289,396,0,0" Height="66" Width="64" />
-            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="292,401,0,0" Height="58" Width="60"/>
-
-            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="872,396,0,0" Height="66" Width="64" />
-            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="875,401,0,0" Height="58" Width="60"/>
-
-            <Image Visibility="{Binding Path=View_BangTaiRaVienChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_BangTaiRaVien.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,623,-17,-20" Height="124" Width="1254" />
-            <Image Visibility="{Binding Path=View_BangTaiRaVienChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_MotorBangTaiRaVienChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="16,630,0,0"/>
-            <Image Visibility="{Binding Path=View_BangTaiRaVienLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_MotorBangTaiRaVienLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="13,628,0,0"/>
+            <Image x:Name="motorPT3Chay" Visibility="Hidden" PreviewMouseDown="MotorPT3_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_MotorBangTaiRaVienChay.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="16,630,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorPT3Dung" Visibility="Visible" PreviewMouseDown="MotorPT3_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/BangTaiCapLieuEpVien_MotorBangTaiDung.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="11,625,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+            <Image x:Name="motorPT3Loi" Visibility="Hidden" PreviewMouseDown="MotorPT3_PreviewMouseDown"
+                   Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_MotorBangTaiRaVienLoi.png" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="13,628,0,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Effect" Value="{x:Null}"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect x:Name="shadowDC" Color="White" BlurRadius="360" Direction="0" ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
 
             <!-- ALARM -->
-
-            <Image Visibility="{Binding Path=View_BinChuaLieuEpVienBaoThap, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="451,85,0,0" Height="39" Width="43"/>
-            <Image Visibility="{Binding Path=View_BinChuaLieuEpVienBaoCao, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="451,0,0,0" Height="39" Width="43"/>
 
         </Grid>
     </Viewbox>

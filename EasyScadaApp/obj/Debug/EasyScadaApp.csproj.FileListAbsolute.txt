@@ -218,3 +218,426 @@ D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyS
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
 D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuan\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.baml
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csprojAssemblyReference.cache
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\frmTest.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucTest.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.cache
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.lref
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.exe
+F:\Cong Profile\Downloads\OneDrive-2020-10-13\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.lref
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScada.Core.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScada.Winforms.Controls.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScada.Wpf.Connector.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScada.Wpf.Controls.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MySql.Data.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Newtonsoft.Json.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.g.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.Properties.Resources.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.UserControl1.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.GenerateResource.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe.config
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Newtonsoft.Json.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csprojAssemblyReference.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.lref
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.g.resources
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.Properties.Resources.resources
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.UserControl1.resources
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.GenerateResource.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csprojAssemblyReference.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.lref
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe.config
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Newtonsoft.Json.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.g.resources
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.Properties.Resources.resources
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.UserControl1.resources
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.GenerateResource.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MySql.Data.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Newtonsoft.Json.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.lref
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.g.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.Properties.Resources.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.UserControl1.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.GenerateResource.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csprojAssemblyReference.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.exe.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp_MarkupCompile.lref
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScadaApp.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MySql.Data.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Newtonsoft.Json.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Google.Protobuf.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Zstandard.Net.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\BouncyCastle.Crypto.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Ubiety.Dns.Core.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Renci.SshNet.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\System.Memory.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\System.Buffers.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\K4os.Compression.LZ4.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\K4os.Hash.xxHash.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WPFUserControl.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\DocumentFormat.OpenXml.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\LiveCharts.Wpf.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignColors.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\MySql.Data.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Newtonsoft.Json.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\WpfAnimatedGif.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\App.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\BangDieuKhien\BangDieuKhienKho.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\GiuBuiTrungTam.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Commons\DialogWindow.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\MainWindow.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChart.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucChartTS.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienSay.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucKhoNghienTinh_GiuBui.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucMayEpVien.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucNghienThoTinh.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinMayNghienTho.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\NghienThoNghienTinh\ThongTinGoiBi.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinMayEpVien.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\SanLong.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCan.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\MayEpVien\ThongTinCanTong.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghien.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Controls\KhoNghien\ThongTinKhoNghienTinh.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\Pages\ucReport.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.g.resources
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.Properties.Resources.resources
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.UserControl1.resources
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.GenerateResource.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CoreCompileInputs.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.csproj.CopyComplete
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\EasyScadaApp.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScada.Core.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScada.Wpf.Controls.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\EasyScada.Winforms.Controls.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\OxyPlot.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\OxyPlot.WindowsForms.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\ClosedXML.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\bin\Debug\ExcelNumberFormat.dll

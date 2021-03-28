@@ -7,27 +7,17 @@
              mc:Ignorable="d" 
              Width="250"
              d:DesignHeight="130" d:DesignWidth="190">
-    <Border Padding="4" Background="DarkGray">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Label Content="BẢNG ĐIỀU KHIỂN"  
-                   Background="SkyBlue"
-                   HorizontalContentAlignment="Center"
-                   x:Name="lbHeader"
-                   FontSize="15" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" 
-                   />
-            <StackPanel Orientation="Vertical" Grid.Row="1" Margin="4 0">
-                <Label HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+    <Viewbox>
+        <Border Padding="4" Background="DarkGray">
+            <StackPanel Orientation="Vertical" Margin="4 0">
+                <!--<Label HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
                        Content="MANUAL"
                        x:Name="lbMode"
                        Margin="0 4 0 0"
                        FontWeight="Bold"
                        BorderThickness="1"
                        BorderBrush="White" Foreground="Lime" Background="Black">
-                </Label>
+                    </Label>-->
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -41,11 +31,29 @@
                             FontWeight="Bold" Foreground="DarkBlue"
                             Margin="0 4 0 0"/>
                 </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="8"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnOnMotor" Content="ON MOTOR" Height="26"
+                            FontWeight="Bold" Foreground="DarkBlue"
+                            Margin="0 4 0 0"/>
+                    <Button x:Name="btnOffMotor" Content="OFF MOTOR" Height="26" Grid.Column="2"
+                            FontWeight="Bold" Foreground="DarkBlue"
+                            Margin="0 4 0 0"/>
+                </Grid>
                 <Button HorizontalContentAlignment="Center"
-                        x:Name="btnAlarm" Content="ALARM" Height="26"
+                        x:Name="btnOffMN" Content="OFF MOTOR" Height="26"
+                       FontWeight="Bold" Foreground="DarkBlue"
+                       Margin="0 4 0 0"/>
+                <Button HorizontalContentAlignment="Center"
+                        x:Name="btnAlarm" Content="RESET ALARM MN" Height="26"
                        FontWeight="Bold" Foreground="DarkBlue"
                        Margin="0 4 0 0"/>
             </StackPanel>
-        </Grid>
-    </Border>
+        </Border>
+    </Viewbox>
 </UserControl>

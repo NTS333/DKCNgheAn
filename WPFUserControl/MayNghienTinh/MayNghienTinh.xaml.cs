@@ -34,15 +34,23 @@ namespace WPFUserControl
 
             motorMayNghienChay.Visibility = Visibility.Collapsed;
             motorMayNghienLoi.Visibility = Visibility.Collapsed;
+
             motorQuatHutChay.Visibility = Visibility.Collapsed;
             motorQuatHutLoi.Visibility = Visibility.Collapsed;
+
             motorVitTaiCapLieuChay.Visibility = Visibility.Collapsed;
             motorVitTaiCapLieuLoi.Visibility = Visibility.Collapsed;
-            vitTaiCapLieu.Visibility = Visibility.Collapsed;
-            quatHut.Visibility = Visibility.Collapsed;
+
+            vitTaiCapLieuGif.Visibility = Visibility.Collapsed;
+
+            quatHutGif.Visibility = Visibility.Collapsed;
+
             motorMayNghienChayThuan.Visibility = Visibility.Collapsed;
             motorMayNghienChayNghich.Visibility = Visibility.Collapsed;
-            ruotMayNghien.Visibility = Visibility.Collapsed;
+
+            ruotMayNghienGif.Visibility = Visibility.Collapsed;
+
+            loiHeThong.Visibility = Visibility.Collapsed;
         }
 
         public void Start()
@@ -67,24 +75,24 @@ namespace WPFUserControl
         {
             Dispatcher.Invoke(() =>
             {
-                MotorMayNghienChayNghich = GetTag("PL_MN_Nghich");
+                MotorMayNghienChayNghich = GetTag("PL_RV_NTinh");
                 if (MotorMayNghienChayNghich != null)
                 {
-                    MotorMayNghienChayNghich_ValueChanged(MotorMayNghienChayNghich, new TagValueChangedEventArgs("", MotorMayNghienChayNghich.Value));
+                    MotorMayNghienChayNghich_ValueChanged(MotorMayNghienChayNghich, new TagValueChangedEventArgs(MotorMayNghienChayNghich, "", MotorMayNghienChayNghich.Value));
                     MotorMayNghienChayNghich.ValueChanged += MotorMayNghienChayNghich_ValueChanged;
                 }
 
-                MotorMayNghienChayThuan = GetTag("PL_MN_Thuan");
+                MotorMayNghienChayThuan = GetTag("PL_FW_NTinh");
                 if (MotorMayNghienChayThuan != null)
                 {
-                    MotorMayNghienChayThuan_ValueChanged(MotorMayNghienChayThuan, new TagValueChangedEventArgs("", MotorMayNghienChayThuan.Value));
+                    MotorMayNghienChayThuan_ValueChanged(MotorMayNghienChayThuan, new TagValueChangedEventArgs(MotorMayNghienChayThuan, "", MotorMayNghienChayThuan.Value));
                     MotorMayNghienChayThuan.ValueChanged += MotorMayNghienChayThuan_ValueChanged;
                 }
 
-                MotorVitTaiCapLieu = GetTag("PL_Vtai");
+                MotorVitTaiCapLieu = GetTag("PL_VT");
                 if (MotorVitTaiCapLieu != null)
                 {
-                    MotorVitTaiCapLieu_ValueChanged(MotorVitTaiCapLieu, new TagValueChangedEventArgs("", MotorVitTaiCapLieu.Value));
+                    MotorVitTaiCapLieu_ValueChanged(MotorVitTaiCapLieu, new TagValueChangedEventArgs(MotorVitTaiCapLieu, "", MotorVitTaiCapLieu.Value));
                     MotorVitTaiCapLieu.ValueChanged += MotorVitTaiCapLieu_ValueChanged;
                 }
 
@@ -95,38 +103,38 @@ namespace WPFUserControl
                 //    XiLanh.ValueChanged += XiLanh_ValueChanged;
                 //}
 
-                MotorQuatHut = GetTag("PL_Qhut");
+                MotorQuatHut = GetTag("PL_QH");
                 if (MotorQuatHut != null)
                 {
-                    MotorQuatHut_ValueChanged(MotorQuatHut, new TagValueChangedEventArgs("", MotorQuatHut.Value));
+                    MotorQuatHut_ValueChanged(MotorQuatHut, new TagValueChangedEventArgs(MotorQuatHut, "", MotorQuatHut.Value));
                     MotorQuatHut.ValueChanged += MotorQuatHut_ValueChanged;
                 }
 
-                BaoAlarmHeThong = GetTag("ALARM_MN");
+                BaoAlarmHeThong = GetTag("ALARM_System_NTinh");
                 if (BaoAlarmHeThong != null)
                 {
-                    BaoAlarmHeThong_ValueChanged(BaoAlarmHeThong, new TagValueChangedEventArgs("", BaoAlarmHeThong.Value));
+                    BaoAlarmHeThong_ValueChanged(BaoAlarmHeThong, new TagValueChangedEventArgs(BaoAlarmHeThong, "", BaoAlarmHeThong.Value));
                     BaoAlarmHeThong.ValueChanged += BaoAlarmHeThong_ValueChanged;
                 }
 
-                AlarmMotorMayNghien = GetTag("PL_OVL_MN");
+                AlarmMotorMayNghien = GetTag("PL_OVL_NTinh");
                 if (AlarmMotorMayNghien != null)
                 {
-                    AlarmMotorMayNghien_ValueChanged(AlarmMotorMayNghien, new TagValueChangedEventArgs("", AlarmMotorMayNghien.Value));
+                    AlarmMotorMayNghien_ValueChanged(AlarmMotorMayNghien, new TagValueChangedEventArgs(AlarmMotorMayNghien, "", AlarmMotorMayNghien.Value));
                     AlarmMotorMayNghien.ValueChanged += AlarmMotorMayNghien_ValueChanged;
                 }
 
-                AlarmMotorVitTai = GetTag("PL_OVL_Vtai");
+                AlarmMotorVitTai = GetTag("PL_OVL_BT");
                 if (AlarmMotorVitTai != null)
                 {
-                    AlarmMotorVitTai_ValueChanged(AlarmMotorVitTai, new TagValueChangedEventArgs("", AlarmMotorVitTai.Value));
+                    AlarmMotorVitTai_ValueChanged(AlarmMotorVitTai, new TagValueChangedEventArgs(AlarmMotorVitTai, "", AlarmMotorVitTai.Value));
                     AlarmMotorVitTai.ValueChanged += AlarmMotorVitTai_ValueChanged;
                 }
 
-                AlarmMotorQuatHut = GetTag("PL_OVL_Qhut");
+                AlarmMotorQuatHut = GetTag("PL_OVL_QH");
                 if (AlarmMotorQuatHut != null)
                 {
-                    AlarmMotorQuatHut_ValueChanged(AlarmMotorQuatHut, new TagValueChangedEventArgs("", AlarmMotorQuatHut.Value));
+                    AlarmMotorQuatHut_ValueChanged(AlarmMotorQuatHut, new TagValueChangedEventArgs(AlarmMotorQuatHut, "", AlarmMotorQuatHut.Value));
                     AlarmMotorQuatHut.ValueChanged += AlarmMotorQuatHut_ValueChanged;
                 }
             });
@@ -140,6 +148,7 @@ namespace WPFUserControl
                 {
                     motorMayNghienLoi.Visibility = Visibility.Visible;
                     motorMayNghienChay.Visibility = Visibility.Collapsed;
+                    motorMayNghienDung.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
@@ -148,6 +157,12 @@ namespace WPFUserControl
                     if (MotorMayNghienChayNghich.Value == "1" || MotorMayNghienChayThuan.Value == "1")
                     {
                         motorMayNghienChay.Visibility = Visibility.Visible;
+                        motorMayNghienDung.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        motorMayNghienChay.Visibility = Visibility.Collapsed;
+                        motorMayNghienDung.Visibility = Visibility.Visible;
                     }
                 }
             }));
@@ -161,6 +176,7 @@ namespace WPFUserControl
                 {
                     motorVitTaiCapLieuLoi.Visibility = Visibility.Visible;
                     motorVitTaiCapLieuChay.Visibility = Visibility.Collapsed;
+                    motorVitTaiCapLieuDung.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
@@ -169,6 +185,12 @@ namespace WPFUserControl
                     if (MotorVitTaiCapLieu.Value == "1")
                     {
                         motorVitTaiCapLieuChay.Visibility = Visibility.Visible;
+                        motorVitTaiCapLieuDung.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        motorVitTaiCapLieuChay.Visibility = Visibility.Collapsed;
+                        motorVitTaiCapLieuDung.Visibility = Visibility.Visible;
                     }
                 }
             }));
@@ -182,6 +204,7 @@ namespace WPFUserControl
                 {
                     motorQuatHutLoi.Visibility = Visibility.Visible;
                     motorQuatHutChay.Visibility = Visibility.Collapsed;
+                    motorQuatHutDung.Visibility = Visibility.Collapsed;
                 }
                 else
                 {
@@ -190,6 +213,12 @@ namespace WPFUserControl
                     if (MotorQuatHut.Value == "1")
                     {
                         motorQuatHutChay.Visibility = Visibility.Visible;
+                        motorQuatHutDung.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        motorQuatHutChay.Visibility = Visibility.Collapsed;
+                        motorQuatHutDung.Visibility = Visibility.Visible;
                     }
                 }
             }));
@@ -202,10 +231,12 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     Error = 1;
+                    loiHeThong.Visibility = Visibility.Visible;
                 }
                 else
                 {
                     Error = 0;
+                    loiHeThong.Visibility = Visibility.Collapsed;
                 }
             }));
         }
@@ -217,13 +248,14 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorVitTaiCapLieuChay.Visibility = Visibility.Visible;
-                    //motorVitTaiCapLieuLoi.Visibility = Visibility.Collapsed;
-                    vitTaiCapLieu.Visibility = Visibility.Visible;
+                    motorVitTaiCapLieuDung.Visibility = Visibility.Collapsed;
+                    vitTaiCapLieuGif.Visibility = Visibility.Visible;
                 }
                 else
                 {
+                    motorVitTaiCapLieuDung.Visibility = Visibility.Visible;
                     motorVitTaiCapLieuChay.Visibility = Visibility.Collapsed;
-                    vitTaiCapLieu.Visibility = Visibility.Collapsed;
+                    vitTaiCapLieuGif.Visibility = Visibility.Collapsed;
                 }
             }));
         }
@@ -235,13 +267,14 @@ namespace WPFUserControl
                 if (e.NewValue == "1")
                 {
                     motorQuatHutChay.Visibility = Visibility.Visible;
-                    //motorQuatHutLoi.Visibility = Visibility.Collapsed;
-                    quatHut.Visibility = Visibility.Visible;
+                    motorQuatHutDung.Visibility = Visibility.Collapsed;
+                    quatHutGif.Visibility = Visibility.Visible;
                 }
                 else
                 {
+                    motorQuatHutDung.Visibility = Visibility.Visible;
                     motorQuatHutChay.Visibility = Visibility.Collapsed;
-                    quatHut.Visibility = Visibility.Collapsed;
+                    quatHutGif.Visibility = Visibility.Collapsed;
                 }
             }));
         }
@@ -263,14 +296,14 @@ namespace WPFUserControl
                 if (MotorMayNghienChayThuan.Value == "1" || MotorMayNghienChayNghich.Value == "1")
                 {
                     motorMayNghienChay.Visibility = Visibility.Visible;
-                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
-                    ruotMayNghien.Visibility = Visibility.Visible;
+                    motorMayNghienDung.Visibility = Visibility.Collapsed;
+                    ruotMayNghienGif.Visibility = Visibility.Visible;
                 }
                 else
                 {
+                    motorMayNghienDung.Visibility = Visibility.Visible;
                     motorMayNghienChay.Visibility = Visibility.Collapsed;
-                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
-                    ruotMayNghien.Visibility = Visibility.Collapsed;
+                    ruotMayNghienGif.Visibility = Visibility.Collapsed;
                 }
             }));
         }
@@ -292,14 +325,14 @@ namespace WPFUserControl
                 if (MotorMayNghienChayThuan.Value == "1" || MotorMayNghienChayNghich.Value == "1")
                 {
                     motorMayNghienChay.Visibility = Visibility.Visible;
-                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
-                    ruotMayNghien.Visibility = Visibility.Visible;
+                    motorMayNghienDung.Visibility = Visibility.Collapsed;
+                    ruotMayNghienGif.Visibility = Visibility.Visible;
                 }
                 else
                 {
+                    motorMayNghienDung.Visibility = Visibility.Visible;
                     motorMayNghienChay.Visibility = Visibility.Collapsed;
-                    motorMayNghienLoi.Visibility = Visibility.Collapsed;
-                    ruotMayNghien.Visibility = Visibility.Collapsed;
+                    ruotMayNghienGif.Visibility = Visibility.Collapsed;
                 }
             }));
         }

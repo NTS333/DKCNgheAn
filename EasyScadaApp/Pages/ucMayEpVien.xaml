@@ -4,26 +4,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EasyScadaApp.Pages"
-             xmlns:WPFUserControl="clr-namespace:WPFUserControl;assembly=WPFUserControl" xmlns:DongCo="clr-namespace:WPFUserControl.DieuKhien.DongCo;assembly=WPFUserControl" xmlns:DongCoThuanNghich="clr-namespace:WPFUserControl.DieuKhien.DongCoThuanNghich;assembly=WPFUserControl" xmlns:Xilanh="clr-namespace:WPFUserControl.DieuKhien.Xilanh;assembly=WPFUserControl" x:Class="EasyScadaApp.Pages.ucMayEpVien"
+             xmlns:WPFUserControl="clr-namespace:WPFUserControl;assembly=WPFUserControl" 
+           
+             x:Class="EasyScadaApp.Pages.ucMayEpVien"
              mc:Ignorable="d" 
             d:DesignHeight="922" d:DesignWidth="1912">
     <Canvas>
 
         <!--Máy ép 1-->
-        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp1" Canvas.Top="619" Canvas.Left="10"/>
 
         <!--Máy ép 2-->
-        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp2" Canvas.Top="619" Canvas.Left="291"/>
 
         <!--Máy ép 3-->
-        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp3" Canvas.Top="619" Canvas.Left="572" />
 
         <!--Máy ép 4-->
-        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp4" Canvas.Top="619" Canvas.Left="853" />
 
 
         <!--SÀN LỒNG-->
-        <EasyScadaApp:SanLong x:Name="thongTinSanLong" Canvas.Left="1100" Canvas.Top="180"/>
 
         <!--khối lượng ngày-tháng-->
 
@@ -33,7 +30,6 @@
 
 
         <WPFUserControl:MayEpVien x:Name="MayEp" Height="516" Canvas.Left="37" Canvas.Top="92" Width="942"/>
-        <WPFUserControl:HeThongPhuTroEpVien x:Name="phuTroMayEpVien" Height="1354" Canvas.Left="946" Canvas.Top="-290" Width="905"/>
 
 
 

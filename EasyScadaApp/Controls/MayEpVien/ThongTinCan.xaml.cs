@@ -38,8 +38,8 @@ namespace EasyScadaApp
                 lbHeader.Content = Header;  
                 isStarted = true;
                 string prefix = $"{StationName}/{ChannelName}/{DeviceName}/";
-                klCa.PathToTag = prefix + "DongMayNghien";
-                klVien.PathToTag = prefix + "ThoiGianChayMay";
+                klCan1.TagPath = prefix + "Save_Loadcell1";
+                klCan2.TagPath = prefix + "Save_Loadcell2";
             }
         }
     }

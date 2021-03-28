@@ -1,0 +1,469 @@
+{
+  "Enabled": true,
+  "AlarmClasses": [
+    {
+      "Enabled": true,
+      "Name": "Errors",
+      "IncomingText": "In",
+      "OutgoingText": "Out",
+      "AcknowledgedText": "Ack",
+      "Description": null,
+      "BackColorIncoming": "#FF0000",
+      "BackColorOutgoing": "#FFFFFF",
+      "BackColorAcknowledged": "#FFFFFF",
+      "ReadOnly": true
+    },
+    {
+      "Enabled": true,
+      "Name": "Warnings",
+      "IncomingText": "In",
+      "OutgoingText": "Out",
+      "AcknowledgedText": "Ack",
+      "Description": null,
+      "BackColorIncoming": "#FF7C4D",
+      "BackColorOutgoing": "#FFFFFF",
+      "BackColorAcknowledged": "#FFFFFF",
+      "ReadOnly": true
+    },
+    {
+      "Enabled": true,
+      "Name": "Systems",
+      "IncomingText": "In",
+      "OutgoingText": "Out",
+      "AcknowledgedText": "Ack",
+      "Description": null,
+      "BackColorIncoming": "#FF0000",
+      "BackColorOutgoing": "#FFFFFF",
+      "BackColorAcknowledged": "#FFFFFF",
+      "ReadOnly": true
+    }
+  ],
+  "AlarmGroups": [
+    {
+      "Enabled": true,
+      "Name": "Default",
+      "Description": "",
+      "EmailSettingName": "Default",
+      "SMSSettingName": "",
+      "ReadOnly": true
+    }
+  ],
+  "DiscreteAlarms": [
+    {
+      "TriggerValue": "1",
+      "Name": "NT1_LoiHeThong",
+      "Enabled": true,
+      "AlarmText": "Lỗi hệ thống",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "Lỗi nguyên hệ thống máy nghiền thô 1",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho1/Alarm_HT",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT2_LoiHeThong",
+      "Enabled": true,
+      "AlarmText": "Lỗi hệ thống",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho2/Alarm_HT",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV1_LoiHeThong",
+      "Enabled": true,
+      "AlarmText": "Lỗi hệ thống",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien1/Alarm_HT",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV2_LoiHeThong",
+      "Enabled": true,
+      "AlarmText": "Lỗi hệ thống",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien2/Alarm_HT",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiHeThong",
+      "Enabled": true,
+      "AlarmText": "Lỗi hệ thống",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/Alarm_HT",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "GB_LoiAirlock",
+      "Enabled": true,
+      "AlarmText": "Lỗi AirLock",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/GiuBuiEpVien/PL_OVL_AirGB",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT1_LoiDongCoMayNghien",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cơ máy nghiền chính",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho1/PL_OVL_MN",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT1_LoiQuatHut",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cơ quạt hút",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho1/PL_OVL_Qhut",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT1_LoiBangTai",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cơ bange tải cấp liệu",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho1/PL_OVL_Btai",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT1_LoiBangTaiTu",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cơ băng tải từ",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho1/PL_OVL_BTT",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT2_LoiDongCoMayNghien",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cơ máy nghiền",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho2/PL_OVL_MN",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT2_LoiQuatHut",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cơ quạt hút",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho2/PL_OVL_Qhut",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT2_LoiBangTai",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cơ băng tải cấp liệu",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho2/PL_OVL_Btai",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "NT2_LoiBangTaiTu",
+      "Enabled": true,
+      "AlarmText": "Lỗi động cô băng tải từ",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayNghienTho2/PL_OVL_BTT",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV1_LoiFeederA1",
+      "Enabled": true,
+      "AlarmText": "Lỗi Feeder A1",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien1/PL_OVL_A1",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV1_LoiFeederA2",
+      "Enabled": true,
+      "AlarmText": "Lỗi Feeder A2",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien1/PL_OVL_A2",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV1_LoiFeederB",
+      "Enabled": true,
+      "AlarmText": "Lỗi Feeder B",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien1/PL_OVL_B",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV1_LoiMayEp",
+      "Enabled": true,
+      "AlarmText": "Lỗi máy ép",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien1/PL_OVL_M",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV1_LoiMixer",
+      "Enabled": true,
+      "AlarmText": "Lỗi Mixer",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien1/PL_OVL_MX",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV2_LoiFeederA1",
+      "Enabled": true,
+      "AlarmText": "Lỗi Feeder A1",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien2/PL_OVL_A1",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV2_LoiFeederA2",
+      "Enabled": true,
+      "AlarmText": "Lỗi Feeder A2",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien2/PL_OVL_A2",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV2_LoiFeederB",
+      "Enabled": true,
+      "AlarmText": "Lỗi Feeder B",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien2/PL_OVL_B",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV2_LoiMayEp",
+      "Enabled": true,
+      "AlarmText": "Lỗi máy ép",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien2/PL_OVL_M",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "EV2_LoiMixer",
+      "Enabled": true,
+      "AlarmText": "Lỗi mixer",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/MayEpVien2/PL_OVL_MX",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT1",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT1",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT1",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT2",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT2",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT2",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT3",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT3",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT3",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT4",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT4",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT4",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT5",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT5",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT5",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT6",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT6",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT6",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT7",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT7",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT7",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT8",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT8",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT8",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "PTEV_LoiPT9",
+      "Enabled": true,
+      "AlarmText": "Lỗi PT9",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/PhuTroEpVien/PL_OVL_PT9",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "GB_LoiQuatHut",
+      "Enabled": true,
+      "AlarmText": "Lỗi quạt hút",
+      "AlarmClassName": "Warnings",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/GiuBuiEpVien/PL_OVL_QHGB",
+      "AlarmState": 0
+    },
+    {
+      "TriggerValue": "1",
+      "Name": "GB_LoiVitTai",
+      "Enabled": true,
+      "AlarmText": "Lỗi vít tải",
+      "AlarmClassName": "Errors",
+      "AlarmGroupName": "Default",
+      "Description": "",
+      "TriggerTagPath": "RemoteStation1/PLCNghien_EpVien/GiuBuiEpVien/PL_OVL_VTGB",
+      "AlarmState": 0
+    }
+  ],
+  "AnalogAlarms": [],
+  "QualityAlarms": [],
+  "EmailSettings": [
+    {
+      "Name": "Default",
+      "EmailsString": null,
+      "CCString": null,
+      "Enabled": true,
+      "Host": "smtp.gmail.com",
+      "Port": 587,
+      "EnableSSL": true,
+      "CredentialEmail": null,
+      "CredentialPassword": null,
+      "Timeout": 100000,
+      "ReadOnly": true
+    }
+  ],
+  "SMSSettings": [
+    {
+      "Name": "Default",
+      "PhoneNumbers": null,
+      "Enabled": true,
+      "ReadOnly": true,
+      "ComPort": null,
+      "Baudrate": 9600,
+      "DataBits": 7,
+      "Parity": "None",
+      "StopBits": "One",
+      "Timeout": 10000
+    }
+  ]
+}

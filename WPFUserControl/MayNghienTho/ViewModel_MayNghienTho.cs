@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WPFUserControl
 {
-    public class ViewModel_MayNghienTho : ViewModelBase
+    public class HeLamMat_ViewModel : ViewModelBase
     {
         // 1. MOTTOR MAY NGHIEN - 2. RUOT MAY NGHIEN
         private string view_MotorMayNghienChayThuan = "0";

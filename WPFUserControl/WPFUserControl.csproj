@@ -32,19 +32,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EasyScada.Core">
-      <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\EasyScada.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="EasyScada.Wpf.Connector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="EasyScada.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScada.Wpf.Connector.dll</HintPath>
+      <HintPath>E:\VS\EasySCADA\Debug (4)\Debug\Toolkit\EasyScada.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyScada.Winforms.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\VS\EasySCADA\Debug (4)\Debug\Toolkit\EasyScada.Winforms.Controls.dll</HintPath>
     </Reference>
     <Reference Include="EasyScada.Wpf.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\EasyScada.Wpf.Controls.dll</HintPath>
+      <HintPath>E:\VS\EasySCADA\Debug (4)\Debug\Toolkit\EasyScada.Wpf.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Client">
-      <HintPath>..\..\EasyScada\Source\EasyScada\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    <Reference Include="Microsoft.AspNet.SignalR.Client, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ControlsWPF\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Learn\EasyScada\SourceCode\New folder\New\Debug (1)\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -79,6 +85,14 @@
     <Compile Include="DieuKhien\Xilanh\ucDieuKhienXilanh.xaml.cs">
       <DependentUpon>ucDieuKhienXilanh.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GraphicControls\EasyGraphic.xaml.cs">
+      <DependentUpon>EasyGraphic.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicControls\EasyGraphicViewModel.cs" />
+    <Compile Include="HeLamMat\HeLamMat.xaml.cs">
+      <DependentUpon>HeLamMat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HeLamMat\ViewModel_HeLamMat.cs" />
     <Compile Include="HeThongGiuBui\HeThongGiuBui.xaml.cs">
       <DependentUpon>HeThongGiuBui.xaml</DependentUpon>
     </Compile>
@@ -147,6 +161,14 @@
     <Page Include="DieuKhien\Xilanh\ucDieuKhienXilanh.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GraphicControls\EasyGraphic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HeLamMat\HeLamMat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="HeThongGiuBui\HeThongGiuBui.xaml">
       <SubType>Designer</SubType>
@@ -222,9 +244,6 @@
     <Resource Include="Image\MayNghienTinh\NghienTinh_XiLanhMo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\HeThongGiuBui\HeThongGiuBui.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Image\HeThongGiuBui\HeThongGiuBui_GiuBuiChay.png" />
     <Resource Include="Image\HeThongGiuBui\HeThongGiuBui_GiuBuiLoi.png" />
     <Resource Include="Image\HeThongGiuBui\HeThongGiuBui_MotorQuatHutChay.png" />
@@ -260,13 +279,8 @@
     <Resource Include="Image\KhoSauSay\KhoSauSay_MotorVitTaiRaLieuLoi.png" />
     <Resource Include="Image\KhoSauSay\KhoSauSay_VitTaiCapLieu1Chay.gif" />
     <Resource Include="Image\KhoSauSay\KhoSauSay_VitTaiCapLieu2Chay.gif" />
-    <Resource Include="Image\KhoSauSay\KhoSauSay_VitTaiCapLieuMayNghienTinhChay_A.gif" />
-    <Resource Include="Image\KhoSauSay\KhoSauSay_VitTaiCapLieuMayNghienTinhChay_B.gif" />
     <Resource Include="Image\KhoSauSay\KhoSauSay_VitTaiRaLieuChay.gif" />
     <Resource Include="Image\KhoSauSay\KhoSauSay_XiLanhChay.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image\KhoSauSay\KhoSauSay.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\KhoSauSay\KhoSauSay2.png" />
@@ -276,7 +290,6 @@
     <Resource Include="Image\Symbol\VitTaiThuanXiLanhTien.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\KhoNghienTho\KhoNghienTho.png" />
     <Resource Include="Image\KhoNghienTho\KhoNghienTho_CyclonBaoDay.png" />
     <Resource Include="Image\KhoNghienTho\KhoNghienTho_MotorBomDauChay.png" />
     <Resource Include="Image\KhoNghienTho\KhoNghienTho_MotorBomDauLoi.png" />
@@ -365,7 +378,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\KhoNghienTinh\KhoNghienTho_VitTaiRaLieuChay.gif" />
-    <Resource Include="Image\KhoNghienTinh\KhoNghienTinh.png" />
     <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_CyclonBaoDay.png" />
     <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_MotorBomDauChay.png" />
     <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_MotorBomDauLoi.png" />
@@ -393,6 +405,121 @@
     <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_RotovanChay.png" />
     <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_RotovanLoi.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Image\KhoSauSay\KhoSauSay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoNghienTinh\KhoNghienTinh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoSauSay\BinhThuong.png" />
+    <Resource Include="Image\KhoSauSay\Day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoNghienTho\KhoNghienTho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeThongGiuBui\HeThongGiuBui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeThongGiuBui\vitTaiGiuBuiUpdateGif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeThongGiuBui\motorVitTaiGiuBuiUpdateChay.png" />
+    <Resource Include="Image\HeThongGiuBui\motorVitTaiGiuBuiUpdateDung.png" />
+    <Resource Include="Image\HeThongGiuBui\motorVitTaiGiuBuiUpdateLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MayNghienTho\NghienTho_MotorMayGhienDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MayNghienTho\NghienTho_MotorBangTaiCapLieuDung.png" />
+    <Resource Include="Image\MayNghienTho\NghienTho_MotorQuatHutDung.png" />
+    <Resource Include="Image\MayNghienTho\NghienTho_MottorBangTaiTuDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MayNghienTinh\NghienTinh_MotorMayNghienDung.png" />
+    <Resource Include="Image\MayNghienTinh\NghienTinh_MotorQuatHutDung.png" />
+    <Resource Include="Image\MayNghienTinh\NghienTinh_MotorVitTaiCapLieuDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoNghienTho\KhoNghienTho_MotorBomDauDung.png" />
+    <Resource Include="Image\KhoNghienTho\KhoNghienTho_MotorVitTaiRaLieuDung.png" />
+    <Resource Include="Image\KhoNghienTho\KhoNghienTho_MotorVitTaiCapLieuDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoSauSay\KhoSauSay_MotorBomDauDung.png" />
+    <Resource Include="Image\KhoSauSay\KhoSauSay_MotorVitTaiRaLieuDung.png" />
+    <Resource Include="Image\KhoSauSay\KhoSauSay_MotorVitTaiCapLieuDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_MotorBomDauDung.png" />
+    <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_MotorVitTaiRaLieuDung.png" />
+    <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_MotorVitTaiCapLieuDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoNghienTinh\KhoNghienTinh_RotovanDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MayEpVien\BangTaiCapLieuEpVien_MotorBangTaiDung.png" />
+    <Resource Include="Image\MayEpVien\Motor băng tải lên bin chứa_Dừng.png" />
+    <Resource Include="Image\MayEpVien\Motor băng tải lên sàn lồng_Dừng.png" />
+    <Resource Include="Image\MayEpVien\MayEpVien_DongCoChinh1Dung.png" />
+    <Resource Include="Image\MayEpVien\MayEpVien_DongCoChinh2Dung.png" />
+    <Resource Include="Image\MayEpVien\MayEpVien_FeederADung.png" />
+    <Resource Include="Image\MayEpVien\MayEpVien_EpVien1FeederBDung.png" />
+    <Resource Include="Image\MayEpVien\MayEpVien_Mixer1Dung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeThongPhuTroEpVien\HeThongPhuTroEpVien_MotorSanLongDung.png" />
+    <Resource Include="Image\HeThongPhuTroEpVien\HeThongPhuTroEpVien_MotorVitTaiLayLieuHongDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeThongPhuTroEpVien\HeThongPhuTroEpVien_MotorBangTaiLenVienNenDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeThongGiuBui\HeThongGiuBui_MotorQuatHutDung.png" />
+    <Resource Include="Image\HeThongGiuBui\HeThongGiuBui_RotovanDung.png" />
+    <Resource Include="Image\HeThongGiuBui\HeThongGiuBui_MotorVitTaiLayLieuDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MayEpVien\MayEpVien_EpVien4FeederBDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeHutAm\He Hut Am  2 Nen.png" />
+    <Resource Include="Image\HeHutAm\He Hut Am Nen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeHutAm\Motor - quạt hút lỗi.png" />
+    <Resource Include="Image\HeHutAm\Motor - quạt hút- Chạy.png" />
+    <Resource Include="Image\HeHutAm\Motor - quạt hút- Dừng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeHutAm\Airlock- Chạy.png" />
+    <Resource Include="Image\HeHutAm\Airlock- Dừng.png" />
+    <Resource Include="Image\HeHutAm\Airlock- Lỗi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeLamMat\Airlock - Lỗi.png" />
+    <Resource Include="Image\HeLamMat\Airlock-  Dừng.png" />
+    <Resource Include="Image\HeLamMat\Airlock- chạy.png" />
+    <Resource Include="Image\HeLamMat\Bang Tai Tu - Chay.png" />
+    <Resource Include="Image\HeLamMat\Bang Tai Tu - Dung.png" />
+    <Resource Include="Image\HeLamMat\Bang Tai Tu - Loi.png" />
+    <Resource Include="Image\HeLamMat\Bang Tai Tu - nen.png" />
+    <Resource Include="Image\HeLamMat\Bang Tai Tu.png" />
+    <Resource Include="Image\HeLamMat\Bang Tai.png" />
+    <Resource Include="Image\HeLamMat\Băng tải cấp Liệu_Chuyển-động.gif" />
+    <Resource Include="Image\HeLamMat\Hệ Làm Mát -Nền.png" />
+    <Resource Include="Image\HeLamMat\Motor băng tải cấp Liệu_Chạy.png" />
+    <Resource Include="Image\HeLamMat\Motor băng tải cấp Liệu_Dừng.png" />
+    <Resource Include="Image\HeLamMat\Motor băng tải cấp Liệu_Lỗi.png" />
+    <Resource Include="Image\HeLamMat\San Rung Rung-Chạy.png" />
+    <Resource Include="Image\HeLamMat\San Rung Rung-Dừng.png" />
+    <Resource Include="Image\HeLamMat\San Rung Rung-Lỗi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\KhoNghienTho\KhoNghienTho_New.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

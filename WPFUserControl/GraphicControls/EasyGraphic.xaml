@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="WPFUserControl.EasyGraphic"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFUserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Viewbox>
+        <Grid>
+            <Image Width="1000">
+                <Image.Style>
+                    <Style TargetType="{x:Type Image}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Status}" Value="1">
+                                <Setter Property="Source" Value="C:\Users\Administrator\Pictures\Saved Pictures\home.jpg"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Status}" Value="2">
+                                <Setter Property="Source" Value="C:\Users\Administrator\Pictures\Saved Pictures\Kho nghiền tinh.jpg"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Status}" Value="3">
+                                <Setter Property="Source" Value="C:\Users\Administrator\Pictures\Saved Pictures\Máy nghiền.jpg"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+
+            </Image>
+            <ComboBox SelectionChanged="ComboBox_SelectionChanged" Panel.ZIndex="1" Height="179" Canvas.Left="-1" Canvas.Top="55" Margin="11,-192,9,193">
+                <ComboBoxItem>
+                    1
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    2
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    3
+                </ComboBoxItem>
+            </ComboBox>
+        </Grid>
+    </Viewbox>
+</UserControl>

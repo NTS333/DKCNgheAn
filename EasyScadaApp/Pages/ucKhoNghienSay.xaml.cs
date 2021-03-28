@@ -37,38 +37,38 @@ namespace EasyScadaApp.Pages
             {
                 isLoaded = true;
 
-                #region KHO NGHIỀN THÔ
-                thongTinKhoNghienTho.Header = "KHO NGHIỀN THÔ";
-                thongTinKhoNghienTho.StationName = "RemoteStation1";
-                thongTinKhoNghienTho.ChannelName = "PLCKhoNghienTho";
-                thongTinKhoNghienTho.DeviceName = "KhoNghienTho";
+                //#region KHO NGHIỀN THÔ
+                //thongTinKhoNghienTho.Header = "KHO NGHIỀN THÔ";
+                //thongTinKhoNghienTho.StationName = "RemoteStation1";
+                //thongTinKhoNghienTho.ChannelName = "PLCKhoNghienTho";
+                //thongTinKhoNghienTho.DeviceName = "KhoNghienTho";
 
-                thongTinKhoNghienTho.Start();
-                #endregion
+                //thongTinKhoNghienTho.Start();
+                //#endregion
 
-                #region KHO NGHIỀN THÔ
-                thongTinKhoSauSay.Header = "KHO SAU SẤY";
-                thongTinKhoSauSay.StationName = "RemoteStation1";
-                thongTinKhoSauSay.ChannelName = "PLCKhoSauSay";
-                thongTinKhoSauSay.DeviceName = "KhoSauSay";
+                //#region KHO NGHIỀN THÔ
+                //thongTinKhoSauSay.Header = "KHO SAU SẤY";
+                //thongTinKhoSauSay.StationName = "RemoteStation1";
+                //thongTinKhoSauSay.ChannelName = "PLCKhoSauSay";
+                //thongTinKhoSauSay.DeviceName = "KhoSauSay";
 
-                thongTinKhoSauSay.Start();
-                #endregion
+                //thongTinKhoSauSay.Start();
+                //#endregion
 
 
-                #region graphic
-                KhoNghienTho.StationName = "RemoteStation1";
-                KhoNghienTho.ChannelName = "PLCKhoNghienTho";
-                KhoNghienTho.DeviceName = "KhoNghienTho";
+                //#region graphic
+                //KhoNghienTho.StationName = "RemoteStation1";
+                //KhoNghienTho.ChannelName = "PLCKhoNghienTho";
+                //KhoNghienTho.DeviceName = "KhoNghienTho";
 
-                KhoNghienTho.Start();
+                //KhoNghienTho.Start();
 
-                KhoSauSay.StationName = "RemoteStation1";
-                KhoSauSay.ChannelName = "PLCKhoSauSay";
-                KhoSauSay.DeviceName = "KhoSauSay";
+                //KhoSauSay.StationName = "RemoteStation1";
+                //KhoSauSay.ChannelName = "PLCKhoSauSay";
+                //KhoSauSay.DeviceName = "KhoSauSay";
 
-                KhoSauSay.Start();
-                #endregion
+                //KhoSauSay.Start();
+                //#endregion
             }
         }
     }

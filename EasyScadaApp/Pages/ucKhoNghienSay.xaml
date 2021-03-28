@@ -8,17 +8,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="922" d:DesignWidth="1912">
     <Canvas Margin="0,0,0,0">
-
-        <WPFUserControl:KhoNghienTho x:Name="KhoNghienTho" 
-            Height="935" Width="1093"
-                                     Canvas.Left="30"/>
-        <WPFUserControl:KhoSauSay x:Name="KhoSauSay" Height="856" Width="899" Canvas.Left="1009" Canvas.Top="56"/>
-
+       
         <!--KHO NGHIỀN THÔ-->
-        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTho"/>
 
         <!--KHO SAU SẤY-->
-        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoSauSay" Canvas.Left="1180" Canvas.Top="2"/>
 
         <!--GIŨ BỤI TRUNG TÂM-->
 

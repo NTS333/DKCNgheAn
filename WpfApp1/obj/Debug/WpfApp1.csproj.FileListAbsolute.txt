@@ -1,0 +1,131 @@
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\App.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Core.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Wpf.Controls.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe.config
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Core.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Wpf.Controls.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.pdb
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\App.g.cs
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.baml
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.g.resources
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.exe
+F:\Cong Profile\Documents\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe.config
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Core.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Wpf.Controls.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.pdb
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\App.g.cs
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.baml
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.g.resources
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.exe
+F:\0.Cong Profile\Documents\1.Others\Learn\ThamKhao\MyDocument\PhuongQuan\SourceCode\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Core.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Wpf.Controls.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\App.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\BaoChau\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\App.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe.config
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfApp1.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Core.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\EasyScada.Wpf.Controls.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WPFUserControl.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\WpfAnimatedGif.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.g.cs
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\MainWindow.baml
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.g.resources
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.exe
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\obj\Debug\WpfApp1.pdb
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\ClosedXML.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\DocumentFormat.OpenXml.dll
+F:\Project\DKCNgheAn\PhuongQuanBaoChau\WpfApp1\bin\Debug\ExcelNumberFormat.dll
