@@ -56,8 +56,8 @@
                 </Image.Style>
             </Image>
 
-            <Image x:Name="xiLanh1Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2369,1731,0,0" Height="57" />
-            <Image x:Name="xiLanh1Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2369,1731,0,0" Height="57" />
+            <Image x:Name="xiLanh1Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2414,1731,0,0" Height="57" />
+            <Image x:Name="xiLanh1Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2383,1734,0,0" Height="57" />
 
             <!-- 2. XI LANH 2 -->
             <Image x:Name="xiLanh2Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="614,1789,0,0" Width="1569"/>
@@ -80,8 +80,8 @@
                 </Image.Style>
             </Image>
 
-            <Image x:Name="xiLanh2Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2369,1818,0,0" Height="57" RenderTransformOrigin="0.77,1.589" />
-            <Image x:Name="xiLanh2Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2369,1818,0,0" Height="57" />
+            <Image x:Name="xiLanh2Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2414,1818,0,0" Height="57" RenderTransformOrigin="0.77,1.589" />
+            <Image x:Name="xiLanh2Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2383,1821,0,0" Height="57" />
 
             <!-- 3. XI LANH 3 -->
             <Image x:Name="xiLanh3Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="614,1870,0,0" Width="1569"/>
@@ -104,8 +104,8 @@
                 </Image.Style>
             </Image>
 
-            <Image x:Name="xiLanh3Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2369,1910,0,0" Height="57" />
-            <Image x:Name="xiLanh3Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2369,1905,0,0" Height="57" />
+            <Image x:Name="xiLanh3Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2414,1910,0,0" Height="57" />
+            <Image x:Name="xiLanh3Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2383,1908,0,0" Height="57" />
 
             <!-- 4. XI LANH 4 -->
             <Image x:Name="xiLanh4Gif" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_LuotKhoNgoaiChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="613,1952,0,0" Width="1569"/>
@@ -128,8 +128,8 @@
                 </Image.Style>
             </Image>
 
-            <Image x:Name="xiLanh4Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2369,1983,0,0" Height="57" />
-            <Image x:Name="xiLanh4Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2369,1983,0,0" Height="57" />
+            <Image x:Name="xiLanh4Tien" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2414,1983,0,0" Height="57" />
+            <Image x:Name="xiLanh4Lui" Visibility="Visible" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2383,1986,0,0" Height="57" />
 
             <!-- 5. VÍT TẢI CẤP LIỆU 1 -->
             <Image x:Name="vitTaiCapLieu1" Visibility="Visible" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_VitTaiCapLieu1Chay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="724,1002,0,0" Width="1617" Height="131"/>
@@ -303,7 +303,7 @@
                     </Style>
                 </Image.Style>
             </Image>
-            
+
             <Image x:Name="baoDayVitTaiRaLieuOn" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoSauSay/Day.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2068,2092,0,0" Height="92" Width="99"/>
             <Image x:Name="baoDayVitTaiRaLieuOff" Visibility="Visible" Source="/WPFUserControl;component/Image/KhoSauSay/BinhThuong.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2068,2092,0,0" Height="92" Width="99"/>
 

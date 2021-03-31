@@ -310,7 +310,7 @@
 
             <Image x:Name="motorVitTaiRaLieuChay" Visibility="Visible" Panel.ZIndex="1"
                    Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiRaLieuChay.png" 
-               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3071,2743,0,0" Height="158" Width="122" RenderTransformOrigin="0.447,1.038">
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3069,2755,0,0" Height="158" Width="122" RenderTransformOrigin="0.447,1.038">
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>
@@ -328,7 +328,7 @@
             </Image>
             <Image x:Name="motorVitTaiRaLieuDung" Visibility="Visible" Panel.ZIndex="1"
                    Source="/WPFUserControl;component/Image/KhoNghienTho/KhoNghienTho_MotorVitTaiRaLieuDung.png" 
-               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3071,2745,0,0" Height="156" Width="114" RenderTransformOrigin="0.447,1.038">
+               VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3069,2757,0,0" Height="156" Width="114" RenderTransformOrigin="0.447,1.038">
                 <Image.Style>
                     <Style TargetType="Image">
                         <Setter Property="Effect" Value="{x:Null}"/>

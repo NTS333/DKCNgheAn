@@ -15,14 +15,26 @@
     <Canvas>
         <Image ></Image>
         <!-- Label machineName-->
-        <Label Name="labMayNghienTho1" Canvas.Left="594"
+        <Label Name="labMayNghienTho1"
                Content="MÁY NGHIỀN THÔ 1" 
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="10"
                />
-        <Label Name="labMayNghienTho2" Canvas.Top="480" Canvas.Left="621"
+        <Label Name="labMayNghienTho3" Canvas.Top="280"
+               Content="MÁY NGHIỀN THÔ 3" 
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+               />
+        <Label Name="labMayNghienTho2"
                Content="MÁY NGHIỀN THÔ 2" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="11" Canvas.Left="445"
+               />
+        <Label Name="labMayNghienTho4" Canvas.Top="280" Canvas.Left="445"
+               Content="MÁY NGHIỀN THÔ 4" 
                HorizontalAlignment="Right"
                VerticalAlignment="Center"
                FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
@@ -48,17 +60,27 @@
 
         <!-- add UserControl may-->
         <WPFUserControl:MayNghienTho x:Name="nghienTho1" 
-                                     Height="416" Width="422" Canvas.Top="20" Canvas.Left="549"
+                                     Height="283" Width="269" Canvas.Top="2" Canvas.Left="176"
                                      />
         <WPFUserControl:MayNghienTho x:Name="nghienTho2" 
-                                     Height="416" Width="422" Canvas.Top="496" Canvas.Left="549"
+                                     Height="283" Width="269" Canvas.Top="2" Canvas.Left="640"
                                      />
+        <WPFUserControl:MayNghienTho x:Name="nghienTho3" 
+                                     Height="283" Width="269" Canvas.Top="271" Canvas.Left="176"
+                                     />
+        <WPFUserControl:MayNghienTho x:Name="nghienTho4" 
+                                     Height="283" Width="269" Canvas.Top="271" Canvas.Left="640"
+                                     />
+
         <WPFUserControl:KhoSauSay x:Name="khoSauSay" 
                                      Height="470" Width="690" Canvas.Left="1040" Canvas.Top="452"
                                      />
 
         <WPFUserControl:KhoNghienTho x:Name="khoNghienTho" 
                                      Height="470" Width="690" Canvas.Left="1040"
+                                     />
+        <WPFUserControl:LoDot x:Name="loDot1" 
+                                     Height="217" Width="354" Canvas.Left="25" Canvas.Top="521"
                                      />
 
         <!--Grid bảng hiển thị thông tin nhiệt độ các gối bi-->
@@ -74,13 +96,19 @@
 
         <!--Grid bảng hiển thị thông tin nhiệt độ các gối bi-->
         <!--Thông tin nghiền thô 1-->
-        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho1" Canvas.Top="68" Canvas.Left="280"/>
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho1" Canvas.Top="34" Canvas.Left="5" Height="240" Width="159"/>
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho2" Canvas.Top="34" Canvas.Left="476" Height="240" Width="159"/>
         <!--Thông tin nghiền thô 3-->
         <!--Thông tin nghiền tinh 1-->
         <!--Thông tin nghiền thô 2-->
-        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho2" Canvas.Top="544" Canvas.Left="280"/>
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho3" Canvas.Top="303" Canvas.Left="5" Height="238" Width="159"/>
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho4" Canvas.Top="303" Canvas.Left="476" Height="238" Width="159"/>
+
         <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTho" Canvas.Left="1632" Canvas.Top="47" Height="113" Width="139"/>
         <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoSauSay" Canvas.Left="1632" Canvas.Top="523" Height="113" Width="139"/>
+        <WPFUserControl:LoDot x:Name="loDot1_Copy" 
+            Height="218" Width="354" Canvas.Left="25" Canvas.Top="704"
+                                     />
         <!--Thông tin nghiền thô 4-->
         <!--Thông tin nghiền tinh 1-->
     </Canvas>

@@ -117,126 +117,126 @@ namespace WPFUserControl
         {
             Dispatcher.Invoke(() =>
             {
-                BomDau1 = GetTag("ST_Pump1");
+                BomDau1 = GetTag("PL_Pump_B1");
                 if (BomDau1 != null)
                 {
                     BomDau1_ValueChanged(BomDau1, new TagValueChangedEventArgs(BomDau1, "", BomDau1.Value));
                     BomDau1.ValueChanged += BomDau1_ValueChanged;
                 }
 
-                BomDau2 = GetTag("ST_Pump2");
+                BomDau2 = GetTag("PL_Pump_B2");
                 if (BomDau2 != null)
                 {
                     BomDau2_ValueChanged(BomDau2, new TagValueChangedEventArgs(BomDau2, "", BomDau2.Value));
                     BomDau2.ValueChanged += BomDau2_ValueChanged;
                 }
 
-                VitTaiRaLieu = GetTag("ST_VTRL");
+                VitTaiRaLieu = GetTag("PL_Screw_B");
                 if (VitTaiRaLieu != null)
                 {
                     VitTaiRaLieu_ValueChanged(VitTaiRaLieu, new TagValueChangedEventArgs(VitTaiRaLieu, "", VitTaiRaLieu.Value));
                     VitTaiRaLieu.ValueChanged += VitTaiRaLieu_ValueChanged;
                 }
 
-                MortorVitTai1ChayNghich = GetTag("ST_VitTai1Nghich");
+                MortorVitTai1ChayNghich = GetTag("PL_RV_FD_B1");
                 if (MortorVitTai1ChayNghich != null)
                 {
                     MortorVitTai1ChayNghich_ValueChanged(MortorVitTai1ChayNghich, new TagValueChangedEventArgs(MortorVitTai1ChayNghich, "", MortorVitTai1ChayNghich.Value));
                     MortorVitTai1ChayNghich.ValueChanged += MortorVitTai1ChayNghich_ValueChanged;
                 }
 
-                MortorVitTai1ChayThuan = GetTag("ST_VitTai1Thuan");
+                MortorVitTai1ChayThuan = GetTag("PL_FW_FD_B1");
                 if (MortorVitTai1ChayThuan != null)
                 {
                     MortorVitTai1ChayThuan_ValueChanged(MortorVitTai1ChayThuan, new TagValueChangedEventArgs(MortorVitTai1ChayThuan, "", MortorVitTai1ChayThuan.Value));
                     MortorVitTai1ChayThuan.ValueChanged += MortorVitTai1ChayThuan_ValueChanged;
                 }
 
-                MortorVitTai2ChayNghich = GetTag("ST_VitTai2Nghich");
+                MortorVitTai2ChayNghich = GetTag("PL_RV_FD_B2");
                 if (MortorVitTai2ChayNghich != null)
                 {
                     MortorVitTai2ChayNghich_ValueChanged(MortorVitTai2ChayNghich, new TagValueChangedEventArgs(MortorVitTai2ChayNghich, "", MortorVitTai2ChayNghich.Value));
                     MortorVitTai2ChayNghich.ValueChanged += MortorVitTai2ChayNghich_ValueChanged;
                 }
 
-                MortorVitTai2ChayThuan = GetTag("ST_VitTai2Thuan");
+                MortorVitTai2ChayThuan = GetTag("PL_FW_FD_B2");
                 if (MortorVitTai2ChayThuan != null)
                 {
                     MortorVitTai2ChayThuan_ValueChanged(MortorVitTai2ChayThuan, new TagValueChangedEventArgs(MortorVitTai2ChayThuan, "", MortorVitTai2ChayThuan.Value));
                     MortorVitTai2ChayThuan.ValueChanged += MortorVitTai2ChayThuan_ValueChanged;
                 }
 
-                TrangThaiXiLanh1ChayLui = GetTag("ST_XiLanh1Lui");
+                TrangThaiXiLanh1ChayLui = GetTag("ST_RV1_Vale_B");
                 if (TrangThaiXiLanh1ChayLui != null)
                 {
                     TrangThaiXiLanh1ChayLui_ValueChanged(TrangThaiXiLanh1ChayLui, new TagValueChangedEventArgs(TrangThaiXiLanh1ChayLui, "", TrangThaiXiLanh1ChayLui.Value));
                     TrangThaiXiLanh1ChayLui.ValueChanged += TrangThaiXiLanh1ChayLui_ValueChanged;
                 }
 
-                TrangThaiXiLanh1ChayToi = GetTag("ST_XiLanh1Tien");
+                TrangThaiXiLanh1ChayToi = GetTag("ST_FW1_Vale_B");
                 if (TrangThaiXiLanh1ChayToi != null)
                 {
                     TrangThaiXiLanh1ChayToi_ValueChanged(TrangThaiXiLanh1ChayToi, new TagValueChangedEventArgs(TrangThaiXiLanh1ChayToi, "", TrangThaiXiLanh1ChayToi.Value));
                     TrangThaiXiLanh1ChayToi.ValueChanged += TrangThaiXiLanh1ChayToi_ValueChanged;
                 }
 
-                TrangThaiXiLanh2ChayLui = GetTag("ST_XiLanh2Lui");
+                TrangThaiXiLanh2ChayLui = GetTag("ST_RV2_Vale_B");
                 if (TrangThaiXiLanh1ChayLui != null)
                 {
                     TrangThaiXiLanh2ChayLui_ValueChanged(TrangThaiXiLanh2ChayLui, new TagValueChangedEventArgs(TrangThaiXiLanh2ChayLui, "", TrangThaiXiLanh2ChayLui.Value));
                     TrangThaiXiLanh2ChayLui.ValueChanged += TrangThaiXiLanh2ChayLui_ValueChanged;
                 }
 
-                TrangThaiXiLanh2ChayToi = GetTag("ST_XiLanh2Tien");
+                TrangThaiXiLanh2ChayToi = GetTag("ST_FW2_Vale_B");
                 if (TrangThaiXiLanh2ChayToi != null)
                 {
                     TrangThaiXiLanh2ChayToi_ValueChanged(TrangThaiXiLanh2ChayToi, new TagValueChangedEventArgs(TrangThaiXiLanh2ChayToi, "", TrangThaiXiLanh2ChayToi.Value));
                     TrangThaiXiLanh2ChayToi.ValueChanged += TrangThaiXiLanh2ChayToi_ValueChanged;
                 }
 
-                TrangThaiXiLanh3ChayLui = GetTag("ST_XiLanh3Lui");
+                TrangThaiXiLanh3ChayLui = GetTag("ST_RV3_Vale_B");
                 if (TrangThaiXiLanh3ChayLui != null)
                 {
                     TrangThaiXiLanh3ChayLui_ValueChanged(TrangThaiXiLanh3ChayLui, new TagValueChangedEventArgs(TrangThaiXiLanh3ChayLui, "", TrangThaiXiLanh3ChayLui.Value));
                     TrangThaiXiLanh3ChayLui.ValueChanged += TrangThaiXiLanh3ChayLui_ValueChanged;
                 }
 
-                TrangThaiXiLanh3ChayToi = GetTag("ST_XiLanh3Tien");
+                TrangThaiXiLanh3ChayToi = GetTag("ST_FW3_Vale_B");
                 if (TrangThaiXiLanh3ChayToi != null)
                 {
                     TrangThaiXiLanh3ChayToi_ValueChanged(TrangThaiXiLanh3ChayToi, new TagValueChangedEventArgs(TrangThaiXiLanh3ChayToi, "", TrangThaiXiLanh3ChayToi.Value));
                     TrangThaiXiLanh3ChayToi.ValueChanged += TrangThaiXiLanh3ChayToi_ValueChanged;
                 }
 
-                TrangThaiXiLanh4ChayLui = GetTag("ST_XiLanh4Lui");
+                TrangThaiXiLanh4ChayLui = GetTag("ST_RV4_Vale_B");
                 if (TrangThaiXiLanh4ChayLui != null)
                 {
                     TrangThaiXiLanh4ChayLui_ValueChanged(TrangThaiXiLanh4ChayLui, new TagValueChangedEventArgs(TrangThaiXiLanh4ChayLui, "", TrangThaiXiLanh4ChayLui.Value));
                     TrangThaiXiLanh4ChayLui.ValueChanged += TrangThaiXiLanh4ChayLui_ValueChanged;
                 }
 
-                TrangThaiXiLanh4ChayToi = GetTag("ST_XiLanh4Tien");
+                TrangThaiXiLanh4ChayToi = GetTag("ST_FW4_Vale_B");
                 if (TrangThaiXiLanh4ChayToi != null)
                 {
                     TrangThaiXiLanh4ChayToi_ValueChanged(TrangThaiXiLanh4ChayToi, new TagValueChangedEventArgs(TrangThaiXiLanh4ChayToi, "", TrangThaiXiLanh4ChayToi.Value));
                     TrangThaiXiLanh4ChayToi.ValueChanged += TrangThaiXiLanh4ChayToi_ValueChanged;
                 }
 
-                BaoDayVitTaiCapLieu1 = GetTag("High_Level_VTCL1");
+                BaoDayVitTaiCapLieu1 = GetTag("HI_LV_B1");
                 if (BaoDayVitTaiCapLieu1 != null)
                 {
                     BaoDayVitTaiCapLieu1_ValueChanged(BaoDayVitTaiCapLieu1, new TagValueChangedEventArgs(BaoDayVitTaiCapLieu1, "", BaoDayVitTaiCapLieu1.Value));
                     BaoDayVitTaiCapLieu1.ValueChanged += BaoDayVitTaiCapLieu1_ValueChanged;
                 }
 
-                BaoDayVitTaiCapLieu2 = GetTag("High_Level_VTCL2");
+                BaoDayVitTaiCapLieu2 = GetTag("HI_LV_B2");
                 if (BaoDayVitTaiCapLieu2 != null)
                 {
                     BaoDayVitTaiCapLieu2_ValueChanged(BaoDayVitTaiCapLieu2, new TagValueChangedEventArgs(BaoDayVitTaiCapLieu2, "", BaoDayVitTaiCapLieu2.Value));
                     BaoDayVitTaiCapLieu2.ValueChanged += BaoDayVitTaiCapLieu2_ValueChanged;
                 }
 
-                BaoDayVitTaiRaLieu = GetTag("High_Level_VTRL");
+                BaoDayVitTaiRaLieu = GetTag("HI_LV_Screw_B");
                 if (BaoDayVitTaiRaLieu != null)
                 {
                     BaoDayVitTaiRaLieu_ValueChanged(BaoDayVitTaiRaLieu, new TagValueChangedEventArgs(BaoDayVitTaiRaLieu, "", BaoDayVitTaiRaLieu.Value));

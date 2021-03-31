@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\obj\Debug\
+F:\Project\DKCNgheAn\DKCNgheAn_App\EasyScadaApp\obj\Debug\
 EasyScadaApp
 none
 false
 DEBUG;TRACE
-F:\Project\DKCNgheAn\PhuongQuanBaoChau\EasyScadaApp\App.xaml
+F:\Project\DKCNgheAn\DKCNgheAn_App\EasyScadaApp\App.xaml
 20-1912993691
 
 391684194486
-28-603769042
+28-1310902081
 Controls\BangDieuKhien\BangDieuKhienKho.xaml;Controls\NghienThoNghienTinh\BangDieuKhienMayNghien.xaml;Controls\KhoNghien\GiuBuiTrungTam.xaml;Commons\DialogWindow.xaml;MainWindow.xaml;Pages\ucChart.xaml;Pages\ucChartTS.xaml;Pages\ucKhoNghienSay.xaml;Pages\ucKhoNghienTinh_GiuBui.xaml;Pages\ucMayEpVien.xaml;Pages\ucNghienThoTinh.xaml;Controls\NghienThoNghienTinh\ThongTinMayNghienTho.xaml;Controls\NghienThoNghienTinh\ThongTinGoiBi.xaml;Controls\MayEpVien\ThongTinMayEpVien.xaml;Controls\MayEpVien\SanLong.xaml;Controls\MayEpVien\ThongTinCan.xaml;Controls\MayEpVien\ThongTinCanTong.xaml;Controls\KhoNghien\ThongTinKhoNghien.xaml;Controls\KhoNghien\ThongTinKhoNghienTinh.xaml;Pages\ucReport.xaml;
 
 True

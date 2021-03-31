@@ -109,6 +109,10 @@
     <Compile Include="KhoSauSay\KhoSauSay.xaml.cs">
       <DependentUpon>KhoSauSay.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LoDot\LoDot.xaml.cs">
+      <DependentUpon>LoDot.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoDot\LoDotViewModel.cs" />
     <Compile Include="MayEpVien\MayEpVien.xaml.cs">
       <DependentUpon>MayEpVien.xaml</DependentUpon>
     </Compile>
@@ -187,6 +191,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="KhoSauSay\KhoSauSay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoDot\LoDot.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -520,6 +528,39 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\KhoNghienTho\KhoNghienTho_New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LoDot\XylanhChay.png" />
+    <Resource Include="Image\LoDot\XylanhLoi.png" />
+    <Resource Include="Image\LoDot\XylanhDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LoDot\LapCanh.png" />
+    <Resource Include="Image\LoDot\QuatThoiTrenChay.png" />
+    <Resource Include="Image\LoDot\QuatThoiTrenLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LoDot\QuatThoiLoLoi.png" />
+    <Resource Include="Image\LoDot\QuatThoiLoChay.png" />
+    <Resource Include="Image\LoDot\QuatThoiLoDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LoDot\BangTai.png" />
+    <Resource Include="Image\LoDot\BangTaiCapLieu.gif" />
+    <Resource Include="Image\LoDot\BangTaiCapLieuChay.png" />
+    <Resource Include="Image\LoDot\BangTaiCapLieuDung.png" />
+    <Resource Include="Image\LoDot\BangTaiCapLieuLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LoDot\KhopNoi.png" />
+    <Resource Include="Image\LoDot\LapRapLapDot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\LoDot\VitTaiCapLieuLoSayChay.png" />
+    <Resource Include="Image\LoDot\VitTaiCapLieuLoSayDung.png" />
+    <Resource Include="Image\LoDot\VitTaiCapLieuLoSayLoi.png" />
+    <Resource Include="Image\LoDot\VitTai.png" />
+    <Resource Include="Image\LoDot\VitTaiCapLieuLoSay.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

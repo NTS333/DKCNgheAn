@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFUserControl;
 
 namespace EasyScadaApp.Pages
 {
@@ -61,11 +62,41 @@ namespace EasyScadaApp.Pages
                 nghienTho2.MotorMayNghienClick += OnMotorMayNghienClick;
                 nghienTho2.MotorQuatHutClick += OnMotorQuatHutClick;
 
+                thongTinMayNghienTho3.StationName = "RemoteStation1";
+                thongTinMayNghienTho3.ChannelName = "PLC_MayNghienTho";
+                thongTinMayNghienTho3.DeviceName = "MayNghienTho3";
+
+                nghienTho3.StationName = "RemoteStation1";
+                nghienTho3.ChannelName = "PLC_MayNghienTho";
+                nghienTho3.DeviceName = "MayNghienTho3";
+                nghienTho3.MotorBangTaiCapLieuClick += OnBangTaiCapLieuClick;
+                nghienTho3.MotorBangTaiTuClick += OnBangTaiTuClick;
+                nghienTho3.MotorMayNghienClick += OnMotorMayNghienClick;
+                nghienTho3.MotorQuatHutClick += OnMotorQuatHutClick;
+
+                thongTinMayNghienTho4.StationName = "RemoteStation1";
+                thongTinMayNghienTho4.ChannelName = "PLC_MayNghienTho";
+                thongTinMayNghienTho4.DeviceName = "MayNghienTho4";
+
+                nghienTho4.StationName = "RemoteStation1";
+                nghienTho4.ChannelName = "PLC_MayNghienTho";
+                nghienTho4.DeviceName = "MayNghienTho4";
+                nghienTho4.MotorBangTaiCapLieuClick += OnBangTaiCapLieuClick;
+                nghienTho4.MotorBangTaiTuClick += OnBangTaiTuClick;
+                nghienTho4.MotorMayNghienClick += OnMotorMayNghienClick;
+                nghienTho4.MotorQuatHutClick += OnMotorQuatHutClick;
+
+
+
                 thongTinMayNghienTho1.Start();
                 thongTinMayNghienTho2.Start();
+                thongTinMayNghienTho3.Start();
+                thongTinMayNghienTho4.Start();
 
                 nghienTho1.Start();
                 nghienTho2.Start();
+                nghienTho3.Start();
+                nghienTho4.Start();
 
                 thongTinKhoNghienTho.StationName = "RemoteStation1";
                 thongTinKhoNghienTho.ChannelName = "PLC_KhoNghienTho";
@@ -114,120 +145,31 @@ namespace EasyScadaApp.Pages
         }
 
         #region Method of event kho nghien tho
-        private void KhoNghienTho_Xilanh4Click(object sender, EventArgs e)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// <param name="index">Số thứ tự Xilanh</param>
+        /// <param name="machineType">Loại kho</param>
+        private void XilanhClick(object sender,EventArgs e,int index,string inventoryType)
         {
             if (e is MouseButtonEventArgs args)
             {
                 string stationName = "RemoteStation1";
-                string channelName = "PLCKhoNghienTho";
+                string channelName = inventoryType=="A"?"PLC_KhoNghienTho": "PLC_KhoSauSay";
                 string deviceName = "";
-
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
-
-
+                string autoTagName = $"SW_Auto_{inventoryType}";
+                string manualTagName = $"SW_Man_{inventoryType}";
+                string cheDo3TagName = $"SW_CD3_{inventoryType}";
                 string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh4Tien";
-                string offMotorTagName = "BT_XiLanh4Lui";
-                string statusOffMotorTagName = "ST_XiLanh4Lui";
-                string statusOnMotorTagName = "ST_XiLanh4Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
-
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
-
-                Point clickPoint = args.GetPosition(this.khoNghienTho);
-
-                Point p = this.khoNghienTho.PointToScreen(clickPoint);
-
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                     cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                     statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
-        }
-
-        private void KhoNghienTho_Xilanh3Click(object sender, EventArgs e)
-        {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoNghienTho";
-                string deviceName = "";
-
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
-
-
-                string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh3Tien";
-                string offMotorTagName = "BT_XiLanh3Lui";
-                string statusOffMotorTagName = "ST_XiLanh3Lui";
-                string statusOnMotorTagName = "ST_XiLanh3Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
-
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
-
-                Point clickPoint = args.GetPosition(this.khoNghienTho);
-
-                Point p = this.khoNghienTho.PointToScreen(clickPoint);
-
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                    cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                    statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
-        }
-
-        private void KhoNghienTho_Xilanh2Click(object sender, EventArgs e)
-        {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoNghienTho";
-                string deviceName = "";
-
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
-
-
-                string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh2Tien";
-                string offMotorTagName = "BT_XiLanh2Lui";
-                string statusOffMotorTagName = "ST_XiLanh2Lui";
-                string statusOnMotorTagName = "ST_XiLanh2Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
-
+                string onMotorTagName = $"BT_FW{index}_{inventoryType}";
+                string offMotorTagName = $"BT_RV{index}_{inventoryType}";
+                string statusOffMotorTagName = $"ST_RV{index}_Vale_{inventoryType}";
+                string statusOnMotorTagName = $"ST_FW{index}_Vale_{inventoryType}";
+                string statusAutoTagName = $"PL_Auto_{inventoryType}"; ;
+                string statusManualTagName = $"PL_Man_{inventoryType}";
+                string statusCheDo3TagName = $"PL_CD3_{inventoryType}";
                 string title = "";
                 if (sender.Equals(khoNghienTho))
                 {
@@ -251,28 +193,217 @@ namespace EasyScadaApp.Pages
                 DialogService.Instance.Show(bangDK, p, title);
             }
         }
+        private void KhoNghienTho_Xilanh4Click(object sender, EventArgs e)
+        {
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLC_KhoNghienTho";
+            //    string deviceName = "";
+            //    string autoTagName = "SW_Auto_A";
+            //    string manualTagName = "SW_Man_A";
+            //    string cheDo3TagName = "SW_CD3_A";
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_FW4_A";
+            //    string offMotorTagName = "BT_RV4_A";
+            //    string statusOffMotorTagName = "ST_RV4_Vale_A";
+            //    string statusOnMotorTagName = "ST_FW4_Vale_A";
+            //    string statusAutoTagName = "PL_Auto_A"; ;
+            //    string statusManualTagName = "PL_Man_A";
+            //    string statusCheDo3TagName = "PL_CD3_A";
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
+
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
+
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
+
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //           cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //           statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e, 4,"A");
+        }
+
+        private void KhoNghienTho_Xilanh3Click(object sender, EventArgs e)
+        {
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLC_KhoNghienTho";
+            //    string deviceName = "";
+
+            //    string autoTagName = "SW_Auto_A";
+            //    string manualTagName = "SW_Man_A";
+            //    string cheDo3TagName = "SW_CD3_A";
+
+
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_FW3_A";
+            //    string offMotorTagName = "BT_RV3_A";
+            //    string statusOffMotorTagName = "ST_RV3_Vale_A";
+            //    string statusOnMotorTagName = "ST_FW3_Vale_A";
+            //    string statusAutoTagName = "PL_Auto_A"; ;
+            //    string statusManualTagName = "PL_Man_A";
+            //    string statusCheDo3TagName = "PL_CD3_A";
+
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
+
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
+
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
+
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //        cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //        statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e, 3,"A");
+        }
+
+        private void KhoNghienTho_Xilanh2Click(object sender, EventArgs e)
+        {
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLC_KhoNghienTho";
+            //    string deviceName = "";
+
+
+
+
+            //    string autoTagName = "SW_Auto_A";
+            //    string manualTagName = "SW_Man_A";
+            //    string cheDo3TagName = "SW_CD3_A";
+
+
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_FW2_A";
+            //    string offMotorTagName = "BT_RV2_A";
+            //    string statusOffMotorTagName = "ST_RV2_Vale_A";
+            //    string statusOnMotorTagName = "ST_FW2_Vale_A";
+            //    string statusAutoTagName = "PL_Auto_A"; ;
+            //    string statusManualTagName = "PL_Man_A";
+            //    string statusCheDo3TagName = "PL_CD3_A";
+
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
+
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
+
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
+
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //           cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //           statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e, 3,"A");
+        }
 
         private void KhoNghienTho_Xilanh1Click(object sender, EventArgs e)
+        {
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLC_KhoNghienTho";
+            //    string deviceName = "";
+
+
+
+
+            //    string autoTagName = "SW_Auto_A";
+            //    string manualTagName = "SW_Man_A";
+            //    string cheDo3TagName = "SW_CD3_A";
+
+
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_FW1_A";
+            //    string offMotorTagName = "BT_RV1_A";
+            //    string statusOffMotorTagName = "ST_RV1_Vale_A";
+            //    string statusOnMotorTagName = "ST_FW1_Vale_A";
+            //    string statusAutoTagName = "PL_Auto_A"; ;
+            //    string statusManualTagName = "PL_Man_A";
+            //    string statusCheDo3TagName = "PL_CD3_A";
+
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
+
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
+
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
+
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //           cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //           statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e,1,"A");
+        }
+
+        private void BangTaiCapLieuClick(object sender, EventArgs e, int index, string inventoryType)
         {
             if (e is MouseButtonEventArgs args)
             {
                 string stationName = "RemoteStation1";
-                string channelName = "PLCKhoNghienTho";
+                string channelName = inventoryType == "A" ? "PLC_KhoNghienTho" : "PLC_KhoSauSay";
                 string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+                string autoTagName = $"SW_Auto_{inventoryType}";
+                string manualTagName = $"SW_Man_{inventoryType}";
+                string cheDo3TagName = $"SW_CD3_{inventoryType}";
 
 
-                string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh1Tien";
-                string offMotorTagName = "BT_XiLanh1Lui";
-                string statusOffMotorTagName = "ST_XiLanh1Lui";
-                string statusOnMotorTagName = "ST_XiLanh1Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+                string motorName = "VTCL";
+                string onMotorTagName = $"BT_FW_FD{inventoryType}{index}";
+                string offMotorTagName = $"BT_RV_FD{inventoryType}{index}";
+                string statusOffMotorTagName = $"PL_RV_FD_{inventoryType}{index}";
+                string statusOnMotorTagName = $"PL_FW_FD_{inventoryType}{index}";
+                string statusAutoTagName = $"PL_Auto_{inventoryType}"; ;
+                string statusManualTagName = $"PL_Man_{inventoryType}";
+                string statusCheDo3TagName = $"PL_CD3_{inventoryType}";
 
                 string title = "";
                 if (sender.Equals(khoNghienTho))
@@ -300,94 +431,97 @@ namespace EasyScadaApp.Pages
 
         private void KhoNghienTho_MotorVTCL2Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoNghienTho";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoNghienTho";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "VTCL";
-                string onMotorTagName = "BT_BatVTCLThuan2";
-                string offMotorTagName = "BT_BatVTCLNghich2";
-                string statusOffMotorTagName = "ST_VitTai2Nghich";
-                string statusOnMotorTagName = "ST_VitTai2Thuan";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "VTCL";
+            //    string onMotorTagName = "BT_BatVTCLThuan2";
+            //    string offMotorTagName = "BT_BatVTCLNghich2";
+            //    string statusOffMotorTagName = "ST_VitTai2Nghich";
+            //    string statusOnMotorTagName = "ST_VitTai2Thuan";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoNghienTho);
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
 
-                Point p = this.khoNghienTho.PointToScreen(clickPoint);
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                      cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                      statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //          cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //          statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BangTaiCapLieuClick(sender, e, 2,"A");
+
         }
 
         private void KhoNghienTho_MotorVTCL1Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoNghienTho";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoNghienTho";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "VTCL";
-                string onMotorTagName = "BT_BatVTCLThuan1";
-                string offMotorTagName = "BT_BatVTCLNghich1";
-                string statusOffMotorTagName = "ST_VitTai1Nghich";
-                string statusOnMotorTagName = "ST_VitTai1Thuan";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "VTCL";
+            //    string onMotorTagName = "BT_BatVTCLThuan1";
+            //    string offMotorTagName = "BT_BatVTCLNghich1";
+            //    string statusOffMotorTagName = "ST_VitTai1Nghich";
+            //    string statusOnMotorTagName = "ST_VitTai1Thuan";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoNghienTho);
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
 
-                Point p = this.khoNghienTho.PointToScreen(clickPoint);
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                     cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                     statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //         cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //         statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BangTaiCapLieuClick(sender, e, 1,"A");
         }
 
         private void KhoNghienTho_MotorVTRLClick(object sender, EventArgs e)
@@ -438,25 +572,120 @@ namespace EasyScadaApp.Pages
 
         private void KhoNghienTho_MotorBomDau2Click(object sender, EventArgs e)
         {
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoNghienTho";
+            //    string deviceName = "";
+
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
+
+
+            //    string motorName = "BomDau";
+            //    string onMotorTagName = "BT_BatBomDau2";
+            //    string offMotorTagName = null;//don't use
+            //    string statusOffMotorTagName = null;//Don't use
+            //    string statusOnMotorTagName = "ST_Pump2";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
+
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
+
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
+
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
+
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //        cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //        statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BomDauClick(sender, e, 2,"A");
+
+        }
+
+        private void KhoNghienTho_MotorBomDau1Click(object sender, EventArgs e)
+        {
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLC_KhoNghienTho";
+            //    string deviceName = "";
+
+            //    string autoTagName = "SW_Auto_A";
+            //    string manualTagName = "SW_Man_A";
+            //    string cheDo3TagName = "SW_CD3_A";
+
+
+            //    string motorName = "BomDau";
+            //    string onMotorTagName = "BT_Pump_A1";
+            //    string offMotorTagName = null;//Don't use
+            //    string statusOffMotorTagName = null;//Don't use
+            //    string statusOnMotorTagName = "PL_Pump_A1";
+            //    string statusAutoTagName = "PL_Auto_A"; ;
+            //    string statusManualTagName = "PL_Man_A";
+            //    string statusCheDo3TagName = "PL_CD3_A";
+
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
+
+            //    Point clickPoint = args.GetPosition(this.khoNghienTho);
+
+            //    Point p = this.khoNghienTho.PointToScreen(clickPoint);
+
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //            cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //            statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BomDauClick(sender, e, 1,"A");
+        }
+
+        private void BomDauClick(object sender, EventArgs e, int index, string inventoryType)
+        {
             if (e is MouseButtonEventArgs args)
             {
                 string stationName = "RemoteStation1";
-                string channelName = "PLCKhoNghienTho";
+                string channelName = inventoryType == "A" ? "PLC_KhoNghienTho" : "PLC_KhoSauSay";
                 string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+                string autoTagName = $"SW_Auto_{inventoryType}";
+                string manualTagName =$"SW_Man_{inventoryType}";
+                string cheDo3TagName = $"SW_CD3_{inventoryType}";
 
 
                 string motorName = "BomDau";
-                string onMotorTagName = "BT_BatBomDau2";
+                string onMotorTagName = $"BT_PUMP_{inventoryType}{index}";
                 string offMotorTagName = null;//don't use
                 string statusOffMotorTagName = null;//Don't use
-                string statusOnMotorTagName = "ST_Pump2";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+                string statusOnMotorTagName = $"PL_Pump_{inventoryType}{index}";
+                string statusAutoTagName = $"PL_Auto_{inventoryType}"; ;
+                string statusManualTagName = $"PL_Man_{inventoryType}";
+                string statusCheDo3TagName = $"PL_CD3_{inventoryType}";
 
                 string title = "";
                 if (sender.Equals(khoNghienTho))
@@ -482,328 +711,293 @@ namespace EasyScadaApp.Pages
             }
         }
 
-        private void KhoNghienTho_MotorBomDau1Click(object sender, EventArgs e)
-        {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLC_KhoNghienTho";
-                string deviceName = "";
-
-                string autoTagName = "SW_Auto_A";
-                string manualTagName = "SW_Man_A";
-                string cheDo3TagName = "SW_CD3_A";
-
-
-                string motorName = "BomDau";
-                string onMotorTagName = "BT_Pump_A1";
-                string offMotorTagName = null;//Don't use
-                string statusOffMotorTagName = null;//Don't use
-                string statusOnMotorTagName = "PL_Pump_A1";
-                string statusAutoTagName = "PL_Auto_A"; ;
-                string statusManualTagName = "PL_Man_A";
-                string statusCheDo3TagName = "PL_CD3_A";
-
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
-
-                Point clickPoint = args.GetPosition(this.khoNghienTho);
-
-                Point p = this.khoNghienTho.PointToScreen(clickPoint);
-
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                        cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                        statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
-        }
         #endregion
 
         #region Method of event kho sau say
         private void KhoSauSay_Xilanh4Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLC_KhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh4Tien";
-                string offMotorTagName = "BT_XiLanh4Lui";
-                string statusOffMotorTagName = "ST_XiLanh4Lui";
-                string statusOnMotorTagName = "ST_XiLanh4Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_XiLanh4Tien";
+            //    string offMotorTagName = "BT_XiLanh4Lui";
+            //    string statusOffMotorTagName = "ST_XiLanh4Lui";
+            //    string statusOnMotorTagName = "ST_XiLanh4Tien";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                     cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                     statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //         cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //         statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e, 4, "B");
         }
 
         private void KhoSauSay_Xilanh3Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh3Tien";
-                string offMotorTagName = "BT_XiLanh3Lui";
-                string statusOffMotorTagName = "ST_XiLanh3Lui";
-                string statusOnMotorTagName = "ST_XiLanh3Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_XiLanh3Tien";
+            //    string offMotorTagName = "BT_XiLanh3Lui";
+            //    string statusOffMotorTagName = "ST_XiLanh3Lui";
+            //    string statusOnMotorTagName = "ST_XiLanh3Tien";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                    cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                    statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //        cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //        statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e, 3, "B");
+
         }
 
         private void KhoSauSay_Xilanh2Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh2Tien";
-                string offMotorTagName = "BT_XiLanh2Lui";
-                string statusOffMotorTagName = "ST_XiLanh2Lui";
-                string statusOnMotorTagName = "ST_XiLanh2Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_XiLanh2Tien";
+            //    string offMotorTagName = "BT_XiLanh2Lui";
+            //    string statusOffMotorTagName = "ST_XiLanh2Lui";
+            //    string statusOnMotorTagName = "ST_XiLanh2Tien";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                       cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                       statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //           cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //           statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e, 2, "B");
+
         }
 
         private void KhoSauSay_Xilanh1Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "XiLanh";
-                string onMotorTagName = "BT_XiLanh1Tien";
-                string offMotorTagName = "BT_XiLanh1Lui";
-                string statusOffMotorTagName = "ST_XiLanh1Lui";
-                string statusOnMotorTagName = "ST_XiLanh1Tien";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "XiLanh";
+            //    string onMotorTagName = "BT_XiLanh1Tien";
+            //    string offMotorTagName = "BT_XiLanh1Lui";
+            //    string statusOffMotorTagName = "ST_XiLanh1Lui";
+            //    string statusOnMotorTagName = "ST_XiLanh1Tien";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                     cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                     statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //         cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //         statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            XilanhClick(sender, e, 1, "B");
+
         }
 
         private void KhoSauSay_MotorVTCL2Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "VTCL";
-                string onMotorTagName = "BT_BatVTCLThuan2";
-                string offMotorTagName = "BT_BatVTCLNghich2";
-                string statusOffMotorTagName = "ST_VitTai2Nghich";
-                string statusOnMotorTagName = "ST_VitTai2Thuan";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "VTCL";
+            //    string onMotorTagName = "BT_BatVTCLThuan2";
+            //    string offMotorTagName = "BT_BatVTCLNghich2";
+            //    string statusOffMotorTagName = "ST_VitTai2Nghich";
+            //    string statusOnMotorTagName = "ST_VitTai2Thuan";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                      cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                      statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //          cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //          statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BangTaiCapLieuClick(sender, e, 2, "B");
         }
 
         private void KhoSauSay_MotorVTCL1Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "VTCL";
-                string onMotorTagName = "BT_BatVTCLThuan1";
-                string offMotorTagName = "BT_BatVTCLNghich1";
-                string statusOffMotorTagName = "ST_VitTai1Nghich";
-                string statusOnMotorTagName = "ST_VitTai1Thuan";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "VTCL";
+            //    string onMotorTagName = "BT_BatVTCLThuan1";
+            //    string offMotorTagName = "BT_BatVTCLNghich1";
+            //    string statusOffMotorTagName = "ST_VitTai1Nghich";
+            //    string statusOnMotorTagName = "ST_VitTai1Thuan";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                     cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                     statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //         cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //         statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BangTaiCapLieuClick(sender, e, 1, "B");
+
         }
 
         private void KhoSauSay_MotorVTRLClick(object sender, EventArgs e)
@@ -854,95 +1048,98 @@ namespace EasyScadaApp.Pages
 
         private void KhoSauSay_MotorBomDau2Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "BomDau";
-                string onMotorTagName = "BT_BatBomDau2";
-                string offMotorTagName = null;//don't use
-                string statusOffMotorTagName = null;//Don't use
-                string statusOnMotorTagName = "ST_Pump2";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string motorName = "BomDau";
+            //    string onMotorTagName = "BT_BatBomDau2";
+            //    string offMotorTagName = null;//don't use
+            //    string statusOffMotorTagName = null;//Don't use
+            //    string statusOnMotorTagName = "ST_Pump2";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                    cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                    statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //        cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //        statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BomDauClick(sender, e, 2, "B");
         }
 
         private void KhoSauSay_MotorBomDau1Click(object sender, EventArgs e)
         {
-            if (e is MouseButtonEventArgs args)
-            {
-                string stationName = "RemoteStation1";
-                string channelName = "PLCKhoSauSay";
-                string deviceName = "";
+            //if (e is MouseButtonEventArgs args)
+            //{
+            //    string stationName = "RemoteStation1";
+            //    string channelName = "PLCKhoSauSay";
+            //    string deviceName = "";
 
-                string autoTagName = "SW_Auto";
-                string manualTagName = "SW_Man";
-                string cheDo3TagName = "BT_CheDo3";
+            //    string autoTagName = "SW_Auto";
+            //    string manualTagName = "SW_Man";
+            //    string cheDo3TagName = "BT_CheDo3";
 
 
-                string motorName = "BomDau";
-                string onMotorTagName = "BT_BatBomDau1";
-                string offMotorTagName = null;//Don't use
+            //    string motorName = "BomDau";
+            //    string onMotorTagName = "BT_BatBomDau1";
+            //    string offMotorTagName = null;//Don't use
 
-                string statusOffMotorTagName = null;//Don't use
-                string statusOnMotorTagName = "ST_Pump1";
-                string statusAutoTagName = "ST_Auto"; ;
-                string statusManualTagName = "ST_Manual";
-                string statusCheDo3TagName = "ST_CheDo3";
+            //    string statusOffMotorTagName = null;//Don't use
+            //    string statusOnMotorTagName = "ST_Pump1";
+            //    string statusAutoTagName = "ST_Auto"; ;
+            //    string statusManualTagName = "ST_Manual";
+            //    string statusCheDo3TagName = "ST_CheDo3";
 
-                string title = "";
-                if (sender.Equals(khoNghienTho))
-                {
-                    deviceName = "KhoNghienTho";
-                    title = "Bảng điều khiển - Kho Nghiền Thô";
-                }
-                else if (sender.Equals(khoSauSay))
-                {
-                    deviceName = "KhoSauSay";
-                    title = "Bảng điều khiển - Kho Sau Sấy";
-                }
+            //    string title = "";
+            //    if (sender.Equals(khoNghienTho))
+            //    {
+            //        deviceName = "KhoNghienTho";
+            //        title = "Bảng điều khiển - Kho Nghiền Thô";
+            //    }
+            //    else if (sender.Equals(khoSauSay))
+            //    {
+            //        deviceName = "KhoSauSay";
+            //        title = "Bảng điều khiển - Kho Sau Sấy";
+            //    }
 
-                Point clickPoint = args.GetPosition(this.khoSauSay);
+            //    Point clickPoint = args.GetPosition(this.khoSauSay);
 
-                Point p = this.khoSauSay.PointToScreen(clickPoint);
+            //    Point p = this.khoSauSay.PointToScreen(clickPoint);
 
-                BangDieuKhienKho bangDK = new BangDieuKhienKho();
-                bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
-                        cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
-                        statusAutoTagName, statusManualTagName, statusCheDo3TagName);
-                DialogService.Instance.Show(bangDK, p, title);
-            }
+            //    BangDieuKhienKho bangDK = new BangDieuKhienKho();
+            //    bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName,
+            //            cheDo3TagName, motorName, onMotorTagName, offMotorTagName, statusOffMotorTagName, statusOnMotorTagName,
+            //            statusAutoTagName, statusManualTagName, statusCheDo3TagName);
+            //    DialogService.Instance.Show(bangDK, p, title);
+            //}
+            BomDauClick(sender, e, 1, "B");
+
         }
         #endregion
 
@@ -992,6 +1189,24 @@ namespace EasyScadaApp.Pages
                     clickPoint = args.GetPosition(this.labMayNghienTho2);
 
                     p = this.labMayNghienTho2.PointToScreen(clickPoint);
+                }
+                else if (sender.Equals(nghienTho3))
+                {
+                    deviceName = "MayNghienTho3";
+                    title = "Bảng điều khiển - Nghiền Thô 3";
+
+                    clickPoint = args.GetPosition(this.labMayNghienTho3);
+
+                    p = this.labMayNghienTho3.PointToScreen(clickPoint);
+                }
+                else if (sender.Equals(nghienTho4))
+                {
+                    deviceName = "MayNghienTho4";
+                    title = "Bảng điều khiển - Nghiền Thô 4";
+
+                    clickPoint = args.GetPosition(this.labMayNghienTho4);
+
+                    p = this.labMayNghienTho4.PointToScreen(clickPoint);
                 }
 
                 //Point clickPoint = args.GetPosition(Application.Current.MainWindow);
@@ -1051,7 +1266,24 @@ namespace EasyScadaApp.Pages
 
                     p = this.labMayNghienTho2.PointToScreen(clickPoint);
                 }
-                
+                else if (sender.Equals(nghienTho3))
+                {
+                    deviceName = "MayNghienTho3";
+                    title = "Bảng điều khiển - Nghiền Thô 3";
+
+                    clickPoint = args.GetPosition(this.labMayNghienTho3);
+
+                    p = this.labMayNghienTho3.PointToScreen(clickPoint);
+                }
+                else if (sender.Equals(nghienTho4))
+                {
+                    deviceName = "MayNghienTho4";
+                    title = "Bảng điều khiển - Nghiền Thô 4";
+
+                    clickPoint = args.GetPosition(this.labMayNghienTho4);
+
+                    p = this.labMayNghienTho4.PointToScreen(clickPoint);
+                }
                 BangDieuKhienMayNghien bangDK = new BangDieuKhienMayNghien();
                 bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName, statusAlarmtagName, resetAlarmTagName, motorName,
                     onMotorTagName, offMotorTagName, offMotorMNTagName, statusOffMotorTagName, statusOnMotorTagName,
@@ -1105,7 +1337,24 @@ namespace EasyScadaApp.Pages
 
                     p = this.labMayNghienTho2.PointToScreen(clickPoint);
                 }
+                else if (sender.Equals(nghienTho3))
+                {
+                    deviceName = "MayNghienTho3";
+                    title = "Bảng điều khiển - Nghiền Thô 3";
 
+                    clickPoint = args.GetPosition(this.labMayNghienTho3);
+
+                    p = this.labMayNghienTho3.PointToScreen(clickPoint);
+                }
+                else if (sender.Equals(nghienTho4))
+                {
+                    deviceName = "MayNghienTho4";
+                    title = "Bảng điều khiển - Nghiền Thô 4";
+
+                    clickPoint = args.GetPosition(this.labMayNghienTho4);
+
+                    p = this.labMayNghienTho4.PointToScreen(clickPoint);
+                }
                 BangDieuKhienMayNghien bangDK = new BangDieuKhienMayNghien();
                 bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName, statusAlarmtagName, resetAlarmTagName, motorName,
                    onMotorTagName, offMotorTagName, offMotorMNTagName, statusOffMotorTagName, statusOnMotorTagName,
@@ -1159,7 +1408,31 @@ namespace EasyScadaApp.Pages
 
                     p = this.labMayNghienTho2.PointToScreen(clickPoint);
                 }
+                else if (sender.Equals(nghienTho3))
+                {
+                    deviceName = "MayNghienTho3";
+                    title = "Bảng điều khiển - Nghiền Thô 3";
 
+                    clickPoint = args.GetPosition(this.labMayNghienTho3);
+
+                    p = this.labMayNghienTho3.PointToScreen(clickPoint);
+                }
+                else if (sender.Equals(nghienTho4))
+                {
+                    deviceName = "MayNghienTho4";
+                    title = "Bảng điều khiển - Nghiền Thô 4";
+
+                    clickPoint = args.GetPosition(this.labMayNghienTho4);
+
+                    p = this.labMayNghienTho4.PointToScreen(clickPoint);
+                }
+
+                (loDot1.lodotDatacontext as LoDotViewModel).Status = (loDot1.lodotDatacontext as LoDotViewModel).Status + 1;
+                //Status = Status + 1;
+                if ((loDot1.lodotDatacontext as LoDotViewModel).Status == 4)
+                {
+                    (loDot1.lodotDatacontext as LoDotViewModel).Status = 1;
+                }
                 BangDieuKhienMayNghien bangDK = new BangDieuKhienMayNghien();
                 bangDK.Start(stationName, channelName, deviceName, autoTagName, manualTagName, statusAlarmtagName, resetAlarmTagName, motorName,
                     onMotorTagName, offMotorTagName, offMotorMNTagName, statusOffMotorTagName, statusOnMotorTagName,
