@@ -122,6 +122,9 @@
     <Compile Include="MayNghienTinh\MayNghienTinh.xaml.cs">
       <DependentUpon>MayNghienTinh.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MaySay\MaySay.xaml.cs">
+      <DependentUpon>MaySay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -207,6 +210,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MayNghienTinh\MayNghienTinh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MaySay\MaySay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -494,37 +501,35 @@
     <Resource Include="Image\MayEpVien\MayEpVien_EpVien4FeederBDung.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\HeHutAm\He Hut Am  2 Nen.png" />
+    <Resource Include="Image\HeHutAm\HeHutAmNen.png" />
     <Resource Include="Image\HeHutAm\He Hut Am Nen.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\HeHutAm\Motor - quạt hút lỗi.png" />
-    <Resource Include="Image\HeHutAm\Motor - quạt hút- Chạy.png" />
-    <Resource Include="Image\HeHutAm\Motor - quạt hút- Dừng.png" />
+    <Resource Include="Image\HeHutAm\MotorQuatHutLoi.png" />
+    <Resource Include="Image\HeHutAm\MotorQuatHutChay.png" />
+    <Resource Include="Image\HeHutAm\MotorQuatHutDung.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\HeHutAm\Airlock- Chạy.png" />
-    <Resource Include="Image\HeHutAm\Airlock- Dừng.png" />
-    <Resource Include="Image\HeHutAm\Airlock- Lỗi.png" />
+    <Resource Include="Image\HeHutAm\AirlockChay.png" />
+    <Resource Include="Image\HeHutAm\AirlockDung.png" />
+    <Resource Include="Image\HeHutAm\AirlockLoi.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\HeLamMat\Airlock - Lỗi.png" />
-    <Resource Include="Image\HeLamMat\Airlock-  Dừng.png" />
-    <Resource Include="Image\HeLamMat\Airlock- chạy.png" />
-    <Resource Include="Image\HeLamMat\Bang Tai Tu - Chay.png" />
-    <Resource Include="Image\HeLamMat\Bang Tai Tu - Dung.png" />
-    <Resource Include="Image\HeLamMat\Bang Tai Tu - Loi.png" />
-    <Resource Include="Image\HeLamMat\Bang Tai Tu - nen.png" />
-    <Resource Include="Image\HeLamMat\Bang Tai Tu.png" />
-    <Resource Include="Image\HeLamMat\Bang Tai.png" />
-    <Resource Include="Image\HeLamMat\Băng tải cấp Liệu_Chuyển-động.gif" />
-    <Resource Include="Image\HeLamMat\Hệ Làm Mát -Nền.png" />
-    <Resource Include="Image\HeLamMat\Motor băng tải cấp Liệu_Chạy.png" />
-    <Resource Include="Image\HeLamMat\Motor băng tải cấp Liệu_Dừng.png" />
-    <Resource Include="Image\HeLamMat\Motor băng tải cấp Liệu_Lỗi.png" />
-    <Resource Include="Image\HeLamMat\San Rung Rung-Chạy.png" />
-    <Resource Include="Image\HeLamMat\San Rung Rung-Dừng.png" />
-    <Resource Include="Image\HeLamMat\San Rung Rung-Lỗi.png" />
+    <Resource Include="Image\HeLamMat\AirlockLoi.png" />
+    <Resource Include="Image\HeLamMat\AirlockDung.png" />
+    <Resource Include="Image\HeLamMat\AirlockChay.png" />
+    <Resource Include="Image\HeLamMat\BangTaiTuChay.png" />
+    <Resource Include="Image\HeLamMat\BangTaiTuDung.png" />
+    <Resource Include="Image\HeLamMat\BangTaiTuLoi.png" />
+    <Resource Include="Image\HeLamMat\BangTaiTuNen.png" />
+    <Resource Include="Image\HeLamMat\BangTaiCapLieuChuyenDong.gif" />
+    <Resource Include="Image\HeLamMat\HeLamMatNen.png" />
+    <Resource Include="Image\HeLamMat\MotorBangTaiCapLieuChay.png" />
+    <Resource Include="Image\HeLamMat\MotorBangTaiCapLieuDung.png" />
+    <Resource Include="Image\HeLamMat\MotorBangTaiCapLieuLoi.png" />
+    <Resource Include="Image\HeLamMat\SanRungChay.png" />
+    <Resource Include="Image\HeLamMat\SanRungDung.png" />
+    <Resource Include="Image\HeLamMat\SanRunLoi.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\KhoNghienTho\KhoNghienTho_New.png" />
@@ -561,6 +566,74 @@
     <Resource Include="Image\LoDot\VitTaiCapLieuLoSayLoi.png" />
     <Resource Include="Image\LoDot\VitTai.png" />
     <Resource Include="Image\LoDot\VitTaiCapLieuLoSay.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\TrongXoayChay.png" />
+    <Resource Include="Image\MaySay\TrongXoayDung.png" />
+    <Resource Include="Image\MaySay\TrongXoayLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\AirlockChay.png" />
+    <Resource Include="Image\MaySay\AirlockDung.png" />
+    <Resource Include="Image\MaySay\AirlockLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\AirlockRLChay.png" />
+    <Resource Include="Image\MaySay\AirlockRLDung.png" />
+    <Resource Include="Image\MaySay\AirlockRLLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\BangTai.png" />
+    <Resource Include="Image\MaySay\BangTaiCapLieu.gif" />
+    <Resource Include="Image\MaySay\MotorBangTaiCapLieuChay.png" />
+    <Resource Include="Image\MaySay\MotorBangTaiCapLieuDung.png" />
+    <Resource Include="Image\MaySay\MotorBangTaiCapLieuLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\CyloneDung.png" />
+    <Resource Include="Image\MaySay\CyloneLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\GauTaiChay.png" />
+    <Resource Include="Image\MaySay\GauTaiDung.png" />
+    <Resource Include="Image\MaySay\GauTaiLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\QuatHutChay.png" />
+    <Resource Include="Image\MaySay\QuatHutDung.png" />
+    <Resource Include="Image\MaySay\QuatHutLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\QuatThoiLieuChay.png" />
+    <Resource Include="Image\MaySay\QuatThoiLieuDung.png" />
+    <Resource Include="Image\MaySay\QuatThoiLieuLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\QuatThoiLoChay.png" />
+    <Resource Include="Image\MaySay\QuatThoiLoDung.png" />
+    <Resource Include="Image\MaySay\QuatThoiLoLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\Co1.png" />
+    <Resource Include="Image\MaySay\Co2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\KhopNoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\LapRapLapDot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\LoSay.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\MaySay\MTAirlock.png" />
+    <Resource Include="Image\MaySay\ThungVitTai.png" />
+    <Resource Include="Image\MaySay\VitTaiBinChay.png" />
+    <Resource Include="Image\MaySay\VitTaiBinLoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\HeLamMat\BangTai.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

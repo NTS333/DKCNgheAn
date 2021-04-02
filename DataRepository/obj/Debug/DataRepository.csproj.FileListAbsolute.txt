@@ -92,3 +92,9 @@ F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.c
 F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.dll
 F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.pdb
 F:\Project\DKCNgheAn\PhuongQuanBaoChau\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache
+F:\Project\DKCNgheAn\DKCNgheAn_App\DataRepository\bin\Debug\DataRepository.dll
+F:\Project\DKCNgheAn\DKCNgheAn_App\DataRepository\bin\Debug\DataRepository.pdb
+F:\Project\DKCNgheAn\DKCNgheAn_App\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+F:\Project\DKCNgheAn\DKCNgheAn_App\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+F:\Project\DKCNgheAn\DKCNgheAn_App\DataRepository\obj\Debug\DataRepository.dll
+F:\Project\DKCNgheAn\DKCNgheAn_App\DataRepository\obj\Debug\DataRepository.pdb

@@ -9,7 +9,6 @@
              mc:Ignorable="d" 
              d:DesignHeight="922" d:DesignWidth="1912">
     <Canvas>
-        <WPFUserControl:HeLamMat x:Name="heLamMat" Height="162" Width="456" Canvas.Left="1430" Canvas.Top="18"></WPFUserControl:HeLamMat>
         <!-- Label machineName-->
         <Label Name="labMayNghienTinh" Canvas.Left="109"
                Content="MÁY NGHIỀN TINH" 

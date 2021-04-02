@@ -20,6 +20,7 @@
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="10"
+               
                />
         <Label Name="labMayNghienTho3" Canvas.Top="280"
                Content="MÁY NGHIỀN THÔ 3" 
@@ -41,19 +42,19 @@
                >
         </Label>
 
-        <Label Name="labKhoNghienTho" Canvas.Left="1263"
+        <Label Name="labKhoNghienTho" Canvas.Left="1033"
                Content="KHO NGHIỀN THÔ" 
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
-               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" RenderTransformOrigin="0.916,0.788" Canvas.Top="297"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" RenderTransformOrigin="0.916,0.788" Canvas.Top="248"
                Panel.ZIndex="1"
                Background="White"
                />
-        <Label Name="labKhoSauSay" Canvas.Left="1276"
+        <Label Name="labKhoSauSay" Canvas.Left="1498"
                Content="KHO SAU SẤY" 
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
-               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" RenderTransformOrigin="0.916,0.788" Canvas.Top="754"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" RenderTransformOrigin="0.916,0.788" Canvas.Top="262"
                Background="White"
                Panel.ZIndex="1"
                />
@@ -73,14 +74,14 @@
                                      />
 
         <WPFUserControl:KhoSauSay x:Name="khoSauSay" 
-                                     Height="470" Width="690" Canvas.Left="1040" Canvas.Top="452"
+                                     Height="379" Width="633" Canvas.Left="1284" Canvas.Top="19"
                                      />
 
         <WPFUserControl:KhoNghienTho x:Name="khoNghienTho" 
-                                     Height="470" Width="690" Canvas.Left="1040"
+                                     Height="390" Width="632" Canvas.Left="823" Canvas.Top="-2"
                                      />
         <WPFUserControl:LoDot x:Name="loDot1" 
-                                     Height="217" Width="354" Canvas.Left="25" Canvas.Top="521"
+                                     Height="234" Width="398" Canvas.Left="10" Canvas.Top="600"
                                      />
 
         <!--Grid bảng hiển thị thông tin nhiệt độ các gối bi-->
@@ -104,11 +105,13 @@
         <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho3" Canvas.Top="303" Canvas.Left="5" Height="238" Width="159"/>
         <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho4" Canvas.Top="303" Canvas.Left="476" Height="238" Width="159"/>
 
-        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTho" Canvas.Left="1632" Canvas.Top="47" Height="113" Width="139"/>
-        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoSauSay" Canvas.Left="1632" Canvas.Top="523" Height="113" Width="139"/>
+        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTho" Canvas.Left="1284" Canvas.Top="13" Height="113" Width="139"/>
+        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoSauSay" Canvas.Left="1734" Canvas.Top="19" Height="113" Width="139"/>
         <WPFUserControl:LoDot x:Name="loDot1_Copy" 
-            Height="218" Width="354" Canvas.Left="25" Canvas.Top="704"
+            Height="234" Width="398" Canvas.Left="449" Canvas.Top="600"
                                      />
+        <WPFUserControl:MaySay x:Name="maySay" Panel.ZIndex="1" Canvas.Left="852" Canvas.Top="365" Width="1050" Height="547"/>
+
         <!--Thông tin nghiền thô 4-->
         <!--Thông tin nghiền tinh 1-->
     </Canvas>

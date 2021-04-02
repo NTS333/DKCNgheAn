@@ -114,9 +114,7 @@ namespace EasyScadaApp.Pages
 
 
             #region Hệ làm mát
-            heLamMat.StationName = "RemoteStation1";
-            heLamMat.ChannelName = "PLC_MayNghienTinh";
-            heLamMat.DeviceName = "MayNghienTinh1";
+         
 
             #endregion
             #region Graphic
